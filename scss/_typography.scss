@@ -1,0 +1,47 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem !important;
+    line-height: 160%;
+    color: #5A6361;    
+    letter-spacing: 0.01em;
+}
+
+.base_heading{
+
+    &--title{
+        @include font_style_lato($title-font-size-s, $title-font-weight-s, $title-font-line-h, $title-font-col-s);
+        margin-bottom: $base-margin-m;
+    }
+
+    &--h2{
+        @include font_style_big_shoulder($title-font-size-m, $title-font-weight-m, $title-font-line-h, $title-font-col-m);
+        margin-bottom: $base-margin-m;
+        
+    }
+
+    &--underline{
+        background-color: #EB655E;
+        width: 8rem;
+        height: 2px;
+        border-radius: 2px;
+        margin-bottom: $base-margin-m;
+    }
+
+}
+
+
+@media only screen and (max-width: 900px){
+
+   .base_heading{
+
+    text-align: center;
+
+        &--underline{
+            margin-left: 40%;
+        }
+
+   }
+
+}

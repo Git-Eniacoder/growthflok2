@@ -1,0 +1,152 @@
+.contact{
+    // border: 1px solid red;
+    min-height: 50rem;
+
+    &_main{
+        // border: 1px solid red;
+        margin: 5rem 0;
+        display: flex;
+        justify-content: space-around;
+
+        &--content{
+            // border: 1px solid red;
+            width: 47%;
+
+            p{
+                color: #2E3332;
+            }
+
+            .list{
+                // border: 1px solid red;
+                
+                &--item{
+                    display: flex;
+                    align-items: center;
+
+                    &-dashed{
+                        width: 4rem;
+                        background-color: #5A6361;
+                        height: .4rem;
+                        border-radius: 2px;
+                        margin-right: 2rem;
+                        // border: 1px solid red;
+                    }
+
+                    p{
+                        display: inline-block;
+                        // border: 1px solid red;
+                        padding-top: 1.8rem;
+                    }
+
+                }
+
+                
+            }
+            
+        }
+
+        &--form{
+            border: 1px solid red;
+            width: 45%;
+            background: #FAFCFC;
+            border: 1px solid #E0E0E0;
+            box-sizing: border-box;
+            border-radius: 4px;
+            padding: 1rem 1rem 2rem 1rem;
+
+            .tag{
+                padding: 1.5rem 1.5rem 0rem 1.5rem;
+                // margin-bottom: .2rem;
+
+                label{
+                    display: block;
+                    font-size: 1.4rem;
+                    color: #7A8281;
+                    margin-bottom: 1rem;
+                }
+
+                input, select, textarea{
+                    background: #FFFFFF;
+                    border: 1px solid #E0E0E0;
+                    box-sizing: border-box;
+                    border-radius: 2px;
+                    width: 100%;
+                    padding: 1rem;
+                }
+
+                .btn{
+                    background: #35CCB0;
+                    border: none;
+                    border-radius: 2px;
+                    width: 100%;
+                    font-size: 1.6rem;
+                    padding: 1rem 0;
+                    color: #fff;
+                    cursor: pointer;
+                }
+
+            }
+
+            .email{
+                display: flex;
+                justify-content: space-between;
+
+                .tag-1{
+                    width: 59%;
+                }
+
+                .tag-2{
+                    width: 39%;
+                }
+            }
+
+        }
+
+    }
+}
+
+
+@media only screen and (max-width: 700px){
+
+
+    .contact{
+       
+    
+        &_main{
+            flex-direction: column;
+            align-items: center;
+    
+            &--content{
+                // border: 1px solid red;
+                width: 90%;
+                
+            }
+    
+            &--form{
+                // border: 1px solid red;
+                width: 90%;
+                margin-top: 3rem;
+
+    
+                .email{
+                    display: flex;
+                    justify-content: space-between;
+    
+                    .tag-1{
+                        width: 59%;
+                    }
+    
+                    .tag-2{
+                        width: 39%;
+                    }
+                }
+    
+            }
+    
+        }
+    }
+
+
+
+
+}

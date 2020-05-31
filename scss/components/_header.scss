@@ -1,0 +1,225 @@
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    // position: fixed;
+    // border: 1px solid red;
+    font-size: 1rem;
+
+    &_main{
+        height: $head-sec-h;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        &--logo{
+            // border: 1px solid red;
+            width: 20%;
+            // height: 1.5rem;
+
+        }
+
+        &--nav{
+            // border: 1px solid blue;
+            width: 70%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            a{
+                text-decoration: none;
+                font-size: 1.5rem;
+                color: $head-link-col;  
+            }
+
+            .h-btn{
+                color: $head-btn-col;
+                padding: 1rem 1.5rem;
+                background: $head-btn-bk-col;
+                border: 1px solid  $head-btn-bk-col;
+                border-radius: 2px;
+            }
+            
+        }
+
+        &--burger{
+            cursor: pointer;
+            width: 4rem;
+            height: 4rem;
+            position: relative;
+            display: none;
+            // border: 1px solid red;
+
+            &-menu{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 2.8rem;
+                height: 4px;
+                border-radius: 2px;
+                position: relative;
+                background-color: rgb(201, 198, 197);
+                @include easeIn;
+
+                &::before{
+                    content: '';
+                    position: absolute;
+                    top: -8px;
+                    width: 2.8rem;
+                    height: 4px;
+                    border-radius: 2px;
+                    background-color: rgb(100, 99, 99);
+                    @include easeIn;
+                    
+                }
+
+                &::after{
+                    content: '';
+                    position: absolute;
+                    top: 8px;
+                    width: 2.4rem;
+                    height: 4px;
+                    border-radius: 2px;
+                    background-color: rgb(173, 171, 170);
+                    @include easeIn;
+
+                }
+
+                        
+                &.open{
+                    background-color: transparent;
+
+                    &.open::before{
+                        transform: rotate(-45deg) translateY(11px);
+                        
+                    }
+
+                    &.open::after{
+                        transform: rotate(45deg) translateY(-11px);
+                        width: 2.8rem;
+                    }
+
+
+                    
+                }
+               
+
+        }
+
+            
+        }
+    }
+
+}
+
+
+
+@media only screen and (max-width: 900px){
+
+    .header{
+
+
+        &_main{
+    
+            &--logo{
+               
+    
+                .logo{
+                    // width: 17rem;
+                    // padding-left: 2rem;
+                }
+            }
+    
+            &--nav{
+                // display: none;
+                visibility: hidden;
+
+                &.open{
+                    position: fixed;
+                    top: 0;
+                    flex-direction: column;
+                    width: 100vh;
+                    height: 100vh;
+                    background-color: #eee;
+                    z-index: 2;
+                    transform: translatY(100%);
+                    visibility: visible;
+                    overflow: hidden;
+                    @include easeIn;
+                }
+                
+            }
+    
+            &--burger{
+               
+                display: block;
+                // position: fixed;
+                
+    
+                &-menu{
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    width: 2.8rem;
+                    height: 4px;
+                    border-radius: 2px;
+                    z-index: 3;
+                    position: relative;
+                    background-color: rgb(201, 198, 197);
+                    @include easeIn;
+    
+                    &::before{
+                        content: '';
+                        position: absolute;
+                        top: -8px;
+                        width: 2.8rem;
+                        height: 4px;
+                        border-radius: 2px;
+                        background-color: rgb(100, 99, 99);
+                        @include easeIn;
+                        
+                    }
+    
+                    &::after{
+                        content: '';
+                        position: absolute;
+                        top: 8px;
+                        width: 2.4rem;
+                        height: 4px;
+                        border-radius: 2px;
+                        background-color: rgb(173, 171, 170);
+                        @include easeIn;
+    
+                    }
+    
+                            
+                    &.open{
+                        background-color: transparent;
+    
+                        &.open::before{
+                            transform: rotate(-45deg) translateY(11px);
+                            
+                        }
+    
+                        &.open::after{
+                            transform: rotate(45deg) translateY(-11px);
+                            width: 2.8rem;
+                        }
+    
+    
+                        
+                    }
+                   
+    
+            }
+    
+                
+            }
+        }
+    
+    }
+
+
+}

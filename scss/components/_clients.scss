@@ -1,0 +1,44 @@
+.client{
+    min-height: 32rem;
+    background-color: #FAFCFC;
+
+    &_head{
+        font-size: 1.4rem;
+        padding-top: 6rem;
+        text-align: center;
+    }
+
+    &_gallery{
+        // border: 1px solid red;
+        margin-top: 3rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &--left{
+            width: 8%;
+            text-align: right;
+            // border: 1px solid red;
+        }
+
+        &--mid{
+            width: 80%;
+            // border: 1px solid red;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+            .gallery-item{
+                width: 15rem;
+                height: 12rem;
+                border-radius: .2rem;
+                background-color: #EFF2F2;;
+            }
+        }
+
+        &--right{
+            width: 8%;
+            // border: 1px solid red;
+        }
+    }
+}

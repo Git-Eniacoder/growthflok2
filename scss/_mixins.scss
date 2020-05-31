@@ -1,0 +1,44 @@
+@mixin font_style_big_shoulder($f-size, $f-weight, $l-height, $f-col ) {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: $f-size;
+    font-weight: $f-weight;
+    line-height: $l-height;
+    margin-bottom: $base-margin-m;
+    color: $f-col;
+};
+
+@mixin font_style_lato($f-size, $f-weight, $l-height, $f-col) {
+    font-family: 'Lato', sans-serif;
+    font-size: $f-size;
+    font-weight: $f-weight;
+    line-height: $l-height;
+    margin-bottom: $base-margin-m;
+    color: $f-col;
+};
+
+@mixin basic_btn($btn-col, $btn-bck-col, $btn-bor-col, $btn-bor-rad){
+    font-family: 'Lato', sans-serif;
+    padding: 1rem 1.5rem;
+    color: $btn-col;
+    background: $btn-bck-col;
+    border: 1px solid  $btn-bor-col;
+    border-radius: $btn-bor-rad;
+    text-decoration: none;
+};
+
+@mixin flex_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+// $f-family, 
+
+//font-family: $f-family;

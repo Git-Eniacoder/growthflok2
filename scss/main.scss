@@ -1,0 +1,26 @@
+// Basic Filing
+@import 'variables';
+@import 'animations';
+@import 'mixins';
+@import 'base';
+@import 'typography';
+@import 'utilites';
+
+
+// Components
+@import './components/header';
+@import './components/hero';
+@import './components/about';
+@import './components/gallery';
+@import './components/services';
+@import './components/resources';
+@import './components/testimonial';
+@import './components/clients';
+@import './components/footer';
+
+
+// Services page
+@import './components/services_port';
+@import './components/events';
+@import './components/contact';
+

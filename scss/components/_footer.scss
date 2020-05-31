@@ -1,0 +1,145 @@
+.footer{
+    min-height: 30rem;
+    background-color: #26423D;
+    // border: 1px solid red;
+
+    &_main{
+        // border: 1px solid red;
+
+        &--head{
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+
+            h3{
+                color: #5A6361;
+               }
+
+
+            .f-sec-1{
+                width: 33%;
+            }
+
+            .f-sec-2{
+                width: 20%;
+            }
+           
+
+            &-sec{
+                padding: 1rem;
+                margin: 1rem;
+                // width: 32%;
+
+
+             
+                
+
+                .head{
+                    // border: 1px solid red;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: flex-end;
+                    padding-bottom: 1.5rem;
+                    border-bottom: 1px solid #444D4B;
+                    height: 7rem;
+
+
+                    
+        
+                    .head_icons{
+        
+                        .s-icon{
+                            background: #207A6A;
+                        }
+                    }
+                }
+
+                .bottom{
+                    margin-top: 1.7rem;
+                    color:  #A4AAA9;
+
+                    p{
+                        margin-top: 1rem;
+                    }
+
+                    li{
+                        list-style-type: none;
+
+                        a{
+                            text-decoration: none;
+                            color:  #A4AAA9;
+                            
+                        }
+                    }
+
+                    
+                }
+            }
+            
+        }
+    }
+}
+
+
+
+@media only screen and (max-width: 700px){
+
+    .footer{
+        
+    
+        &_main{
+           
+    
+            &--head{
+                flex-direction: column;
+    
+    
+                .f-sec-1{
+                    width: 100%;
+                }
+    
+                .f-sec-2{
+                    width: 100%;
+                }
+               
+    
+                &-sec{
+    
+
+                    .head{
+                        // border: 1px solid red;
+                        
+            
+                        .head_icons{
+            
+                            .s-icon{
+                               
+                            }
+                        }
+                    }
+    
+                    .bottom{
+    
+                        p{
+                            
+                        }
+    
+                        li{
+                            
+    
+                            a{
+                                
+                                
+                            }
+                        }
+    
+                        
+                    }
+                }
+                
+            }
+        }
+    }
+
+
+}
