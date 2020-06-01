@@ -1,48 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/main.css">
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;400;500;600;700;800&family=Lato:wght@300;400&display=swap"
-        rel="stylesheet">
-    <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>GrothFloks</title>
-
-</head>
-
-<body>
-
-
-    <!-- Header Section -->
-    <header class="header">
-        <div class="container">
-            <div class="header_main">
-                <div class="header_main--logo">
-                    <a href="#"><img src="../details/logo.png" alt="GrowthFolks" class="logo"></a>
-                </div>
-                <nav class="header_main--nav">
-                    <a href="index.html">Home</a>
-                    <a href="about.html">About Us</a>
-                    <a href="services.html">Services</a>
-                    <a href="resources.html">Resources</a>
-                    <a href="events.html">Events</a>
-                    <a href="contact.html">Get In Touch</a>
-                    <a href="" class="h-btn">Let's Collab</a>
-                </nav>
-                <div class="header_main--burger">
-                    <div class="header_main--burger-menu"></div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-
+<?php require('./common/header.php') ?>
 
     <!-- Main Section -->
     <main>

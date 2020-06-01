@@ -1147,6 +1147,16 @@ body {
     color: #5A6361;
     font-size: 3rem;
   }
+  .blog_post--toggel-btn .atoggle {
+    text-decoration: none;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 150%;
+    margin-bottom: 2.1rem;
+    color: #5A6361;
+    font-size: 3rem;
+  }
   .blog_post--items {
     flex-direction: column;
     flex-wrap: wrap;
