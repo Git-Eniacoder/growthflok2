@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/main.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <link
         href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;400;500;600;700;800&family=Lato:wght@300;400&display=swap"
         rel="stylesheet">
@@ -181,33 +182,69 @@
                             industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum has been
                             the industry's standard dummy text ever.</p>
                     </div>
-                    <div class="services_main--comp">
-                        <div class="services_main--comp-item">
-                            <img src="../images/events-1.png" alt="" class="ser_item-img">
-                            <h3 class="ser_item-h">Workshops & Meetups</h3>
-                            <p class="ser_item-para">Cupidatat quis nisi Lorem et occaecat qui mollit quis fugiat aliqua
-                                occaecat</p>
-                        </div>
-                        <div class="services_main--comp-item">
-                            <img src="../images/events-1.png" alt="" class="ser_item-img">
-                            <h3 class="ser_item-h">Community Engagement</h3>
-                            <p class="ser_item-para">Tllamco adipisicing ea nostrud magna proident sunt consequat do
-                                anim culpa in</p>
-                        </div>
-                        <div class="services_main--comp-item">
-                            <img src="../images/events-1.png" alt="" class="ser_item-img">
-                            <h3 class="ser_item-h">Growth Hackathones</h3>
-                            <p class="ser_item-para">Sunt sit ex excepteur id do id laborum do minim aliqua excepteur
-                                laborum</p>
-                        </div>
-                        <div class="services_main--comp-item">
-                            <img src="../images/events-1.png" alt="" class="ser_item-img">
-                            <h3 class="ser_item-h">Growth Roadmap</h3>
-                            <p class="ser_item-para">Irure eu velit proident dolore quis deserunt cupidatat amet ea sit
-                                eiusmod</p>
-                        </div>
-                    </div>
-                </div>
+					
+                  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval='false'>
+                     <div class="carousel-inner ">
+                        <div class="carousel-item active">
+							<div class="services_main--comp">
+								<div class="services_main--comp-item">
+									<img src="../images/events-1.png" alt="" class="ser_item-img">
+									<h3 class="ser_item-h">Workshops & Meetups</h3>
+									<p class="ser_item-para">Cupidatat quis nisi Lorem et occaecat qui mollit quis fugiat aliqua
+										occaecat</p>
+								</div>
+								<div class="services_main--comp-item">
+									<img src="../images/events-1.png" alt="" class="ser_item-img">
+									<h3 class="ser_item-h">Community Engagement</h3>
+									<p class="ser_item-para">Tllamco adipisicing ea nostrud magna proident sunt consequat do
+										anim culpa in</p>
+								</div>
+								<div class="services_main--comp-item">
+									<img src="../images/events-1.png" alt="" class="ser_item-img">
+									<h3 class="ser_item-h">Growth Hackathones</h3>
+									<p class="ser_item-para">Sunt sit ex excepteur id do id laborum do minim aliqua excepteur
+										laborum</p>
+								</div>
+								<div class="services_main--comp-item">
+									<img src="../images/events-1.png" alt="" class="ser_item-img">
+									<h3 class="ser_item-h">Growth Roadmap</h3>
+									<p class="ser_item-para">Irure eu velit proident dolore quis deserunt cupidatat amet ea sit
+										eiusmod</p>
+								</div>
+							</div>
+					</div>
+					
+						<div class="carousel-item">
+							<div class="services_main--comp">
+								<div class="services_main--comp-item">
+									<img src="../images/events-1.png" alt="" class="ser_item-img">
+									<h3 class="ser_item-h">Workshop2 & Meetups</h3>
+									<p class="ser_item-para">Cupidatat quis nisi Lorem et occaecat qui mollit quis fugiat aliqua
+										occaecat</p>
+								</div>
+								<div class="services_main--comp-item">
+									<img src="../images/events-1.png" alt="" class="ser_item-img">
+									<h3 class="ser_item-h">Community2 Engagement</h3>
+									<p class="ser_item-para">Tllamco adipisicing ea nostrud magna proident sunt consequat do
+										anim culpa in</p>
+								</div>
+								<div class="services_main--comp-item">
+									<img src="../images/events-1.png" alt="" class="ser_item-img">
+									<h3 class="ser_item-h">Growth2 Hackathones</h3>
+									<p class="ser_item-para">Sunt sit ex excepteur id do id laborum do minim aliqua excepteur
+										laborum</p>
+								</div>
+								<div class="services_main--comp-item">
+									<img src="../images/events-1.png" alt="" class="ser_item-img">
+									<h3 class="ser_item-h">Growth2 Roadmap</h3>
+									<p class="ser_item-para">Irure eu velit proident dolore quis deserunt cupidatat amet ea sit
+										eiusmod</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>				
                 <div class="bottom_bar">
                     <div class="bottom_bar--left">
                         <div class="page-btn">
@@ -215,8 +252,8 @@
                         </div>
                     </div>
                     <div class="bottom_bar--right">
-                        <img src="../images/left.svg" alt="" class="left_move">
-                        <img src="../images/right.svg" alt="" class="right_move">
+                        <img src="../images/left.svg" alt=""  id="gotoPre" class="left_move">
+                        <img src="../images/right.svg" alt=""  id="gotoNext" class="right_move">
                     </div>
                 </div>
             </div>
@@ -243,45 +280,91 @@
                             <a href="" class="res_btn--link">Vlogs</a>
                         </div>
                     </div>
-                    <div class="resources_main--posts">
+                  <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel" data-interval='false'>
+                     <div class="carousel-inner ">
+                        <div class="carousel-item">
+							<div class="resources_main--posts">
+								<div class="resources_post">
+									<img src="../images/post-1.png" alt="" class="post_img">
+									<div class="tags">
+										<a href="" class="tags_links">GROWTH</a>
+										<a href="" class="tags_links">MARKETING</a>
+										<a href="" class="tags_links">TOOLS</a>
+										<a href="" class="tags_links">CASE STUDY</a>
+									</div>
+									<h3>10 Marketing Trends to Watch in 2019 with Ayush Shrivastva</h3>
+									<p class="date">Feb 14, 2019 · <span> 3 min read</span></p>
+								</div>
 
-                        <div class="resources_post">
-                            <img src="../images/post-1.png" alt="" class="post_img">
-                            <div class="tags">
-                                <a href="" class="tags_links">GROWTH</a>
-                                <a href="" class="tags_links">MARKETING</a>
-                                <a href="" class="tags_links">TOOLS</a>
-                                <a href="" class="tags_links">CASE STUDY</a>
-                            </div>
-                            <h3>10 Marketing Trends to Watch in 2019 with Ayush Shrivastva</h3>
-                            <p class="date">Feb 14, 2019 · <span> 3 min read</span></p>
-                        </div>
+								<div class="resources_post">
+									<img src="../images/post-1.png" alt="" class="post_img">
+									<div class="tags">
+										<a href="" class="tags_links">GROWTH</a>
+										<a href="" class="tags_links">MARKETING</a>
+										<a href="" class="tags_links">TOOLS</a>
+										<a href="" class="tags_links">CASE STUDY</a>
+									</div>
+									<h3>10 Marketing Trends to Watch in 2019 with Ayush Shrivastva</h3>
+									<p class="date">Feb 14, 2019 · <span> 3 min read</span></p>
+								</div>
 
-                        <div class="resources_post">
-                            <img src="../images/post-1.png" alt="" class="post_img">
-                            <div class="tags">
-                                <a href="" class="tags_links">GROWTH</a>
-                                <a href="" class="tags_links">MARKETING</a>
-                                <a href="" class="tags_links">TOOLS</a>
-                                <a href="" class="tags_links">CASE STUDY</a>
-                            </div>
-                            <h3>10 Marketing Trends to Watch in 2019 with Ayush Shrivastva</h3>
-                            <p class="date">Feb 14, 2019 · <span> 3 min read</span></p>
-                        </div>
+								<div class="resources_post">
+									<img src="../images/post-1.png" alt="" class="post_img">
+									<div class="tags">
+										<a href="" class="tags_links">GROWTH</a>
+										<a href="" class="tags_links">MARKETING</a>
+										<a href="" class="tags_links">TOOLS</a>
+										<a href="" class="tags_links">CASE STUDY</a>
+									</div>
+									<h3>10 Marketing Trends to Watch in 2019 with Ayush Shrivastva</h3>
+									<p class="date">Feb 14, 2019 · <span> 3 min read</span></p>
+								</div>
 
-                        <div class="resources_post">
-                            <img src="../images/post-1.png" alt="" class="post_img">
-                            <div class="tags">
-                                <a href="" class="tags_links">GROWTH</a>
-                                <a href="" class="tags_links">MARKETING</a>
-                                <a href="" class="tags_links">TOOLS</a>
-                                <a href="" class="tags_links">CASE STUDY</a>
-                            </div>
-                            <h3>10 Marketing Trends to Watch in 2019 with Ayush Shrivastva</h3>
-                            <p class="date">Feb 14, 2019 · <span> 3 min read</span></p>
-                        </div>
+							</div>
+						</div>
+						<div class="carousel-item active">
+							<div class="resources_main--posts">
+								<div class="resources_post">
+									<img src="../images/post-1.png" alt="" class="post_img">
+									<div class="tags">
+										<a href="" class="tags_links">GROWTH11</a>
+										<a href="" class="tags_links">MARKETING</a>
+										<a href="" class="tags_links">TOOLS</a>
+										<a href="" class="tags_links">CASE STUDY</a>
+									</div>
+									<h3>10 Marketing Trends to Watch in 2019 with Ayush Shrivastva</h3>
+									<p class="date">Feb 14, 2019 · <span> 3 min read</span></p>
+								</div>
 
-                    </div>
+								<div class="resources_post">
+									<img src="../images/post-1.png" alt="" class="post_img">
+									<div class="tags">
+										<a href="" class="tags_links">GROWTH</a>
+										<a href="" class="tags_links">MARKETING</a>
+										<a href="" class="tags_links">TOOLS</a>
+										<a href="" class="tags_links">CASE STUDY</a>
+									</div>
+									<h3>10 Marketing Trends to Watch in 2019 with Ayush Shrivastva</h3>
+									<p class="date">Feb 14, 2019 · <span> 3 min read</span></p>
+								</div>
+
+								<div class="resources_post">
+									<img src="../images/post-1.png" alt="" class="post_img">
+									<div class="tags">
+										<a href="" class="tags_links">GROWTH</a>
+										<a href="" class="tags_links">MARKETING</a>
+										<a href="" class="tags_links">TOOLS</a>
+										<a href="" class="tags_links">CASE STUDY</a>
+									</div>
+									<h3>10 Marketing Trends to Watch in 2019 with Ayush Shrivastva</h3>
+									<p class="date">Feb 14, 2019 · <span> 3 min read</span></p>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>	
+				</div>	
                     <div class="bottom_bar">
                         <div class="bottom_bar--left">
                             <div class="page-btn">
@@ -289,8 +372,8 @@
                             </div>
                         </div>
                         <div class="bottom_bar--right">
-                            <img src="../images/left.svg" alt="" class="left_move">
-                            <img src="../images/right.svg" alt="" class="right_move">
+                            <img src="../images/left.svg" alt="" id="gotoPre1" class="left_move">
+                            <img src="../images/right.svg" alt="" id="gotoNext1" class="right_move">
                         </div>
                     </div>
                 </div>
@@ -308,62 +391,125 @@
                         <h2 class="base_heading--h2">Adding Value to Every Growth Professionals or Marketeer</h2>
                         <div class="base_heading--underline"></div>
                     </div>
+                <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel" data-interval='false'>
+					<div class="carousel-inner ">
+						<div class="carousel-item active">
+							<div class="testimonial_main--items">
 
-                    <div class="testimonial_main--items">
+								<div class="testimonial_item">
+									<div class="testimonial_item--head">
+										<div class="head--img">
+											<img src="../images/boy-img1.png" alt="">
+										</div>
+										<div class="head--title">
+											<h3 class="ser_item-h">Workshops & Meetups</h3>
+											<p>Founder at Commmunity Folks</p>
+										</div>
+									</div>
+									<div class="testimonial_item--bottom">
+										<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+											unknown printer took a galley of type and scrambled it to make a type specimen book.
+											Lorem Ipsum has been the industry's</p>
+									</div>
+								</div>
 
-                        <div class="testimonial_item">
-                            <div class="testimonial_item--head">
-                                <div class="head--img">
-                                    <img src="../images/boy-img1.png" alt="">
-                                </div>
-                                <div class="head--title">
-                                    <h3 class="ser_item-h">Workshops & Meetups</h3>
-                                    <p>Founder at Commmunity Folks</p>
-                                </div>
-                            </div>
-                            <div class="testimonial_item--bottom">
-                                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                    Lorem Ipsum has been the industry's</p>
-                            </div>
-                        </div>
-
-                        <div class="testimonial_item">
-                            <div class="testimonial_item--head">
-                                <div class="head--img">
-                                    <img src="../images/boy-img1.png" alt="">
-                                </div>
-                                <div class="head--title">
-                                    <h3 class="ser_item-h">Mitchell Cooper</h3>
-                                    <p>Founder at Commmunity Folks</p>
-                                </div>
-                            </div>
-                            <div class="testimonial_item--bottom">
-                                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                    Lorem Ipsum has been the industry's</p>
-                            </div>
-                        </div>
+								<div class="testimonial_item">
+									<div class="testimonial_item--head">
+										<div class="head--img">
+											<img src="../images/boy-img1.png" alt="">
+										</div>
+										<div class="head--title">
+											<h3 class="ser_item-h">Mitchell Cooper</h3>
+											<p>Founder at Commmunity Folks</p>
+										</div>
+									</div>
+									<div class="testimonial_item--bottom">
+										<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+											unknown printer took a galley of type and scrambled it to make a type specimen book.
+											Lorem Ipsum has been the industry's</p>
+									</div>
+								</div>
 
 
-                        <div class="testimonial_item">
-                            <div class="testimonial_item--head">
-                                <div class="head--img">
-                                    <img src="../images/boy-img1.png" alt="">
-                                </div>
-                                <div class="head--title">
-                                    <h3 class="ser_item-h">Bernard Nguyen</h3>
-                                    <p>Founder at Commmunity Folks</p>
-                                </div>
-                            </div>
-                            <div class="testimonial_item--bottom">
-                                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                    Lorem Ipsum has been the industry's</p>
-                            </div>
-                        </div>
+								<div class="testimonial_item">
+									<div class="testimonial_item--head">
+										<div class="head--img">
+											<img src="../images/boy-img1.png" alt="">
+										</div>
+										<div class="head--title">
+											<h3 class="ser_item-h">Bernard Nguyen</h3>
+											<p>Founder at Commmunity Folks</p>
+										</div>
+									</div>
+									<div class="testimonial_item--bottom">
+										<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+											unknown printer took a galley of type and scrambled it to make a type specimen book.
+											Lorem Ipsum has been the industry's</p>
+									</div>
+								</div>
 
-                    </div>
+							</div>
+						</div>
+						
+												<div class="carousel-item">
+							<div class="testimonial_main--items">
+
+								<div class="testimonial_item">
+									<div class="testimonial_item--head">
+										<div class="head--img">
+											<img src="../images/boy-img1.png" alt="">
+										</div>
+										<div class="head--title">
+											<h3 class="ser_item-h">Workshops & Meetups</h3>
+											<p>Founder at Commmunity Folks</p>
+										</div>
+									</div>
+									<div class="testimonial_item--bottom">
+										<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+											unknown printer took a galley of type and scrambled it to make a type specimen book.
+											Lorem Ipsum has been the industry's</p>
+									</div>
+								</div>
+
+								<div class="testimonial_item">
+									<div class="testimonial_item--head">
+										<div class="head--img">
+											<img src="../images/boy-img1.png" alt="">
+										</div>
+										<div class="head--title">
+											<h3 class="ser_item-h">Mitchell Cooper</h3>
+											<p>Founder at Commmunity Folks</p>
+										</div>
+									</div>
+									<div class="testimonial_item--bottom">
+										<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+											unknown printer took a galley of type and scrambled it to make a type specimen book.
+											Lorem Ipsum has been the industry's</p>
+									</div>
+								</div>
+
+
+								<div class="testimonial_item">
+									<div class="testimonial_item--head">
+										<div class="head--img">
+											<img src="../images/boy-img1.png" alt="">
+										</div>
+										<div class="head--title">
+											<h3 class="ser_item-h">Bernard Nguyen</h3>
+											<p>Founder at Commmunity Folks</p>
+										</div>
+									</div>
+									<div class="testimonial_item--bottom">
+										<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+											unknown printer took a galley of type and scrambled it to make a type specimen book.
+											Lorem Ipsum has been the industry's</p>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
 
                     <div class="bottom_bar">
                         <div class="bottom_bar--left">
@@ -372,8 +518,8 @@
                             </div>
                         </div>
                         <div class="bottom_bar--right">
-                            <img src="../images/left.svg" alt="" class="left_move">
-                            <img src="../images/right.svg" alt="" class="right_move">
+                            <img src="../images/left.svg" alt="" id="gotoPre2" class="left_move" >
+                            <img src="../images/right.svg" alt="" id="gotoNext2" class="right_move" >
                         </div>
                     </div>
 
@@ -390,17 +536,33 @@
 
                 <div class="client_gallery">
                     <div class="client_gallery--left">
-                        <img src="../images/left.svg" alt="">
+                        <img src="../images/left.svg" id="gotoPre3" alt="">
                     </div>
-                    <div class="client_gallery--mid">
-                        <div class="gallery-item"></div>
-                        <div class="gallery-item"></div>
-                        <div class="gallery-item"></div>
-                        <div class="gallery-item"></div>
-                        <div class="gallery-item"></div>
-                    </div>
+				<div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel" data-interval='false'>
+					<div class="carousel-inner ">
+						<div class="carousel-item active">	
+							<div class="client_gallery--mid">
+								<div class="gallery-item"></div>
+								<div class="gallery-item"></div>
+								<div class="gallery-item"></div>
+								<div class="gallery-item"></div>
+								<div class="gallery-item"></div>
+							</div>
+						</div>
+						<div class="carousel-item ">	
+							<div class="client_gallery--mid">
+								<div class="gallery-item"></div>
+								<div class="gallery-item"></div>
+								<div class="gallery-item"></div>
+								<div class="gallery-item"></div>
+								<div class="gallery-item"></div>
+							</div>
+						</div>
+					</div>	
+				</div>	
+						
                     <div class="client_gallery--right">
-                        <img src="../images/right.svg" alt="">
+                        <img src="../images/right.svg" id="gotoNext3" alt="">
                     </div>
                 </div>
 
@@ -475,6 +637,17 @@
         </div>
     </footer>
     <script src="../js/app.js"></script>
+	   <script>
+			$("#gotoNext").click(() => $("#carouselExampleIndicators").carousel("next"));
+			$("#gotoPre").click(() => $("#carouselExampleIndicators").carousel("prev"));
+			$("#gotoNext1").click(() => $("#carouselExampleIndicators1").carousel("next"));
+			$("#gotoPre1").click(() => $("#carouselExampleIndicators1").carousel("prev"));			
+			$("#gotoNext2").click(() => $("#carouselExampleIndicators2").carousel("next"));			
+			$("#gotoPre2").click(() => $("#carouselExampleIndicators2").carousel("prev"));
+			$("#gotoNext3").click(() => $("#carouselExampleIndicators3").carousel("next"));			
+			$("#gotoPre3").click(() => $("#carouselExampleIndicators3").carousel("prev"));
+		</script>
+     
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
