@@ -1,5 +1,12 @@
 <?php require('./common/header.php') ?>
-
+<?php
+    $json_string = file_get_contents("https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/growth-folks");
+    $parsed_json['blog'] = json_decode($json_string);
+    $json_string = file_get_contents("https://www.googleapis.com/youtube/v3/search?key=AIzaSyCE5GTdzhiouSn2ssUKplnLgIgDVlGedjY&channelId=UC4NoSzAHBhkKbfa6YPFyVNA&part=snippet,id&order=date&maxResults=20");
+    $parsed_json['vlog'] = json_decode($json_string);
+    // echo "<pre>";
+    // print_r($parsed_json['blog']);
+?>
     <!-- Main Section -->
     <main>
         <section class="hero">
@@ -232,96 +239,53 @@
                             <div class="base_heading--underline"></div>
                         </div>
                         <div class="res_btn">
-                            <a href="" class="res_btn--link">Blogs</a>
-                            <a href="" class="res_btn--link">Vlogs</a>
+                            <a  class="res_btn--link" id="blog" >Blogs</a>
+                            <a  class="res_btn--link" id="vlog">Vlogs</a>
                         </div>
                     </div>
-                  <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel" data-interval='false'>
-                     <div class="carousel-inner ">
-                        <div class="carousel-item">
-							<div class="resources_main--posts">
-								<div class="resources_post">
-									<img src="../images/post-1.png" alt="" class="post_img">
-									<div class="tags">
-										<a href="" class="tags_links">GROWTH</a>
-										<a href="" class="tags_links">MARKETING</a>
-										<a href="" class="tags_links">TOOLS</a>
-										<a href="" class="tags_links">CASE STUDY</a>
-									</div>
-									<h3>10 Marketing Trends to Watch in 2019 with Ayush Shrivastva</h3>
-									<p class="date">Feb 14, 2019 · <span> 3 min read</span></p>
+					<div id="blog-view">
+					  <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel" data-interval='false'>
+						 <div class="carousel-inner ">
+							<div class="carousel-item">
+								<div class="resources_main--posts">
+								<?php
+								for($i=0;$i<3;$i++){
+								echo	'<div class="resources_post">
+										<a href="'.$parsed_json['blog']->items[$i]->link.'"><img src="'.$parsed_json['blog']->items[$i]->thumbnail.'" alt="" class="post_img"></a>
+										<div class="tags">';
+								for($j=0; $j<count($parsed_json['blog']->items[$i]->categories); $j++)
+								{ 
+                                    echo '<a href="" class="tags_links">'.$parsed_json['blog']->items[$i]->categories[$j].'</a>';
+                                }
+								echo '</div>
+									<h3>'.$parsed_json['blog']->items[$i]->title.'</h3>
+										<p class="date">'.$parsed_json['blog']->items[$i]->pubDate.'<span> 3 min read</span></p>
+									</div>';
+								}?>
 								</div>
-
-								<div class="resources_post">
-									<img src="../images/post-1.png" alt="" class="post_img">
-									<div class="tags">
-										<a href="" class="tags_links">GROWTH</a>
-										<a href="" class="tags_links">MARKETING</a>
-										<a href="" class="tags_links">TOOLS</a>
-										<a href="" class="tags_links">CASE STUDY</a>
-									</div>
-									<h3>10 Marketing Trends to Watch in 2019 with Ayush Shrivastva</h3>
-									<p class="date">Feb 14, 2019 · <span> 3 min read</span></p>
-								</div>
-
-								<div class="resources_post">
-									<img src="../images/post-1.png" alt="" class="post_img">
-									<div class="tags">
-										<a href="" class="tags_links">GROWTH</a>
-										<a href="" class="tags_links">MARKETING</a>
-										<a href="" class="tags_links">TOOLS</a>
-										<a href="" class="tags_links">CASE STUDY</a>
-									</div>
-									<h3>10 Marketing Trends to Watch in 2019 with Ayush Shrivastva</h3>
-									<p class="date">Feb 14, 2019 · <span> 3 min read</span></p>
-								</div>
-
 							</div>
-						</div>
-						<div class="carousel-item active">
-							<div class="resources_main--posts">
-								<div class="resources_post">
-									<img src="../images/post-1.png" alt="" class="post_img">
-									<div class="tags">
-										<a href="" class="tags_links">GROWTH11</a>
-										<a href="" class="tags_links">MARKETING</a>
-										<a href="" class="tags_links">TOOLS</a>
-										<a href="" class="tags_links">CASE STUDY</a>
-									</div>
-									<h3>10 Marketing Trends to Watch in 2019 with Ayush Shrivastva</h3>
-									<p class="date">Feb 14, 2019 · <span> 3 min read</span></p>
+							<div class="carousel-item active">
+								<div class="resources_main--posts">
+								<?php
+									for($i=3;$i<6;$i++){
+									echo	'<div class="resources_post">
+											<a href="'.$parsed_json['blog']->items[$i]->link.'"><img src="'.$parsed_json['blog']->items[$i]->thumbnail.'" alt="" class="post_img"></a>
+											<div class="tags">';
+									for($j=0; $j<count($parsed_json['blog']->items[$i]->categories); $j++)
+									{ 
+										echo '<a href="" class="tags_links">'.$parsed_json['blog']->items[$i]->categories[$j].'</a>';
+									}
+									echo'</div>
+										<h3>'.$parsed_json['blog']->items[$i]->title.'</h3>
+											<p class="date">'.$parsed_json['blog']->items[$i]->pubDate.'<span> 3 min read</span></p>
+										</div>';
+									}
+								?>
 								</div>
-
-								<div class="resources_post">
-									<img src="../images/post-1.png" alt="" class="post_img">
-									<div class="tags">
-										<a href="" class="tags_links">GROWTH</a>
-										<a href="" class="tags_links">MARKETING</a>
-										<a href="" class="tags_links">TOOLS</a>
-										<a href="" class="tags_links">CASE STUDY</a>
-									</div>
-									<h3>10 Marketing Trends to Watch in 2019 with Ayush Shrivastva</h3>
-									<p class="date">Feb 14, 2019 · <span> 3 min read</span></p>
-								</div>
-
-								<div class="resources_post">
-									<img src="../images/post-1.png" alt="" class="post_img">
-									<div class="tags">
-										<a href="" class="tags_links">GROWTH</a>
-										<a href="" class="tags_links">MARKETING</a>
-										<a href="" class="tags_links">TOOLS</a>
-										<a href="" class="tags_links">CASE STUDY</a>
-									</div>
-									<h3>10 Marketing Trends to Watch in 2019 with Ayush Shrivastva</h3>
-									<p class="date">Feb 14, 2019 · <span> 3 min read</span></p>
-								</div>
-
 							</div>
 						</div>
 					</div>
-				</div>	
-				</div>	
-                    <div class="bottom_bar">
+					<div class="bottom_bar">
                         <div class="bottom_bar--left">
                             <div class="page-btn">
                                 <a href="">See All Blogs</a>
@@ -331,7 +295,54 @@
                             <img src="../images/left.svg" alt="" id="gotoPre1" class="left_move">
                             <img src="../images/right.svg" alt="" id="gotoNext1" class="right_move">
                         </div>
-                    </div>
+                    </div>					
+				</div>
+					<div id="vlog-view">
+					  <div id="carouselExampleIndicators1_1" class="carousel slide" data-ride="carousel" data-interval='false'>
+						 <div class="carousel-inner ">
+							<div class="carousel-item">
+								<div class="resources_main--posts">
+								<?php for($i=0;$i<3;$i++){
+									
+									echo '<div class="resources_post">
+										<iframe id="ytplayer" type="text/html" width="100%" height="150%"
+										src="https://www.youtube.com/embed/'.$parsed_json['vlog']->items[$i]->id->videoId.'?autoplay=1"
+										frameborder="0"></iframe>
+									</div>';
+								}
+									?>
+								</div>
+							</div>
+							<div class="carousel-item active">
+								<div class="resources_main--posts">
+								<?php for($i=0;$i<3;$i++){
+									
+									echo '<div class="resources_post">
+										<iframe id="ytplayer" type="text/html" width="100%" height="150%"
+										src="https://www.youtube.com/embed/'.$parsed_json['vlog']->items[$i]->id->videoId.'?autoplay=1"
+										frameborder="0"></iframe>
+									</div>';
+								}
+									?>
+								</div>
+							</div>
+						</div>
+					</div>
+                 <div class="bottom_bar">
+                        <div class="bottom_bar--left">
+                            <div class="page-btn">
+                                <a href="">See All Blogs</a>
+                            </div>
+                        </div>
+                        <div class="bottom_bar--right">
+                            <img src="../images/left.svg" alt="" id="gotoPre1_1" class="left_move">
+                            <img src="../images/right.svg" alt="" id="gotoNext1_1" class="right_move">
+                        </div>
+                    </div>						
+				</div>
+			
+				</div>	
+   
                 </div>
             </div>
         </section>
@@ -598,12 +609,31 @@
 			$("#gotoPre").click(() => $("#carouselExampleIndicators").carousel("prev"));
 			$("#gotoNext1").click(() => $("#carouselExampleIndicators1").carousel("next"));
 			$("#gotoPre1").click(() => $("#carouselExampleIndicators1").carousel("prev"));			
+			$("#gotoNext1_1").click(() => $("#carouselExampleIndicators1_1").carousel("next"));			
+			$("#gotoPre1_1").click(() => $("#carouselExampleIndicators1_1").carousel("prev"));			
 			$("#gotoNext2").click(() => $("#carouselExampleIndicators2").carousel("next"));			
 			$("#gotoPre2").click(() => $("#carouselExampleIndicators2").carousel("prev"));
 			$("#gotoNext3").click(() => $("#carouselExampleIndicators3").carousel("next"));			
 			$("#gotoPre3").click(() => $("#carouselExampleIndicators3").carousel("prev"));
 		</script>
-     
+        <script>
+        $('#vlog-view').hide();
+            $(document).ready(function(){
+            $("#blog").click(function(){
+                $("#blog-view").show(800);
+                $("#vlog-view").hide(800);
+        });
+            });
+            $("#vlog").click(function(){
+                $("#blog-view").hide(800);
+                $("#vlog-view").show(800);
+                $( ".resources_post" ).first().show( "fast", function showNext() {
+            $( this ).next( ".resources_post" ).show( "fast", showNext );
+            });
+            });
+        </script>     
+
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
