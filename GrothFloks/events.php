@@ -42,6 +42,7 @@ for($i=0; $i<count($parsed_json->data); $i++){
     echo "Online: ".$parsed_json->data[$i]->is_online."<br>";
     echo "City: ".$parsed_json->data[$i]->place->location->city."<br>";
     echo "Image: ".$parsed_json->data[$i]->cover->source."<br>";
+    echo "id: ".$parsed_json->data[$i]->id."<br>";
 }
 */
 
@@ -169,7 +170,7 @@ for($i=0; $i<count($parsed_json->data); $i++){
                                 </div>
                             </div>
                             <div class="item-content-btn">
-                                <button class="btn">Book Now</button>
+                              <a href="https://facebook.com/'.$parsed_json->data[$i]->id.'">  <button class="btn">Book Now</button></a   >
                             </div>
 
                         </div>
