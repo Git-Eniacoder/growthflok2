@@ -596,8 +596,10 @@
                             <div class="bottom">
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                                 <div class="newsletter-box">
-                                    <input type="text" class="newsletter-inp" placeholder="jhoneDoe@gmail.com">
-                                    <button class="newsletter-btn">Get NewsLetter</button>
+								<form method="POST" action="mail.php" >
+                                    <input type="text" name="mail" class="newsletter-inp" placeholder="jhoneDoe@gmail.com">
+                                    <button type="submit"  class="newsletter-btn">Get NewsLetter</button>
+								</form>	
                                 </div>
                             </div>
                         </div>
