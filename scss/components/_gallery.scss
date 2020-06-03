@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all .3s ease-in-out;
     // border:1px solid red;
 
     &_main{
@@ -12,6 +13,13 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        
+
+        .img-hover:hover{
+            cursor: pointer;
+            transition: all .3s ease-in-out;
+            transform: scale(1.1);
+        }
 
 
         .g-sec-1{
@@ -66,7 +74,7 @@
 }
 
 
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 700px){
 
     .gallery{
         min-height: 100rem;
@@ -75,6 +83,9 @@
             flex-direction: column;
             justify-content: space-evenly;
             min-height: 80rem;
+            transition: all .2s ease-in;
+
+
     
             .g-sec-1{
                 width:100%;
@@ -119,12 +130,14 @@
             }
     
             &--sec{
-                border: 1px solid red;
+                // border: 1px solid red;
                 height: 100%;
     
             }
     
         }
+
+
     }
 
 }

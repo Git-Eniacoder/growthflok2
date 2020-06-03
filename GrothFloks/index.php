@@ -112,17 +112,17 @@
 
                         </div> -->
 
-                        <img src="../images/gallery-img2.png" alt="" class="g-sec-1-img1">
-                        <img src="../images/gallery-img1.png" alt="" class="g-sec-1-img2">
-                        <img src="../images/gallery-img-3.png" alt="" class="g-sec-1-img3">
+                        <img src="../images/gallery-img2.png" alt="" class="g-sec-1-img1 img-hover">
+                        <img src="../images/gallery-img1.png" alt="" class="g-sec-1-img2 img-hover">
+                        <img src="../images/gallery-img-3.png" alt="" class="g-sec-1-img3 img-hover">
 
                     </div>
                     <div class="gallery_main--sec g-sec-2">
-                        <img src="../images/gallery-sec2-img.png" alt="" class="g-sec-2-img1">
+                        <img src="../images/gallery-sec2-img.png" alt="" class="g-sec-2-img1 img-hover">
                     </div>
                     <div class="gallery_main--sec g-sec-3">
-                        <img src="../images/gallery-sec3-img1.png" alt="" class="g-sec-3-img1">
-                        <img src="../images/gallery-sec3-img2.png" alt="" class="g-sec-3-img2">
+                        <img src="../images/gallery-sec3-img1.png" alt="" class="g-sec-3-img1 img-hover">
+                        <img src="../images/gallery-sec3-img2.png" alt="" class="g-sec-3-img2 img-hover">
                     </div>
                 </div>
             </div>
@@ -222,6 +222,17 @@
             </div>
         </section>
 
+        <!-- Banner section -->
+            <section class="banner index_banner">
+                <div class="container">
+                    <div class="banner_main index_banner-main">
+                        <h2>Did you find us helpful in any or the other ways?</h2>
+                        <p>Let us know more about your requirments and we'll be more than happy to help you.</p>
+                        <button class="btn">Get In touch</button>
+                    </div>
+                </div>
+                <div class="banner_back banner_backindex"></div>
+            </section>
 
 
         <!-- Resources -->
@@ -505,9 +516,9 @@
                     <div class="client_gallery--left">
                         <img src="../images/left.svg" id="gotoPre3" alt="">
                     </div>
-				<div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel" data-interval='false'>
-					<div class="carousel-inner ">
-						<div class="carousel-item active">	
+				<!-- <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel" data-interval='false'> -->
+					<!-- <div class="carousel-inner "> -->
+						<!-- <div class="carousel-item active">	 -->
 							<div class="client_gallery--mid">
 								<div class="gallery-item"></div>
 								<div class="gallery-item"></div>
@@ -515,18 +526,18 @@
 								<div class="gallery-item"></div>
 								<div class="gallery-item"></div>
 							</div>
-						</div>
-						<div class="carousel-item ">	
-							<div class="client_gallery--mid">
+						<!-- </div> -->
+						<!-- <div class="carousel-item ">	 -->
+							<!-- <div class="client_gallery--mid">
 								<div class="gallery-item"></div>
 								<div class="gallery-item"></div>
 								<div class="gallery-item"></div>
 								<div class="gallery-item"></div>
 								<div class="gallery-item"></div>
-							</div>
-						</div>
-					</div>	
-				</div>	
+							</div> -->
+						<!-- </div> -->
+					<!-- </div>	 -->
+				<!-- </div>	 -->
 						
                     <div class="client_gallery--right">
                         <img src="../images/right.svg" id="gotoNext3" alt="">
@@ -594,10 +605,12 @@
                 </div>
                 <div class="footer_main--bottom">
                     <div class="footer_main--bottom-design">
-
+                        <p>Design By eniacoder</p>
                     </div>
                     <div class="footer_main--bottom-design">
-
+                          <a href="">Terms and Condition</a>
+                            <span>|</span>
+                            <a href="">Privacy Policy</a>
                     </div>
                 </div>
             </div>

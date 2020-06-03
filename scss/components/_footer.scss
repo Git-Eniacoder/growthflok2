@@ -77,6 +77,25 @@
             }
             
         }
+
+        &--bottom{
+            display:  flex;
+            justify-content: space-between;
+            align-items: center;
+            border-top: 1px solid #444D4B;
+            padding: .9rem 0rem;
+            font-size: 1.5rem;
+            color: #5A6361;
+
+            a{
+                text-decoration: none;
+                color: #5A6361;
+            }
+
+            span{
+                margin: 0rem 1rem;
+            }
+        }
     }
 }
 
@@ -103,40 +122,44 @@
                 }
                
     
-                &-sec{
+                // &-sec{
     
 
-                    .head{
-                        // border: 1px solid red;
+                //     .head{
+                //         // border: 1px solid red;
                         
             
-                        .head_icons{
+                //         .head_icons{
             
-                            .s-icon{
+                //             .s-icon{
                                
-                            }
-                        }
-                    }
+                //             }
+                //         }
+                //     }
     
-                    .bottom{
+                //     .bottom{
     
-                        p{
+                //         p{
                             
-                        }
+                //         }
     
-                        li{
+                //         li{
                             
     
-                            a{
+                //             a{
                                 
                                 
-                            }
-                        }
+                //             }
+                //         }
     
                         
-                    }
-                }
+                //     }
+                // }
                 
+            }
+
+            &--bottom{
+
             }
         }
     }

@@ -5,6 +5,7 @@
     // position: fixed;
     // border: 1px solid red;
     font-size: 1rem;
+    transition: all .3s ease-in;
 
     &_main{
         height: $head-sec-h;
@@ -28,9 +29,50 @@
 
             a{
                 text-decoration: none;
-                font-size: 1.5rem;
-                color: $head-link-col;  
+                font-size: 1.6rem;
+                color: $head-link-col; 
+                display: flex; 
             }
+
+            .nav-item{
+                position: relative;
+                transition: all .3s ease-in;
+
+                
+
+                &:hover{
+                
+                    text-decoration: none;
+                    transition: all .3s ease-in;
+                    color: #26423D;
+
+                    &::before{
+                        content: '';
+                        width: 20px;
+                        position: absolute;
+                        // display: none;
+                        top: 3px;
+                        left: -.8rem;
+                        z-index: -1;
+                        height: 20px;
+                        border-radius: 50%;
+                        background: #FFB468;
+                    }
+                
+                }
+
+                
+
+               
+                
+            }
+
+            
+
+
+            
+
+
 
             .h-btn{
                 color: $head-btn-col;
@@ -38,6 +80,12 @@
                 background: $head-btn-bk-col;
                 border: 1px solid  $head-btn-bk-col;
                 border-radius: 2px;
+                transition: all .3s ease-in;
+
+                &:hover{
+
+                    border: 1px solid $head-btn-col;
+                }
             }
             
         }
@@ -111,7 +159,11 @@
         }
     }
 
+
 }
+
+
+
 
 
 

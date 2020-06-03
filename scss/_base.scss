@@ -60,6 +60,12 @@ html{
         height: 13rem;
         // border: 1px solid blue;
         background-color: #E0E0E0;
+        background-image: url('../images/springs-img-1.svg');
+        background-size: 100rem;
+        background-repeat: no-repeat;
+        background-position-x:100%;
+        background-position-y:40%;
+
 
         h1{
             position: absolute;
@@ -102,12 +108,15 @@ html{
 
 
 // Banner
-
 .banner{
     background-color: #EFF2F2;
     // border: 1px solid red;
     height: 12rem;
-    margin-bottom: 20rem;
+    margin-bottom: 15rem;
+
+
+
+
    
     &_main{
         // border: 1px solid red;
@@ -118,7 +127,7 @@ html{
 
         h2{
             @include font_style_big_shoulder($title-font-size-m, $title-font-weight-m, $title-font-line-h, $title-font-col-m);
-            margin-bottom: $base-margin-s;
+            margin-bottom: .5rem;
         }
 
         p{
@@ -131,11 +140,159 @@ html{
             border: none;
             color: rgb(247, 247, 247);
             font-size: 1.5rem;
-            margin-top: 2rem;
+            margin-top: 1rem;
             cursor: pointer;
         }
 
 
+
+    }
+
+    
+
+    .index_banner-main{
+        background: #207A6A;
+
+        h2{
+            color: #fff;
+        }
+
+        p{
+            color: #B7BDBC;
+        }
+
+        .btn{
+            background: #FFB468;
+        }
+    }
+
+}
+
+.index_banner{
+    background-color: #fff;
+    position: relative;
+
+    .banner_backindex{
+        height: 20rem;
+        width: 100%;
+        z-index: -1;
+        position: absolute;
+        top: 10rem;
+        left: 0;
+        background-color: #EFF2F2;
+    }
+}
+
+
+@media only screen and (max-width: 700px){
+
+    .banner{
+        background-color: #EFF2F2;
+        // border: 1px solid red;
+        height: 17rem;
+        // width: 70%;
+        margin-bottom: 20rem;
+       
+        &_main{
+            // border: 1px solid red;
+            padding: 2rem 3rem;
+            height: 28rem;
+            border-radius: 5px;
+            background-color: #DAD7FF;
+            text-align: center;
+    
+            h2{
+                @include font_style_big_shoulder($title-font-size-m, $title-font-weight-m, $title-font-line-h, $title-font-col-m);
+                margin-bottom: .5rem;
+            }
+    
+            p{
+                font-size: 1.7rem;
+            }
+    
+            .btn{
+                padding: 1rem 1.5rem;
+                background: #8D87CD;
+                border: none;
+                color: rgb(247, 247, 247);
+                font-size: 1.5rem;
+                margin-top: 1rem;
+                cursor: pointer;
+            }
+    
+    
+    
+        }
+    }
+
+
+}
+
+// Banner end
+
+
+// Pagination
+.pagination{
+    // border: 1px solid red;
+    background: #FAFCFC;
+    &_main{
+        // border: 1px solid red;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       
+        height: 10rem;
+
+        &--left{
+            cursor: pointer;
+        }
+
+        &--mid{
+            display: flex;
+
+            .page_number{
+                width: 5rem;
+                height: 5rem;
+                border-radius: 50%;
+                text-align: center;
+                position: relative;
+                margin-left: 1rem;
+                // background-color: red;
+                background: #E0E0E0;
+                cursor: pointer;
+                padding: 1.5rem;
+
+             
+
+                &-text{
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    font-family: 'Big Shoulders Display', cursive;
+                    font-weight: 800;
+                    font-size: 2.3rem;
+                    color: rgb(88, 92, 91);
+
+                   
+                }
+
+                &:active{
+                    background: #207A6A;
+
+                    .page_number-text{
+                        color: #fff;
+                    }
+                }
+
+            }
+
+        }
+
+        &--right{
+
+            cursor: pointer;
+        }
 
     }
 }

@@ -1,15 +1,11 @@
 .resources{
    background: #EFF2F2;
    margin: 10rem 0;
-   min-height: 60rem;
+   min-height: 68rem;
 
     &_main{
         // border: 1px solid red;
 
-        &--banner{
-            
-         
-        }
 
         &--content{
             // border: 1px solid red;
@@ -30,11 +26,26 @@
                 &--link{
                     padding: 1rem 3rem;
                     border-radius: 2px;
+                    cursor: pointer;
                     color: #207A6A;
                     text-decoration: none;
                     background: rgba(53, 204, 176, 0.16);
                     border: 1px solid #207A6A;
                 }
+
+
+
+                &--link:hover{
+                    background: #207A6A;
+                    color: #fff;
+                }
+
+                &--link:active{
+                    background: #207A6A;
+                    color: #fff;
+                }
+
+
             }
         }
 
@@ -56,13 +67,16 @@
                 }
                 
                 .tags{
-                    margin-bottom: .5rem;
+                    margin: .5rem;
+
                     &_links{
                         text-decoration: none;
-                        font-size: 1rem;
-                        padding: .5rem;
+                        font-size: 1.2rem;
+                        // line-height: 1.6;
+                        padding: .3rem;
                         color: #7A8281;
                         background-color:  #E0E0E0;
+                        margin-left: .5rem;
                     }
                 }
 

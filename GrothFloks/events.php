@@ -46,7 +46,6 @@ for($i=0; $i<count($parsed_json->data); $i++){
 }
 */
 
-
 ?>
 
 <!DOCTYPE html>
@@ -183,6 +182,37 @@ for($i=0; $i<count($parsed_json->data); $i++){
                 <!-- Events -->
 
         </section>
+
+             <!-- Pagination -->
+             <section class="pagination">
+            <div class="container">
+                <div class="pagination_main">
+                    <div class="pagination_main--left">
+                        <img src="../images/left.svg" alt="">
+                    </div>
+                    <div class="pagination_main--mid">
+
+                        <div class="page_number">
+                           <a href=""><span class="page_number-text">1</span></a> 
+                        </div>
+                        <div class="page_number">
+                            <span class="page_number-text">2</span>
+                        </div>
+                        <div class="page_number">
+                            <span class="page_number-text">3</span>
+                        </div>
+                        <div class="page_number">
+                            <span class="page_number-text">4</span>
+                        </div>
+                            
+                    </div>
+                    <div class="pagination_main--right">
+                        <img src="../images/right.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Pagination -->
 
 
 

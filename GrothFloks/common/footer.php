@@ -53,10 +53,12 @@
                 </div>
                 <div class="footer_main--bottom">
                     <div class="footer_main--bottom-design">
-
+                           <p>Design By eniacoder</p>
                     </div>
                     <div class="footer_main--bottom-design">
-
+                            <a href="">Terms and Condition</a>
+                            <span>|</span>
+                            <a href="">Privacy Policy</a>
                     </div>
                 </div>
             </div>
