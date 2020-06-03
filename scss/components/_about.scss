@@ -262,6 +262,11 @@
 // About Banner
 .about_banner{
     background: #FFD1CE;
+    background-image: url('../images/pinksvg.svg');
+    background-repeat: no-repeat;
+    background-position-x: 120%;
+    background-position-y: 50%;
+    background-size: 40%;
 
     .btn{
         background: #EB655E;

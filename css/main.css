@@ -110,6 +110,11 @@ html {
 
 .banner .index_banner-main {
   background: #207A6A;
+  background-image: url("../images/DICE.svg");
+  background-repeat: no-repeat;
+  background-position-x: 120%;
+  background-position-y: 50%;
+  background-size: 40%;
 }
 
 .banner .index_banner-main h2 {
@@ -913,6 +918,11 @@ body {
 
 .about_banner {
   background: #FFD1CE;
+  background-image: url("../images/pinksvg.svg");
+  background-repeat: no-repeat;
+  background-position-x: 120%;
+  background-position-y: 50%;
+  background-size: 40%;
 }
 
 .about_banner .btn {
