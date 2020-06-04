@@ -104,7 +104,7 @@
             </div>
 
             <!-- Banner Section -->
-            <div class="banner">
+            <!-- <div class="banner">
                 <div class="banner_back"></div>
                 <div class="container">
                     <div class="banner_main">
@@ -113,7 +113,18 @@
                         <button class="btn">Get In touch</button>
                     </div>
                 </div>
-            </div>
+            </div> -->
+
+            <section class="banner">
+                <div class="banner_back"></div>
+                <div class="container">
+                    <div class="banner_main about_banner">
+                        <h2>Did you find us helpful in any or the other ways?</h2>
+                        <p>Let us know more about your requirments and we'll be more than happy to help you.</p>
+                        <button class="btn">Get In touch</button>
+                    </div>
+                </div>
+            </section>
 
         </section>
 

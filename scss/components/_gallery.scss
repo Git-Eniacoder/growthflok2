@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all .3s ease-in-out;
     // border:1px solid red;
 
     &_main{
@@ -12,6 +13,13 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        
+
+        .img-hover:hover{
+            cursor: pointer;
+            transition: all .3s ease-in-out;
+            transform: scale(1.1);
+        }
 
 
         .g-sec-1{
@@ -66,7 +74,7 @@
 }
 
 
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 700px){
 
     .gallery{
         min-height: 100rem;
@@ -75,6 +83,10 @@
             flex-direction: column;
             justify-content: space-evenly;
             min-height: 80rem;
+            transition: all .2s ease-in;
+            text-align: center;
+
+
     
             .g-sec-1{
                 width:100%;
@@ -82,49 +94,51 @@
                 // justify-content: space-evenly;
                 // flex-wrap: wrap;
     
-                // &-img1{
-                //     width: 42%;
-                //     margin: .5rem;
-                // }
-                // &-img2{
-                //     width: 52%;
-                //     margin: .5rem;
-                // }
-                // &-img3{
-                //     width: 96%;
-                //     margin: .5rem;
-                // }
+                &-img1{
+                    width: 90%;
+                    // margin: .5rem;
+                }
+                &-img2{
+                    width: 90%;
+                    // margin: .5rem;
+                }
+                &-img3{
+                    width: 90%;
+                    // margin: .5rem;
+                }
     
             }
             .g-sec-2{
                 width:100%;
     
-                // &-img1{
-                //     width: 100%;
-                //     margin-top: .5rem;
-                // }
+                &-img1{
+                    width: 90%;
+                    // margin-top: .5rem;
+                }
             }
             .g-sec-3{
                 width:100%;
     
                 &-img1{
-                    // width: 96%;
-                    margin: .5rem;
+                    width: 90%;
+                    // margin: .5rem;
                 }
                 &-img2{
-                    // width: 96%;
+                    width: 90%;
                     // height: 45%;
-                    margin: 1rem;
+                    // margin: 1rem;
                 }
             }
     
             &--sec{
-                border: 1px solid red;
+                // border: 1px solid red;
                 height: 100%;
     
             }
     
         }
+
+
     }
 
 }

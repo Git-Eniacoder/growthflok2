@@ -36,32 +36,32 @@
                             </div>
                         </div>
                         <div class="contact_main--form">
-                            <form action="">
+                            <form action="contact_to_excel.php" method="post">
 
                                 <div class="tag">
                                     <label for="">Name</label>
-                                    <input type="text">
+                                    <input name="name" type="text">
                                 </div>
                                 <div class="email">
                                     <div class="tag tag-1">
                                         <label for="">Email Address</label>
-                                        <input type="text">
+                                        <input name="email" type="text">
                                     </div>
                                     <div class="tag tag-2">
                                         <label for="">Mobile</label>
-                                        <input type="text">
+                                        <input name="mobile" type="text">
                                     </div>
                                 </div>
                                 <div class="tag">
                                     <label for="">Subject</label>
-                                    <select name="" id="">
-                                        <option value=""></option>
+                                    <select name="subject" id="">
+                                        <option value="demo_subject"></option>
                                     </select>
                                     
                                 </div>
                                 <div class="tag">
                                     <label for="">Description</label>
-                                    <textarea name="" id="" cols="30" rows="4"></textarea>
+                                    <textarea name="description" id="" cols="30" rows="4"></textarea>
                                 </div>
                                 <div class="tag">
                                     <button class="btn">Book Now</button>

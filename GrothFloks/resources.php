@@ -24,28 +24,28 @@
 
 
                 <div id="blog-view" class="blog_post--items">
-<?php
-$json_string = file_get_contents("https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/growth-folks");
-$parsed_json['blog'] = json_decode($json_string);
-$json_string = file_get_contents("https://www.googleapis.com/youtube/v3/search?key=AIzaSyCE5GTdzhiouSn2ssUKplnLgIgDVlGedjY&channelId=UC4NoSzAHBhkKbfa6YPFyVNA&part=snippet,id&order=date&maxResults=20");
-$parsed_json['vlog'] = json_decode($json_string);
-// echo "<pre>";
-// print_r($parsed_json['blog']);
+                    <?php
+                    $json_string = file_get_contents("https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/growth-folks");
+                    $parsed_json['blog'] = json_decode($json_string);
+                    $json_string = file_get_contents("https://www.googleapis.com/youtube/v3/search?key=AIzaSyCE5GTdzhiouSn2ssUKplnLgIgDVlGedjY&channelId=UC4NoSzAHBhkKbfa6YPFyVNA&part=snippet,id&order=date&maxResults=20");
+                    $parsed_json['vlog'] = json_decode($json_string);
+                    // echo "<pre>";
+                    // print_r($parsed_json['blog']);
 
-?>
-            <?php for($i=0; $i<count($parsed_json['blog']->items); $i++){ ?>
-                   <a href="<?php echo $parsed_json['blog']->items[$i]->link ; ?>"> <div class="resources_post">
-                        <img src="<?php echo $parsed_json['blog']->items[$i]->thumbnail; ?>" alt="" class="post_img">
-                        <div class="tags">
-                            <?php for($j=0; $j<count($parsed_json['blog']->items[$i]->categories); $j++){ ?>
-                            <a href="" class="tags_links"><?php echo $parsed_json['blog']->items[$i]->categories[$j]; ?></a>
-                            <?php } ?>
-                        </div>
-                        <h3><?php echo $parsed_json['blog']->items[$i]->title; ?></h3>
-                        <p class="date"><?php echo $parsed_json['blog']->items[$i]->pubDate; ?> · <span> 3 min read</span></p>
-                    </div>
-                            </a>
-            <?php }?>
+                    ?>
+                    <?php for($i=0; $i<count($parsed_json['blog']->items); $i++){ ?>
+                        <a href="<?php echo $parsed_json['blog']->items[$i]->link ; ?>"> <div class="resources_post">
+                                <img src="<?php echo $parsed_json['blog']->items[$i]->thumbnail; ?>" alt="" class="post_img">
+                                <div class="tags">
+                                    <?php for($j=0; $j<count($parsed_json['blog']->items[$i]->categories); $j++){ ?>
+                                    <a href="" class="tags_links"><?php echo $parsed_json['blog']->items[$i]->categories[$j]; ?></a>
+                                    <?php } ?>
+                                </div>
+                                <h3><?php echo $parsed_json['blog']->items[$i]->title; ?></h3>
+                                <p class="date"><?php echo $parsed_json['blog']->items[$i]->pubDate; ?> · <span> 3 min read</span></p>
+                            </div>
+                                    </a>
+                    <?php }?>
                     
                 </div>
                 <div id="vlog-view" class="blog_post--items">
@@ -59,6 +59,37 @@ $parsed_json['vlog'] = json_decode($json_string);
                 </div>
             </div>
         </section>
+
+        <!-- Pagination -->
+        <section class="pagination">
+            <div class="container">
+                <div class="pagination_main">
+                    <div class="pagination_main--left">
+                        <img src="../images/left.svg" alt="">
+                    </div>
+                    <div class="pagination_main--mid">
+
+                        <div class="page_number">
+                           <a href=""><span class="page_number-text">1</span></a> 
+                        </div>
+                        <div class="page_number">
+                            <span class="page_number-text">2</span>
+                        </div>
+                        <div class="page_number">
+                            <span class="page_number-text">3</span>
+                        </div>
+                        <div class="page_number">
+                            <span class="page_number-text">4</span>
+                        </div>
+                            
+                    </div>
+                    <div class="pagination_main--right">
+                        <img src="../images/right.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Pagination -->
 
     </main>
 

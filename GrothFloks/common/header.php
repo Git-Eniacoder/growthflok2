@@ -24,12 +24,12 @@
                     <a href="#"><img src="../details/logo.png" alt="GrowthFolks" class="logo"></a>
                 </div>
                 <nav class="header_main--nav">
-                    <a href="index.php">Home</a>
-                    <a href="about.php">About Us</a>
-                    <a href="services.php">Services</a>
-                    <a href="resources.php">Resources</a>
-                    <a href="events.php">Events</a>
-                    <a href="contact.php">Get In Touch</a>
+                    <a href="index.php" class="nav-item">Home</a>
+                    <a href="about.php" class="nav-item">About Us</a>
+                    <a href="services.php" class="nav-item">Services</a>
+                    <a href="resources.php" class="nav-item">Resources</a>
+                    <a href="events.php" class="nav-item">Events</a>
+                    <a href="contact.php" class="nav-item">Get In Touch</a>
                     <a href="" class="h-btn">Let's Collab</a>
                 </nav>
                 <div class="header_main--burger">

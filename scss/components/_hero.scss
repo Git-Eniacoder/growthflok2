@@ -46,11 +46,20 @@
                 &-p{
                     @include font_style_lato($hero-sec-p-font-size, $hero-sec-p-font-weight, $hero-sec-p-line-h, $hero-sec-p-col);
                     letter-spacing: 0.01em;
+                    margin-bottom: 3.5rem;
+                    font-size: 1.7rem;
                 }
 
                 &-btn{
                     @include basic_btn($btn-col, $btn-bck-col, $btn-bor-col, $btn-bor-rad);
+                    transition: all .2s ease-in;
+                    
+                    &:hover{
+                        
+                        border: 1px solid $head-btn-col;
+                    }
                 }
+
 
         }
         }

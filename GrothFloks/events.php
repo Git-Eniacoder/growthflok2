@@ -42,9 +42,9 @@ for($i=0; $i<count($parsed_json->data); $i++){
     echo "Online: ".$parsed_json->data[$i]->is_online."<br>";
     echo "City: ".$parsed_json->data[$i]->place->location->city."<br>";
     echo "Image: ".$parsed_json->data[$i]->cover->source."<br>";
+    echo "id: ".$parsed_json->data[$i]->id."<br>";
 }
 */
-
 
 ?>
 
@@ -169,7 +169,7 @@ for($i=0; $i<count($parsed_json->data); $i++){
                                 </div>
                             </div>
                             <div class="item-content-btn">
-                                <button class="btn">Book Now</button>
+                              <a href="https://facebook.com/'.$parsed_json->data[$i]->id.'">  <button class="btn">Book Now</button></a   >
                             </div>
 
                         </div>
@@ -182,6 +182,37 @@ for($i=0; $i<count($parsed_json->data); $i++){
                 <!-- Events -->
 
         </section>
+
+             <!-- Pagination -->
+             <section class="pagination">
+            <div class="container">
+                <div class="pagination_main">
+                    <div class="pagination_main--left">
+                        <img src="../images/left.svg" alt="">
+                    </div>
+                    <div class="pagination_main--mid">
+
+                        <div class="page_number">
+                           <a href=""><span class="page_number-text">1</span></a> 
+                        </div>
+                        <div class="page_number">
+                            <span class="page_number-text">2</span>
+                        </div>
+                        <div class="page_number">
+                            <span class="page_number-text">3</span>
+                        </div>
+                        <div class="page_number">
+                            <span class="page_number-text">4</span>
+                        </div>
+                            
+                    </div>
+                    <div class="pagination_main--right">
+                        <img src="../images/right.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Pagination -->
 
 
 
