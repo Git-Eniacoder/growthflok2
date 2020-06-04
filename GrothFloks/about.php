@@ -36,7 +36,6 @@
         <!-- About Calender -->
         <section class="about_calender">
             <div class="container">
-
                 <div class="about_calender_main">
                     <div class="about_calender_main--left">
                         <img src="../images/left.svg" id="gotoPre" alt="" class="left_move">
