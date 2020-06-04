@@ -94,68 +94,7 @@
     </main>
 
      <!-- Footer Section -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer_main">
-                <div class="footer_main--head">
-                    <div class="footer_main--head-sec f-sec-1">
-                        <div class="head">
-                            <div class="head_logo">
-                                <img src="../details/logo.png" alt="" class="logo">
-                            </div>
-                            <div class="head_icons">
-                                <a href=""><img src="../images/facebook.png" alt="" class="s-icon"></a>
-                                <a href=""><img src="../images/instagram.png" alt="" class="s-icon"></a>
-                                <a href=""><img src="../images/twitter.png" alt="" class="s-icon"></a>
-                                <a href=""><img src="../images/linkedin.png" alt="" class="s-icon"></a>
-                            </div>
-                        </div>
-                        <div class="bottom">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <p>+ 91 9986 440124</p>
-                            <p>contactus@growtfolks.com</p>
-                        </div>
-
-                    </div>
-                    <div class="footer_main--head-sec f-sec-2">
-                        <div class="head">
-                           <h3>Quick Links</h3>
-                        </div>
-                        <div class="bottom">
-                            <ul>
-                                <li><a href="">Services</a></li>
-                                <li><a href="">Events</a></li>
-                                <li><a href="">About Us</a></li>
-                                <li><a href="">Let’s Collab</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="footer_main--head-sec f-sec-1">
-                        <div class="head">
-                            <h3>Newsletter</h3>
-                        </div>
-                        <div class="bottom">
-                            <div class="bottom">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                <div class="newsletter-box">
-                                    <input type="text" class="newsletter-inp" placeholder="jhoneDoe@gmail.com">
-                                    <button  class="newsletter-btn">Get NewsLetter</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer_main--bottom">
-                    <div class="footer_main--bottom-design">
-
-                    </div>
-                    <div class="footer_main--bottom-design">
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+       <?php require('./common/footer.php') ?>
 <script src="../js/app.js"></script>   
 <script>
  $('#vlog-view').hide();
