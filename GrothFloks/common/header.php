@@ -29,8 +29,8 @@
                     <a href="services.php" class="nav-item">Services</a>
                     <a href="resources.php" class="nav-item">Resources</a>
                     <a href="events.php" class="nav-item">Events</a>
-                    <a href="contact.php" class="nav-item">Get In Touch</a>
-                    <a href="" class="h-btn">Let's Collab</a>
+                    <!-- <a href="" class="nav-item">Get In Touch</a> -->
+                    <a href="contact.php" class="h-btn">Let's Collab</a>
                 </nav>
                 <div class="header_main--burger">
                     <div class="header_main--burger-menu"></div>
