@@ -618,6 +618,8 @@
             </div>
         </div>
     </footer>
+
+    
     <script src="../js/app.js"></script>
 	   <script>
 			$("#gotoNext").click(() => $("#carouselExampleIndicators").carousel("next"));

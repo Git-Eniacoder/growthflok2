@@ -191,51 +191,6 @@ html{
 }
 
 
-@media only screen and (max-width: 700px){
-
-    .banner{
-        background-color: #EFF2F2;
-        // border: 1px solid red;
-        height: 17rem;
-        // width: 70%;
-        margin-bottom: 20rem;
-       
-        &_main{
-            // border: 1px solid red;
-            padding: 2rem 3rem;
-            height: 28rem;
-            border-radius: 5px;
-            background-color: #DAD7FF;
-            text-align: center;
-    
-            h2{
-                @include font_style_big_shoulder($title-font-size-m, $title-font-weight-m, $title-font-line-h, $title-font-col-m);
-                margin-bottom: .5rem;
-            }
-    
-            p{
-                font-size: 1.7rem;
-            }
-    
-            .btn{
-                padding: 1rem 1.5rem;
-                background: #8D87CD;
-                border: none;
-                color: rgb(247, 247, 247);
-                font-size: 1.5rem;
-                margin-top: 1rem;
-                cursor: pointer;
-            }
-    
-    
-    
-        }
-    }
-
-
-}
-
-// Banner end
 
 
 // Pagination
@@ -303,3 +258,65 @@ html{
 
     }
 }
+
+
+
+
+
+@media only screen and (max-width: 700px){
+
+    .banner{
+        background-color: #EFF2F2;
+        // border: 1px solid red;
+        height: 20rem;
+        // width: 70%;
+        margin-bottom: 20rem;
+       
+        &_main{
+            // border: 1px solid red;
+            padding: 2rem 3rem;
+            height: 28rem;
+            border-radius: 5px;
+            background-color: #DAD7FF;
+            text-align: center;
+    
+            h2{
+                @include font_style_big_shoulder($title-font-size-m, $title-font-weight-m, $title-font-line-h, $title-font-col-m);
+                margin-bottom: .5rem;
+            }
+    
+            p{
+                font-size: 1.7rem;
+            }
+    
+            .btn{
+                padding: 1rem 1.5rem;
+                background: #8D87CD;
+                border: none;
+                color: rgb(247, 247, 247);
+                font-size: 1.5rem;
+                margin-top: 1rem;
+                cursor: pointer;
+            }
+    
+    
+    
+        }
+    }
+    
+    .index_banner-main{
+        height: 33rem;
+    }
+
+    .about_banner{
+        height: 35rem;
+    }
+
+}
+
+
+
+// Banner end
+
+
+
