@@ -1310,11 +1310,6 @@ body {
   color: #fff;
 }
 
-.resources_main--content .res_btn--link:active {
-  background: #207A6A;
-  color: #fff;
-}
-
 .resources_main--posts {
   margin: 2rem 0;
   display: flex;
@@ -1352,6 +1347,11 @@ body {
 
 .resources_main--posts .resources_post .date {
   font-size: 1.2rem;
+}
+
+.res_active {
+  background-color: #207A6A !important;
+  color: #fff;
 }
 
 @media only screen and (max-width: 700px) {

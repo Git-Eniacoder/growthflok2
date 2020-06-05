@@ -55,6 +55,7 @@ for($i=0; $i<count($parsed_json->data); $i++){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/main.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <link
         href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;400;500;600;700;800&family=Lato:wght@300;400&display=swap"
         rel="stylesheet">
@@ -66,7 +67,7 @@ for($i=0; $i<count($parsed_json->data); $i++){
 
     <!-- Header Section -->
     <?php require('./common/header.php') ?>
-<!-- Main -->
+    <!-- Main -->
     <main>
 
         <section class="herobar">
@@ -193,6 +194,11 @@ for($i=0; $i<count($parsed_json->data); $i++){
         </section>
         <!-- End Pagination -->
     </main>
+   
 <?php require('./common/footer.php') ?>
-    </body>
+<script>
+    $('.nav-item').removeClass("nav-active");
+    $('#events').addClass("nav-active");
+ </script>
+</body>
 </html>

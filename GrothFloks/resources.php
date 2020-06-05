@@ -31,7 +31,7 @@
         <section class="blog_post">
             <div class="container">
                 <div class="blog_post--toggel">
-                    <div id="blog" class="blog_post--toggel-btn active_btn">
+                    <div id="blog" class="blog_post--toggel-btn">
                         <span><a>Blogs</a></span>
                     </div>
                     <div id="vlog" class="blog_post--toggel-btn">
@@ -140,5 +140,14 @@
     $('#resources').addClass("nav-active");
 </script>
 
+<script>
+    $('.nav-item').removeClass("nav-active");
+    $('#resources').addClass("nav-active");
+</script>
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>

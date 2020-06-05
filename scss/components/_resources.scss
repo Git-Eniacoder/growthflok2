@@ -40,10 +40,10 @@
                     color: #fff;
                 }
 
-                &--link:active{
-                    background: #207A6A;
-                    color: #fff;
-                }
+                // &--link:active{
+                //     background: #207A6A;
+                //     color: #fff;
+                // }
 
 
             }
@@ -97,6 +97,12 @@
 
 
 
+}
+
+
+.res_active{
+    background-color: #207A6A !important;
+    color: #fff;
 }
 
 

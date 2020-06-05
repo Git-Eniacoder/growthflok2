@@ -101,5 +101,8 @@
     </main>
 
  <?php require('./common/footer.php') ?>
-    </body>
+</body>
+<script>
+    $('.nav-item').removeClass("nav-active");
+ </script>
 </html>
