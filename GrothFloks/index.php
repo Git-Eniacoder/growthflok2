@@ -1,4 +1,5 @@
 <?php
+    error_reporting(E_ERROR | E_PARSE);
     $json_string = file_get_contents("https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/growth-folks");
     $parsed_json['blog'] = json_decode($json_string);
     $json_string = file_get_contents("https://www.googleapis.com/youtube/v3/search?key=AIzaSyCE5GTdzhiouSn2ssUKplnLgIgDVlGedjY&channelId=UC4NoSzAHBhkKbfa6YPFyVNA&part=snippet,id&order=date&maxResults=20");
@@ -272,8 +273,8 @@
                             <div class="base_heading--underline"></div>
                         </div>
                         <div class="res_btn">
-                            <a  class="res_btn--link res_active" id="blog" >Blogs</a>
-                            <a  class="res_btn--link" id="vlog">Vlogs</a>
+                            <a  class="res_btn--link res_active" onclick="active_blog()" id="blog" >Blogs</a>
+                            <a  class="res_btn--link" onclick="active_vlog()" id="vlog">Vlogs</a>
                         </div>
                     </div>
 					<div id="blog-view">
@@ -328,10 +329,10 @@
                             <!-- <img src="../images/left.svg" alt="" id="gotoPre1" class="left_move">
                             <img src="../images/right.svg" alt="" id="gotoNext1" class="right_move"> -->
                             <div class="left left_move" id="gotoPre1">
-                                <img src="../images/left_svg_arro.svg" alt="">
+                                <img src="../icons/left-arr.svg" alt="">
                             </div>
                             <div class="right right_move" id="gotoNext1">
-                                <img src="../images/right_svg_arro.svg" alt="">
+                                <img src="../icons/right-arr.svg" alt="">
                             </div> 
                         </div>
                     </div>					
@@ -627,6 +628,15 @@
             $( this ).next( ".resources_post" ).show( "fast", showNext );
             });
             });
+        function active_blog(){
+        
+            $('#vlog').removeClass("res_active");
+            $('#blog').addClass("res_active");   
+        }
+        function active_vlog(){
+            $('#blog').removeClass("res_active");
+            $('#vlog').addClass("res_active");   
+        }
         </script>     
 
     <script>

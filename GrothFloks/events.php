@@ -1,4 +1,5 @@
 <?php
+error_reporting(E_ERROR | E_PARSE);
 $json_string = file_get_contents("https://graph.facebook.com/v7.0/1024689994349720/events/?fields=category,is_online,start_time,end_time,place,type,cover,maybe_count,name&access_token=EAADrR9GcnwIBACajKzZALd2vsv5MvEnLQ7lxFVeZCrIOlHT8AuUBt3vPDAroOnv4zSZAqYBYnVXtEAPZBXmnuTU9hDmgKJgCZBaJP4wo1n4znnZAUzAraRw7bAZAWb9ZBYCPLy64wcZBtD7lrojIemBTUYlC8JdZCCZBk79K3CT18NgE0CYJWhjneNR");
 $parsed_json = json_decode($json_string);
 //echo "Total Posts :".count($parsed_json->data);
