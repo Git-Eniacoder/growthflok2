@@ -215,13 +215,10 @@
                         </div>
                     </div>
                     <div class="bottom_bar--right">
-                            <!-- <img src="../images/left.svg" alt="" id="gotoPre1_1" class="left_move">
-                            <img src="../images/right.svg" alt="" id="gotoNext1_1" class="right_move"> -->
-
-                            <div class="left left_move" id="gotoPre1_1">
+                           <div class="left left_move" id="gotoPre">
                                 <img src="../images/left_svg_arro.svg" alt="">
                             </div>
-                            <div class="right right_move"  id="gotoNext1_1">
+                            <div class="right right_move"  id="gotoNext">
                                 <img src="../images/right_svg_arro.svg" alt="">
                             </div> 
                     </div>
@@ -311,10 +308,10 @@
                         <div class="bottom_bar--right">
                             <!-- <img src="../images/left.svg" alt="" id="gotoPre1" class="left_move">
                             <img src="../images/right.svg" alt="" id="gotoNext1" class="right_move"> -->
-                            <div class="left left_move" id="gotoPre1_1">
+                            <div class="left left_move" id="gotoPre1">
                                 <img src="../images/left_svg_arro.svg" alt="">
                             </div>
-                            <div class="right right_move" id="gotoNext1_1">
+                            <div class="right right_move" id="gotoNext1">
                                 <img src="../images/right_svg_arro.svg" alt="">
                             </div> 
                         </div>
@@ -514,10 +511,10 @@
                         <div class="bottom_bar--right">
                             <!-- <img src="../images/left.svg" alt="" id="gotoPre2" class="left_move" >
                             <img src="../images/right.svg" alt="" id="gotoNext2" class="right_move" > -->
-                            <div class="left left_move" id="gotoPre1_1">
+                            <div class="left left_move" id="gotoPre2">
                                 <img src="../images/left_svg_arro.svg" alt="">
                             </div>
-                            <div class="right right_move" id="gotoNext1_1">
+                            <div class="right right_move" id="gotoNext2">
                                 <img src="../images/right_svg_arro.svg" alt="">
                             </div> 
                         </div>
@@ -537,7 +534,7 @@
                 <div class="client_gallery">
                     <div class="client_gallery--left">
                         <!-- <img src="../images/left.svg" id="gotoPre3" alt=""> -->
-                        <div class="left left_move" id="gotoPre1_1">
+                        <div class="left left_move" id="gotoPre3">
                                 <img src="../images/left_svg_arro.svg" alt="">
                         </div>
                     </div>
@@ -566,7 +563,7 @@
 						
                     <div class="client_gallery--right">
                         <!-- <img src="../images/right.svg" id="gotoNext3" alt=""> -->
-                        <div class="right right_move" id="gotoNext1_1">
+                        <div class="right right_move" id="gotoNext3">
                                 <img src="../images/right_svg_arro.svg" alt="">
                         </div> 
                     </div>
