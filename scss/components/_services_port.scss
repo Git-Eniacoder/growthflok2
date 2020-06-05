@@ -23,6 +23,19 @@
 
             .content-sec{
                 margin-bottom: 5rem;
+
+                .img-bx{
+                    display: flex;
+                    justify-content: space-between;
+
+                    span{
+                        font-family: 'Big Shoulders Display', cursive;
+                        font-size: 4.5rem;
+                        font-weight: 500;
+                        color: #EFF2F2;
+                    }
+                
+                }
             
 
 
@@ -65,13 +78,18 @@
     }
 
     &--sub{
-        padding: 8rem 0rem;
-        // height: 30rem;
+
+        // padding: 8rem 0;
+        padding-top: 5rem;
+        padding-bottom: 10rem;
+        height: 30rem;
         background-color: #EFF2F2;
+        border: 1px solid red;
 
         &-content{
             // border: 1px solid red;
             width: 49%;
+            // padding-bottom: 30rem;
 
             a{
                 color: #207A6A;
@@ -113,6 +131,16 @@
     
                 .content-sec{
                     margin-bottom: 5rem;
+
+                    .img-bx{
+                        text-align: center;
+                        border: 1px solid red;
+                        span{
+                            display: none;
+                        }
+                    }
+                   
+                    }
                 
     
     
@@ -174,6 +202,6 @@
     
     }
     
-}
+
 
 

@@ -19,15 +19,47 @@
                 }
 
                 .about-btn{
+                    // @include basic_btn($btn-col, $abt-bck-btn-col, 0, $btn-bor-rad);
+                    // background: url('../images/bar-btn.svg');
+                    // background-size: cover;
+                    // background-repeat: no-repeat;
+                    // background-position-x: .1rem;
+                    // transition: all .3s ease-in-out;
+
                     @include basic_btn($btn-col, $abt-bck-btn-col, 0, $btn-bor-rad);
                     background: url('../images/bar-btn.svg');
-                    background-size: cover;
+                    background-size:150%;
                     background-repeat: no-repeat;
-                    background-position-x: .1rem;
+                    background-position-x: -4rem;
+                    // background-position-y: .2rem;
+                    transition: all .3s ease-in-out;
+                    // background-color: red;
+                    // width: 50%;
+                    
+                }
 
+                .svg-arow{
+                    width: 1.4rem;
+                    margin-left: .2rem;
+                }
 
+                .about-btn:hover{
+                    // // transform: translateY(2px);
+                    // background: url('../images/bar-btn.svg');
+                    // background-size: 200%;
+                    // background-repeat: no-repeat;
+                    // background-position-x: -1rem;
+                    // // background-position-y: -.1rem;
 
-
+                    // transform: translateY(2px);
+                    background: url('../images/bar-btn.svg');
+                    background-size: 210%;
+                    background-repeat: no-repeat;
+                    // background-position-x: .1rem;
+                    backface-visibility: hidden;
+                    // background-position-y: -.1rem;
+                    
+                    
                 }
 
 

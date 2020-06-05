@@ -176,13 +176,25 @@
                 span{
                     padding: 1rem;
                     border-bottom: 1px solid #B7BDBC;
+                    cursor: pointer;
 
                     a{
                         text-decoration: none;
                         @include font_style_big_shoulder($title-font-size-m, $title-font-weight-m, $title-font-line-h, $title-font-col-m);
                         font-size: 3.5rem;
+                        color: #B7BDBC;
 
                     }
+
+                    &:hover{
+                        border-bottom: 1px solid #EB655E;
+
+                        a{
+                            color: #207A6A;
+                        }
+                    }
+
+                    
                     
                 }
 
@@ -233,6 +245,20 @@
 
         }
     }
+
+}
+
+.active_btn{
+
+    span{
+
+    border-bottom: 1px solid #EB655E;
+
+    a{
+        color: #207A6A;
+    }
+
+}
 
 }
 

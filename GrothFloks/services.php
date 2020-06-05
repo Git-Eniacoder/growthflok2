@@ -1,20 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/main.css">
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;400;500;600;700;800&family=Lato:wght@300;400&display=swap"
-        rel="stylesheet">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <title>GrothFloks services</title>
-</head>
-
-<body>
 <?php require('./common/header.php') ?>
     <main>
         <section class="herobar">
@@ -45,7 +28,10 @@
 
                     <div class="services_port--main-content sec1-1">
                         <div class="content-sec">
-                            <img src="../images/events-1.png" alt="" class="ser_item-img">
+                            <div class="img-bx">
+                                <img src="../images/events-1.png" alt="" class="ser_item-img">
+                                <span>01</span>
+                            </div>
                             <h3 class="ser_item-h">Workshops & Meetups</h3>
                             <p class="ser_item-para">There are many variations of passages of Lorem Ipsum available, but
                                 the majority have suffered alteration in some form, by injected humour, or randomised
@@ -54,7 +40,12 @@
                                 of text.</p>
                         </div>
                         <div class="content-sec">
-                            <img src="../images/events-1.png" alt="" class="ser_item-img">
+
+                            <div class="img-bx">
+                                <img src="../images/events-1.png" alt="" class="ser_item-img">
+                                <span>02</span>
+                            </div>
+                            <!-- <img src="../images/events-1.png" alt="" class="ser_item-img"> -->
                             <h3 class="ser_item-h">Workshops & Meetups</h3>
                             <p class="ser_item-para">There are many variations of passages of Lorem Ipsum available, but
                                 the majority have suffered alteration in some form, by injected humour, or randomised
@@ -66,13 +57,17 @@
                     <div class="services_port--main-img sec1-2">
                         <img src="../images/ser-img1.png" alt="" class="ser_img">
                     </div>
+                    
                 </div>
 
 
                 <div class="services_port--main">
                     <div class="services_port--main-content sec2-1">
                         <div class="content-sec">
-                            <img src="../images/events-1.png" alt="" class="ser_item-img">
+                             <div class="img-bx">
+                                <img src="../images/events-1.png" alt="" class="ser_item-img">
+                                <span>03</span>
+                            </div>
                             <h3 class="ser_item-h">Workshops & Meetups</h3>
                             <p class="ser_item-para">There are many variations of passages of Lorem Ipsum available, but
                                 the majority have suffered alteration in some form, by injected humour, or randomised
@@ -81,7 +76,10 @@
                                 of text.</p>
                         </div>
                         <div class="content-sec">
-                            <img src="../images/events-1.png" alt="" class="ser_item-img">
+                            <div class="img-bx">
+                                <img src="../images/events-1.png" alt="" class="ser_item-img">
+                                <span>04</span>
+                            </div>
                             <h3 class="ser_item-h">Workshops & Meetups</h3>
                             <p class="ser_item-para">There are many variations of passages of Lorem Ipsum available, but
                                 the majority have suffered alteration in some form, by injected humour, or randomised
@@ -219,8 +217,14 @@
                             </div>
                         </div>
                         <div class="bottom_bar--right">
-                            <img src="../images/left.svg" alt="" class="left_move">
-                            <img src="../images/right.svg" alt="" class="right_move">
+                            <!-- <img src="../images/left.svg" alt="" class="left_move">
+                            <img src="../images/right.svg" alt="" class="right_move"> -->
+                            <div class="left left_move" id="gotoPre1_1">
+                                <img src="../images/left_svg_arro.svg" alt="">
+                            </div>
+                            <div class="right right_move" id="gotoNext1_1">
+                                <img src="../images/right_svg_arro.svg" alt="">
+                            </div> 
                         </div>
                     </div>
 
@@ -228,10 +232,69 @@
             </div>
         </div>
 
+        <!-- Client -->
+        <section class="client">
+            <div class="container">
+            <div class="client_head">
+                <p>OUR CLIENTS</p>
+            </div>
+
+            <div class="client_gallery">
+                <div class="client_gallery--left">
+                    <!-- <img src="../images/left.svg" id="gotoPre3" alt=""> -->
+                    <div class="left left_move" id="gotoPre1_1">
+                            <img src="../images/left_svg_arro.svg" alt="">
+                    </div>
+                </div>
+            <!-- <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel" data-interval='false'> -->
+                <!-- <div class="carousel-inner "> -->
+                    <!-- <div class="carousel-item active">	 -->
+                    <div class="client_gallery--mid">
+                        <div class="gallery-item"></div>
+                        <div class="gallery-item"></div>
+                        <div class="gallery-item"></div>
+                        <div class="gallery-item"></div>
+                        <div class="gallery-item"></div>
+                    </div>
+                    <!-- </div> -->
+                    <!-- <div class="carousel-item ">	 -->
+                        <!-- <div class="client_gallery--mid">
+                            <div class="gallery-item"></div>
+                            <div class="gallery-item"></div>
+                            <div class="gallery-item"></div>
+                            <div class="gallery-item"></div>
+                            <div class="gallery-item"></div>
+                        </div> -->
+                    <!-- </div> -->
+                <!-- </div>	 -->
+            <!-- </div>	 -->
+                    
+                <div class="client_gallery--right">
+                    <!-- <img src="../images/right.svg" id="gotoNext3" alt=""> -->
+                    <div class="right right_move" id="gotoNext1_1">
+                            <img src="../images/right_svg_arro.svg" alt="">
+                    </div> 
+                </div>
+            </div>
+
+            </div>
+        </section>
+
+
+
+
+
+    </main>
+    <?php require('./common/footer.php') ?>
+    <script>
+    $('.nav-item').removeClass("nav-active");
+    $('#services').addClass("nav-active");
+     </script>
+
 
 
         <!-- Client -->
-        <div class="client">
+        <!-- <div class="client">
             <div class="container">
                 <div class="client_head">
                     <p>OUR CLIENTS</p>
@@ -254,14 +317,4 @@
                 </div>
 
             </div>
-        </div>
- </main>
-    <?php require('./common/footer.php') ?>
-    <script src="../js/app.js"></script>
-	<script>$("#gotoNext").click(() => $("#carouselExampleIndicators").carousel("next"));</script>
-    <script>$("#gotoPre").click(() => $("#carouselExampleIndicators").carousel("prev"));</script>
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
-
-</html>
+        </div> -->
