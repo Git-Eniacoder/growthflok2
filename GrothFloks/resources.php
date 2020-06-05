@@ -31,10 +31,10 @@
         <section class="blog_post">
             <div class="container">
                 <div class="blog_post--toggel">
-                    <div id="blog" class="blog_post--toggel-btn">
+                    <div id="blog" onclick="active_blog()" class="blog_post--toggel-btn res_active">
                         <span><a>Blogs</a></span>
                     </div>
-                    <div id="vlog" class="blog_post--toggel-btn">
+                    <div id="vlog" onclick="active_vlog()" class="blog_post--toggel-btn">
                         <span><a>Vlogs</a></span>
                     </div>
                 </div>
@@ -143,6 +143,14 @@
 <script>
     $('.nav-item').removeClass("nav-active");
     $('#resources').addClass("nav-active");
+    function active_blog(){
+        $('#vlog').removeClass("res_active");
+        $('#blog').addClass("res_active");   
+    }
+    function active_vlog(){
+        $('#blog').removeClass("res_active");
+        $('#vlog').addClass("res_active");   
+    }
 </script>
 
 
