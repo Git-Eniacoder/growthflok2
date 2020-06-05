@@ -170,25 +170,25 @@
                         <div class="carousel-item active">
 							<div class="services_main--comp">
 								<div class="services_main--comp-item">
-									<img src="../images/events-1.png" alt="" class="ser_item-img">
+									<img src="../icons/events.svg" alt="" class="ser_item-img">
 									<h3 class="ser_item-h">Workshops & Meetups</h3>
 									<p class="ser_item-para">Cupidatat quis nisi Lorem et occaecat qui mollit quis fugiat aliqua
 										occaecat</p>
 								</div>
 								<div class="services_main--comp-item">
-									<img src="../images/events-1.png" alt="" class="ser_item-img">
+									<img src="../icons/community.svg" alt="" class="ser_item-img">
 									<h3 class="ser_item-h">Community Engagement</h3>
 									<p class="ser_item-para">Tllamco adipisicing ea nostrud magna proident sunt consequat do
 										anim culpa in</p>
 								</div>
 								<div class="services_main--comp-item">
-									<img src="../images/events-1.png" alt="" class="ser_item-img">
+									<img src="../icons/hackathon.svg" alt="" class="ser_item-img">
 									<h3 class="ser_item-h">Growth Hackathones</h3>
 									<p class="ser_item-para">Sunt sit ex excepteur id do id laborum do minim aliqua excepteur
 										laborum</p>
 								</div>
 								<div class="services_main--comp-item">
-									<img src="../images/events-1.png" alt="" class="ser_item-img">
+									<img src="../icons/roadmap.svg" alt="" class="ser_item-img">
 									<h3 class="ser_item-h">Growth Roadmap</h3>
 									<p class="ser_item-para">Irure eu velit proident dolore quis deserunt cupidatat amet ea sit
 										eiusmod</p>
@@ -235,10 +235,10 @@
                     </div>
                     <div class="bottom_bar--right">
                            <div class="left left_move" id="gotoPre">
-                                <img src="../images/left_svg_arro.svg" alt="">
+                                <img src="../icons/left-arr.svg" alt="">
                             </div>
                             <div class="right right_move"  id="gotoNext">
-                                <img src="../images/right_svg_arro.svg" alt="">
+                                <img src="../icons/right-arr.svg" alt="">
                             </div> 
                     </div>
             </div>
@@ -375,10 +375,10 @@
                         </div>
                         <div class="bottom_bar--right">
                             <div class="left left_move" id="gotoPre1_1">
-                                <img src="../images/left_svg_arro.svg" alt="">
+                                <img src="../icons/left-arr.svg" alt="">
                             </div>
                             <div class="right right_move" id="gotoNext1_1">
-                                <img src="../images/right_svg_arro.svg" alt="">
+                                <img src="../icons/right-arr.svg" alt="">
                             </div> 
                         </div>
                     </div>						
@@ -531,10 +531,10 @@
                             <!-- <img src="../images/left.svg" alt="" id="gotoPre2" class="left_move" >
                             <img src="../images/right.svg" alt="" id="gotoNext2" class="right_move" > -->
                             <div class="left left_move" id="gotoPre2">
-                                <img src="../images/left_svg_arro.svg" alt="">
+                                <img src="../icons/left-arr.svg" alt="">
                             </div>
                             <div class="right right_move" id="gotoNext2">
-                                <img src="../images/right_svg_arro.svg" alt="">
+                                <img src="../icons/right-arr.svg" alt="">
                             </div> 
                         </div>
                     </div>
@@ -554,7 +554,7 @@
                     <div class="client_gallery--left">
                         <!-- <img src="../images/left.svg" id="gotoPre3" alt=""> -->
                         <div class="left left_move" id="gotoPre3">
-                                <img src="../images/left_svg_arro.svg" alt="">
+                                <img src="../icons/left-arr.svg" alt="">
                         </div>
                     </div>
 				<!-- <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel" data-interval='false'> -->
@@ -583,7 +583,7 @@
                     <div class="client_gallery--right">
                         <!-- <img src="../images/right.svg" id="gotoNext3" alt=""> -->
                         <div class="right right_move" id="gotoNext3">
-                                <img src="../images/right_svg_arro.svg" alt="">
+                                <img src="../icons/right-arr.svg" alt="">
                         </div> 
                     </div>
                 </div>

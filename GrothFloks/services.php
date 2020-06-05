@@ -118,18 +118,26 @@
                 <div class="container">
                     <div class="division-2">
                         <div class="services_port--sub-content">
-                            <img src="../images/events-1.png" alt="" class="ser_item-img">
+                            <!-- <img src="../images/events-1.png" alt="" class="ser_item-img"> -->
+                            <div class="img-bx">
+                                <img src="../images/events-1.png" alt="" class="ser_item-img">
+                                <span>05</span>
+                            </div>
                             <h3 class="ser_item-h">Workshops & Meetups</h3>
                             <p class="ser_item-para">There are many variations of passages of Lorem Ipsum available, but
                                 the majority have suffered alteration in some form, by injected humour.</p>
-                            <a href="">See All Vlogs <i></i></a>
+                            <a href="">See All Vlogs <img src="../icons/go-arr.svg" alt="" class="go-arr"></a>
                         </div>
                         <div class="services_port--sub-content">
-                            <img src="../images/events-1.png" alt="" class="ser_item-img">
+                            <!-- <img src="../images/events-1.png" alt="" class="ser_item-img"> -->
+                            <div class="img-bx">
+                                <img src="../images/events-1.png" alt="" class="ser_item-img">
+                                <span>06</span>
+                            </div>
                             <h3 class="ser_item-h">Workshops & Meetups</h3>
                             <p class="ser_item-para">There are many variations of passages of Lorem Ipsum available, but
                                 the majority have suffered alteration in some form, by injected humour.</p>
-                            <a href="">See All Blogs <i></i></a>
+                            <a href="">See All Blogs <img src="../icons/go-arr.svg" alt="" class="go-arr"></a>
                         </div>
                     </div>
                 </div>
@@ -237,10 +245,10 @@
                             <!-- <img src="../images/left.svg" alt="" class="left_move">
                             <img src="../images/right.svg" alt="" class="right_move"> -->
                             <div class="left left_move" id="gotoPre1_1">
-                                <img src="../images/left_svg_arro.svg" alt="">
+                                <img src="../icons/left-arr.svg" alt="">
                             </div>
                             <div class="right right_move" id="gotoNext1_1">
-                                <img src="../images/right_svg_arro.svg" alt="">
+                                <img src="../icons/right-arr.svg" alt="">
                             </div> 
                         </div>
                     </div>
@@ -260,7 +268,7 @@
                 <div class="client_gallery--left">
                     <!-- <img src="../images/left.svg" id="gotoPre3" alt=""> -->
                     <div class="left left_move" id="gotoPre1_1">
-                            <img src="../images/left_svg_arro.svg" alt="">
+                            <img src="../icons/left-arr.svg" alt="">
                     </div>
                 </div>
             <!-- <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel" data-interval='false'> -->
@@ -289,7 +297,7 @@
                 <div class="client_gallery--right">
                     <!-- <img src="../images/right.svg" id="gotoNext3" alt=""> -->
                     <div class="right right_move" id="gotoNext1_1">
-                            <img src="../images/right_svg_arro.svg" alt="">
+                            <img src="../icons/right-arr.svg" alt="">
                     </div> 
                 </div>
             </div>

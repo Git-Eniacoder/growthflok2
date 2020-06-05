@@ -59,7 +59,7 @@
                     <div class="about_calender_main--left">
                         <!-- <img src="../images/left.svg" id="gotoPre" alt="" class="left_move"> -->
                         <div class="left left_move" id="gotoPre">
-                                <img src="../images/left_svg_arro.svg" alt="">
+                                <img src="../icons/left-arr.svg" alt="">
                         </div>
                     </div>
 				<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval='false'>
@@ -146,7 +146,7 @@
                     <div class="about_calender_main--right">
                         <!-- <img src="../images/right.svg" id="gotoNext" alt="" class="left_right"> -->
                         <div class="right right_move" id="gotoNext"s>
-                                <img src="../images/right_svg_arro.svg" alt="">
+                                <img src="../icons/right-arr.svg" alt="">
                         </div> 
                     </div>
                 </div>
@@ -374,10 +374,10 @@
                             <!-- <img src="../images/left.svg" alt="" id="gotoPre2" class="left_move" >
                             <img src="../images/right.svg" alt="" id="gotoNext2" class="right_move" > -->
                             <div class="left left_move" id="gotoPre1_1">
-                                <img src="../images/left_svg_arro.svg" alt="">
+                                <img src="../icons/left-arr.svg" alt="">
                             </div>
                             <div class="right right_move" id="gotoNext1_1">
-                                <img src="../images/right_svg_arro.svg" alt="">
+                                <img src="../icons/right-arr.svg" alt="">
                             </div> 
                         </div>
                 </div>

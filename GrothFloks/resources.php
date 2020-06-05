@@ -83,7 +83,7 @@
                 <div class="pagination_main">
                     <div class="pagination_main--left">
                          <div class="left left_move" id="gotoPre1_1">
-                                <img src="../images/left_svg_arro.svg" alt="">
+                                <img src="../icons/left-arr.svg" alt="">
                         </div>
                     </div>
                     <div class="pagination_main--mid">
@@ -104,7 +104,7 @@
                     </div>
                     <div class="pagination_main--right">
                         <div class="right right_move" id="gotoNext1_1">
-                                <img src="../images/right_svg_arro.svg" alt="">
+                                <img src="../icons/right-arr.svg" alt="">
                         </div> 
                     </div>
                 </div>

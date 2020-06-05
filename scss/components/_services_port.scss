@@ -24,18 +24,18 @@
             .content-sec{
                 margin-bottom: 5rem;
 
-                .img-bx{
-                    display: flex;
-                    justify-content: space-between;
+                // .img-bx{
+                //     display: flex;
+                //     justify-content: space-between;
 
-                    span{
-                        font-family: 'Big Shoulders Display', cursive;
-                        font-size: 4.5rem;
-                        font-weight: 500;
-                        color: #EFF2F2;
-                    }
+                //     span{
+                //         font-family: 'Big Shoulders Display', cursive;
+                //         font-size: 4.5rem;
+                //         font-weight: 500;
+                //         color: #EFF2F2;
+                //     }
                 
-                }
+                // }
             
 
 
@@ -84,16 +84,36 @@
         padding-bottom: 10rem;
         height: 30rem;
         background-color: #EFF2F2;
-        border: 1px solid red;
+        // border: 1px solid red;
 
         &-content{
             // border: 1px solid red;
-            width: 49%;
+            width: 47%;
             // padding-bottom: 30rem;
 
             a{
                 color: #207A6A;
+                // text-underline-position: below;
+
+                .go-arr{
+                    width: 5%;
+                    padding-left: .3rem;
+
+                }
+
+                &:hover{
+                    color: #207A6A;;
+                }
             }
+
+            .img-bx{
+                
+                span{
+                    color: #E0E0E0;
+                }
+            }
+
+            
         }
         &-banner{
             // border: 1px solid red;
@@ -103,6 +123,20 @@
 
 }
 
+
+
+.img-bx{
+    display: flex;
+    justify-content: space-between;
+
+    span{
+        font-family: 'Big Shoulders Display', cursive;
+        font-size: 4.5rem;
+        font-weight: 500;
+        color: #EFF2F2;
+    }
+
+}
 
 
 @media only screen and (max-width: 700px){
@@ -131,19 +165,38 @@
     
                 .content-sec{
                     margin-bottom: 5rem;
+                    // text-align: center;
+
+                    // .img-bx{
+                        
+                    //     width: 20%;
+                    //     margin: 0 auto;
+                    //     border: 1px solid red;
+                    //     span{
+                    //         display: none;
+                    //     }
+                    // }
 
                     .img-bx{
-                        text-align: center;
-                        border: 1px solid red;
+                        // border: 1px solid red;
+                        width: 10rem;
+                        height: 10rem;
+                        margin: 0 auto;
+                        position: relative;
+    
+                        img {
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                        }
+                    
                         span{
                             display: none;
                         }
                     }
                    
-                    }
-                
-    
-    
+                    
                     .ser_item-img{
                         width: 6rem;
                         margin-bottom: $base-margin-m;
@@ -164,7 +217,6 @@
                 }
     
       
-    
             }
     
             &-img{
@@ -184,15 +236,35 @@
 
         &--sub{
             // border: 1px solid red;
+            height:68rem;
             .division-2{
                 flex-direction: column;
-            }
+                }
     
             &-content{
                 // border: 1px solid red;
                 width: 98%;
                 text-align: center;
                 margin: 2rem 0;
+
+                .img-bx{
+                    // border: 1px solid red;
+                    width: 10rem;
+                    height: 10rem;
+                    margin: 0 auto;
+                    position: relative;
+
+                    img {
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                    }
+                
+                    span{
+                        display: none;
+                    }
+                }
     
             }
 
@@ -204,4 +276,4 @@
     
 
 
-
+}
