@@ -1,3 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;400;500;600;700;800&family=Lato:wght@300;400&display=swap"
+        rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>GrothFloks services</title>
+</head>
+
+<body>
 <?php require('./common/header.php') ?>
     <!-- Main -->
     <main>
@@ -96,71 +113,11 @@
         <!-- End Pagination -->
 
     </main>
+    <?php require('./common/footer.php') ?>
+    </body>
+</html>
+    
 
-     <!-- Footer Section -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer_main">
-                <div class="footer_main--head">
-                    <div class="footer_main--head-sec f-sec-1">
-                        <div class="head">
-                            <div class="head_logo">
-                                <img src="../details/logo.png" alt="" class="logo">
-                            </div>
-                            <div class="head_icons">
-                                <a href=""><img src="../images/facebook.png" alt="" class="s-icon"></a>
-                                <a href=""><img src="../images/instagram.png" alt="" class="s-icon"></a>
-                                <a href=""><img src="../images/twitter.png" alt="" class="s-icon"></a>
-                                <a href=""><img src="../images/linkedin.png" alt="" class="s-icon"></a>
-                            </div>
-                        </div>
-                        <div class="bottom">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <p>+ 91 9986 440124</p>
-                            <p>contactus@growtfolks.com</p>
-                        </div>
-
-                    </div>
-                    <div class="footer_main--head-sec f-sec-2">
-                        <div class="head">
-                           <h3>Quick Links</h3>
-                        </div>
-                        <div class="bottom">
-                            <ul>
-                                <li><a href="">Services</a></li>
-                                <li><a href="">Events</a></li>
-                                <li><a href="">About Us</a></li>
-                                <li><a href="">Let’s Collab</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="footer_main--head-sec f-sec-1">
-                        <div class="head">
-                            <h3>Newsletter</h3>
-                        </div>
-                        <div class="bottom">
-                            <div class="bottom">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                <div class="newsletter-box">
-                                    <input type="text" class="newsletter-inp" placeholder="jhoneDoe@gmail.com">
-                                    <button  class="newsletter-btn">Get NewsLetter</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer_main--bottom">
-                    <div class="footer_main--bottom-design">
-
-                    </div>
-                    <div class="footer_main--bottom-design">
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-<script src="../js/app.js"></script>   
 <script>
  $('#vlog-view').hide();
     $(document).ready(function(){

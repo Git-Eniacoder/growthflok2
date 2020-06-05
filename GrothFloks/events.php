@@ -65,33 +65,8 @@ for($i=0; $i<count($parsed_json->data); $i++){
 <body>
 
     <!-- Header Section -->
-    <header class="header">
-        <div class="container">
-            <div class="header_main">
-                <div class="header_main--logo">
-                    <a href="#"><img src="../details/logo.png" alt="GrowthFolks" class="logo"></a>
-                </div>
-                <nav class="header_main--nav">
-                    <a href="index.php">Home</a>
-                    <a href="about.php">About Us</a>
-                    <a href="services.php">Services</a>
-                    <a href="resources.php">Resources</a>
-                    <a href="events.php">Events</a>
-                    <a href="contact.php">Get In Touch</a>
-                    <a href="" class="h-btn">Let's Collab</a>
-                </nav>
-                <div class="header_main--burger">
-                    <div class="header_main--burger-menu"></div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-
-
-
-
-    <!-- Main -->
+    <?php require('./common/header.php') ?>
+<!-- Main -->
     <main>
 
         <section class="herobar">
@@ -217,80 +192,7 @@ for($i=0; $i<count($parsed_json->data); $i++){
             </div>
         </section>
         <!-- End Pagination -->
-
-
-
-
-
     </main>
-
-
-
-
-    <!-- Footer Section -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer_main">
-                <div class="footer_main--head">
-                    <div class="footer_main--head-sec f-sec-1">
-                        <div class="head">
-                            <div class="head_logo">
-                                <img src="../details/logo.png" alt="" class="logo">
-                            </div>
-                            <div class="head_icons">
-                                <a href=""><img src="../images/facebook.png" alt="" class="s-icon"></a>
-                                <a href=""><img src="../images/instagram.png" alt="" class="s-icon"></a>
-                                <a href=""><img src="../images/twitter.png" alt="" class="s-icon"></a>
-                                <a href=""><img src="../images/linkedin.png" alt="" class="s-icon"></a>
-                            </div>
-                        </div>
-                        <div class="bottom">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <p>+ 91 9986 440124</p>
-                            <p>contactus@growtfolks.com</p>
-                        </div>
-
-                    </div>
-                    <div class="footer_main--head-sec f-sec-2">
-                        <div class="head">
-                            <h3>Quick Links</h3>
-                        </div>
-                        <div class="bottom">
-                            <ul>
-                                <li><a href="">Services</a></li>
-                                <li><a href="">Events</a></li>
-                                <li><a href="">About Us</a></li>
-                                <li><a href="">Let’s Collab</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="footer_main--head-sec f-sec-1">
-                        <div class="head">
-                            <h3>Newsletter</h3>
-                        </div>
-                        <div class="bottom">
-                            <div class="bottom">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                <div class="newsletter-box">
-                                    <input type="text" class="newsletter-inp" placeholder="jhoneDoe@gmail.com">
-                                    <button class="newsletter-btn">Get NewsLetter</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer_main--bottom">
-                    <div class="footer_main--bottom-design">
-
-                    </div>
-                    <div class="footer_main--bottom-design">
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <script src="../js/app.js"></script>
-</body>
-
+<?php require('./common/footer.php') ?>
+    </body>
 </html>
