@@ -58,16 +58,16 @@
 
                                 <div class="tag">
                                     <label for="">Name</label>
-                                    <input name="name" type="text">
+                                    <input name="name" type="text" required>
                                 </div>
                                 <div class="email">
                                     <div class="tag tag-1">
                                         <label for="">Email Address</label>
-                                        <input name="email" type="text">
+                                        <input name="email" type="email" required>
                                     </div>
                                     <div class="tag tag-2">
                                         <label for="">Mobile</label>
-                                        <input name="mobile" type="text">
+                                        <input name="mobile" type="text" required>
                                     </div>
                                 </div>
                                 <div class="tag">
@@ -79,7 +79,7 @@
                                 </div>
                                 <div class="tag">
                                     <label for="">Description</label>
-                                    <textarea name="description" id="" cols="30" rows="4"></textarea>
+                                    <textarea name="description" id="" cols="30" rows="4" required></textarea>
                                 </div>
                                 <div class="tag">
                                     <button class="btn">Book Now</button>
