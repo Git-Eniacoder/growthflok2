@@ -1305,7 +1305,7 @@ body {
   border: 1px solid #207A6A;
 }
 
-.resources_main--content .res_btn--link:hover {
+.resources_main--content .res_btn--link:active {
   background: #207A6A;
   color: #fff;
 }
@@ -1351,7 +1351,15 @@ body {
 
 .res_active {
   background-color: #207A6A !important;
-  color: #fff;
+  color: #fff !important;
+}
+
+.res_blog_active span {
+  border-bottom: 1px solid #EB655E !important;
+}
+
+.res_blog_active span a {
+  color: #207A6A !important;
 }
 
 @media only screen and (max-width: 700px) {
@@ -2016,28 +2024,21 @@ body {
 }
 
 .contact {
-  border: 1px solid red;
   min-height: 50rem;
 }
 
 .contact_main {
-  border: 1px solid red;
   margin: 5rem 0;
   display: flex;
   justify-content: space-around;
 }
 
 .contact_main--content {
-  border: 1px solid red;
   width: 47%;
 }
 
 .contact_main--content p {
   color: #2E3332;
-}
-
-.contact_main--content .list {
-  border: 1px solid red;
 }
 
 .contact_main--content .list--item {
@@ -2051,17 +2052,14 @@ body {
   height: .4rem;
   border-radius: 2px;
   margin-right: 2rem;
-  border: 1px solid red;
 }
 
 .contact_main--content .list--item p {
   display: inline-block;
-  border: 1px solid red;
   padding-top: 1.8rem;
 }
 
 .contact_main--form {
-  border: 1px solid red;
   width: 45%;
   background: #FAFCFC;
   border: 1px solid #E0E0E0;

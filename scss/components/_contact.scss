@@ -1,15 +1,15 @@
 .contact{
-    border: 1px solid red;
+    // border: 1px solid red;
     min-height: 50rem;
 
     &_main{
-        border: 1px solid red;
+        // border: 1px solid red;
         margin: 5rem 0;
         display: flex;
         justify-content: space-around;
 
         &--content{
-            border: 1px solid red;
+            // border: 1px solid red;
             width: 47%;
 
             p{
@@ -17,7 +17,7 @@
             }
 
             .list{
-                border: 1px solid red;
+                // border: 1px solid red;
                 
                 &--item{
                     display: flex;
@@ -29,12 +29,12 @@
                         height: .4rem;
                         border-radius: 2px;
                         margin-right: 2rem;
-                        border: 1px solid red;
+                        // border: 1px solid red;
                     }
 
                     p{
                         display: inline-block;
-                        border: 1px solid red;
+                        // border: 1px solid red;
                         padding-top: 1.8rem;
                     }
 
@@ -46,7 +46,7 @@
         }
 
         &--form{
-            border: 1px solid red;
+            // border: 1px solid red;
             width: 45%;
             background: #FAFCFC;
             border: 1px solid #E0E0E0;

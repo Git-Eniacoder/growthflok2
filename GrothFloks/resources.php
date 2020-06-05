@@ -32,7 +32,7 @@
         <section class="blog_post">
             <div class="container">
                 <div class="blog_post--toggel">
-                    <div id="blog" onclick="active_blog()" class="blog_post--toggel-btn res_active">
+                    <div id="blog" onclick="active_blog()" class="blog_post--toggel-btn res_blog_active">
                         <span><a>Blogs</a></span>
                     </div>
                     <div id="vlog" onclick="active_vlog()" class="blog_post--toggel-btn">
@@ -145,12 +145,12 @@
     $('.nav-item').removeClass("nav-active");
     $('#resources').addClass("nav-active");
     function active_blog(){
-        $('#vlog').removeClass("res_active");
-        $('#blog').addClass("res_active");   
+        $('#vlog').removeClass("res_blog_active");
+        $('#blog').addClass("res_blog_active");   
     }
     function active_vlog(){
-        $('#blog').removeClass("res_active");
-        $('#vlog').addClass("res_active");   
+        $('#blog').removeClass("res_blog_active");
+        $('#vlog').addClass("res_blog_active");   
     }
 </script>
 

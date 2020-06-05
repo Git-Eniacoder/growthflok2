@@ -35,15 +35,15 @@
 
 
 
-                &--link:hover{
-                    background: #207A6A;
-                    color: #fff;
-                }
-
-                // &--link:active{
+                // &--link:hover{
                 //     background: #207A6A;
                 //     color: #fff;
                 // }
+
+                &--link:active{
+                    background: #207A6A;
+                    color: #fff;
+                }
 
 
             }
@@ -103,6 +103,19 @@
 .res_active{
     background-color: #207A6A !important;
     color: #fff !important;
+}
+
+.res_blog_active{
+
+    span{
+
+    border-bottom: 1px solid #EB655E !important;
+
+        a{
+            color: #207A6A !important;
+        }
+
+    }
 }
 
 
