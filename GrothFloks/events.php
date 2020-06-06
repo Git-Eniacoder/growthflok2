@@ -1,4 +1,5 @@
 <?php
+error_reporting(E_ERROR | E_PARSE);
 $json_string = file_get_contents("https://graph.facebook.com/v7.0/1024689994349720/events/?fields=category,is_online,start_time,end_time,place,type,cover,maybe_count,name&access_token=EAADrR9GcnwIBACajKzZALd2vsv5MvEnLQ7lxFVeZCrIOlHT8AuUBt3vPDAroOnv4zSZAqYBYnVXtEAPZBXmnuTU9hDmgKJgCZBaJP4wo1n4znnZAUzAraRw7bAZAWb9ZBYCPLy64wcZBtD7lrojIemBTUYlC8JdZCCZBk79K3CT18NgE0CYJWhjneNR");
 $parsed_json = json_decode($json_string);
 //echo "Total Posts :".count($parsed_json->data);
@@ -55,6 +56,7 @@ for($i=0; $i<count($parsed_json->data); $i++){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/main.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <link
         href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;400;500;600;700;800&family=Lato:wght@300;400&display=swap"
         rel="stylesheet">
@@ -65,32 +67,7 @@ for($i=0; $i<count($parsed_json->data); $i++){
 <body>
 
     <!-- Header Section -->
-    <header class="header">
-        <div class="container">
-            <div class="header_main">
-                <div class="header_main--logo">
-                    <a href="#"><img src="../details/logo.png" alt="GrowthFolks" class="logo"></a>
-                </div>
-                <nav class="header_main--nav">
-                    <a href="index.php">Home</a>
-                    <a href="about.php">About Us</a>
-                    <a href="services.php">Services</a>
-                    <a href="resources.php">Resources</a>
-                    <a href="events.php">Events</a>
-                    <a href="contact.php">Get In Touch</a>
-                    <a href="" class="h-btn">Let's Collab</a>
-                </nav>
-                <div class="header_main--burger">
-                    <div class="header_main--burger-menu"></div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-
-
-
-
+    <?php require('./common/header.php') ?>
     <!-- Main -->
     <main>
 
@@ -105,7 +82,7 @@ for($i=0; $i<count($parsed_json->data); $i++){
         <section class="blog_post">
             <div class="container">
                 <div class="blog_post--toggel">
-                    <div class="blog_post--toggel-btn">
+                    <div class="blog_post--toggel-btn active_btn">
                         <span><a href="">All</a></span>
                     </div>
                     <div class="blog_post--toggel-btn">
@@ -188,7 +165,9 @@ for($i=0; $i<count($parsed_json->data); $i++){
             <div class="container">
                 <div class="pagination_main">
                     <div class="pagination_main--left">
-                        <img src="../images/left.svg" alt="">
+                        <div class="left left_move" id="gotoPre1_1">
+                                <img src="../icons/left-arr.svg" alt="">
+                        </div>
                     </div>
                     <div class="pagination_main--mid">
 
@@ -207,86 +186,20 @@ for($i=0; $i<count($parsed_json->data); $i++){
                             
                     </div>
                     <div class="pagination_main--right">
-                        <img src="../images/right.svg" alt="">
+                        <div class="right right_move" id="gotoNext1_1">
+                                <img src="../icons/right-arr.svg" alt="">
+                        </div> 
                     </div>
                 </div>
             </div>
         </section>
         <!-- End Pagination -->
-
-
-
-
-
     </main>
-
-
-
-
-    <!-- Footer Section -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer_main">
-                <div class="footer_main--head">
-                    <div class="footer_main--head-sec f-sec-1">
-                        <div class="head">
-                            <div class="head_logo">
-                                <img src="../details/logo.png" alt="" class="logo">
-                            </div>
-                            <div class="head_icons">
-                                <a href=""><img src="../images/facebook.png" alt="" class="s-icon"></a>
-                                <a href=""><img src="../images/instagram.png" alt="" class="s-icon"></a>
-                                <a href=""><img src="../images/twitter.png" alt="" class="s-icon"></a>
-                                <a href=""><img src="../images/linkedin.png" alt="" class="s-icon"></a>
-                            </div>
-                        </div>
-                        <div class="bottom">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <p>+ 91 9986 440124</p>
-                            <p>contactus@growtfolks.com</p>
-                        </div>
-
-                    </div>
-                    <div class="footer_main--head-sec f-sec-2">
-                        <div class="head">
-                            <h3>Quick Links</h3>
-                        </div>
-                        <div class="bottom">
-                            <ul>
-                                <li><a href="">Services</a></li>
-                                <li><a href="">Events</a></li>
-                                <li><a href="">About Us</a></li>
-                                <li><a href="">Let’s Collab</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="footer_main--head-sec f-sec-1">
-                        <div class="head">
-                            <h3>Newsletter</h3>
-                        </div>
-                        <div class="bottom">
-                            <div class="bottom">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                <div class="newsletter-box">
-                                    <input type="text" class="newsletter-inp" placeholder="jhoneDoe@gmail.com">
-                                    <button class="newsletter-btn">Get NewsLetter</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer_main--bottom">
-                    <div class="footer_main--bottom-design">
-
-                    </div>
-                    <div class="footer_main--bottom-design">
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <script src="../js/app.js"></script>
+   
+<?php require('./common/footer.php') ?>
+<script>
+    $('.nav-item').removeClass("nav-active");
+    $('#events').addClass("nav-active");
+ </script>
 </body>
-
 </html>

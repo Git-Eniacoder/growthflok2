@@ -1,5 +1,5 @@
-<?php require('./common/header.php') ?>
 <?php
+    error_reporting(E_ERROR | E_PARSE);
     $json_string = file_get_contents("https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/growth-folks");
     $parsed_json['blog'] = json_decode($json_string);
     $json_string = file_get_contents("https://www.googleapis.com/youtube/v3/search?key=AIzaSyCE5GTdzhiouSn2ssUKplnLgIgDVlGedjY&channelId=UC4NoSzAHBhkKbfa6YPFyVNA&part=snippet,id&order=date&maxResults=20");
@@ -7,6 +7,26 @@
     // echo "<pre>";
     // print_r($parsed_json['blog']);
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;400;500;600;700;800&family=Lato:wght@300;400&display=swap"
+        rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>GrothFloks services</title>
+</head>
+
+<body>
+
+<?php require('./common/header.php') ?>
     <!-- Main Section -->
     <main>
         <section class="hero">
@@ -52,7 +72,7 @@
                                 nemo nostrum! Ipsum tempore totam illo quasi ipsam rerum, provident aliquam deleniti
                                 saepe minus tempora assumenda culpa ex laudantium blanditiis voluptatibus! Corrupti,
                                 similique iste. Officiis, delectus accusamus?</p>
-                            <a href="#" class="about-btn">Know More About Us</a>
+                            <a href="#" class="about-btn">Know More About Us <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24.08 23.88" class="svg-arow"><defs><style>.cls-1{fill:#fff; width: 2%}</style></defs><title>arrow</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M24.08,18.83V1.63A1.42,1.42,0,0,0,23.57.54,1.43,1.43,0,0,0,22.45,0H5.25a1.43,1.43,0,1,0,0,2.87H19L.42,21.43a1.43,1.43,0,0,0,2,2L21.21,4.69V18.83a1.43,1.43,0,1,0,2.87,0Z"/></g></g></svg></a>
                         </div>
                         <div class="about_main--detail-show">
                             <div class="show_item">
@@ -151,25 +171,25 @@
                         <div class="carousel-item active">
 							<div class="services_main--comp">
 								<div class="services_main--comp-item">
-									<img src="../images/events-1.png" alt="" class="ser_item-img">
+									<img src="../icons/events.svg" alt="" class="ser_item-img">
 									<h3 class="ser_item-h">Workshops & Meetups</h3>
 									<p class="ser_item-para">Cupidatat quis nisi Lorem et occaecat qui mollit quis fugiat aliqua
 										occaecat</p>
 								</div>
 								<div class="services_main--comp-item">
-									<img src="../images/events-1.png" alt="" class="ser_item-img">
+									<img src="../icons/community.svg" alt="" class="ser_item-img">
 									<h3 class="ser_item-h">Community Engagement</h3>
 									<p class="ser_item-para">Tllamco adipisicing ea nostrud magna proident sunt consequat do
 										anim culpa in</p>
 								</div>
 								<div class="services_main--comp-item">
-									<img src="../images/events-1.png" alt="" class="ser_item-img">
+									<img src="../icons/hackathon.svg" alt="" class="ser_item-img">
 									<h3 class="ser_item-h">Growth Hackathones</h3>
 									<p class="ser_item-para">Sunt sit ex excepteur id do id laborum do minim aliqua excepteur
 										laborum</p>
 								</div>
 								<div class="services_main--comp-item">
-									<img src="../images/events-1.png" alt="" class="ser_item-img">
+									<img src="../icons/roadmap.svg" alt="" class="ser_item-img">
 									<h3 class="ser_item-h">Growth Roadmap</h3>
 									<p class="ser_item-para">Irure eu velit proident dolore quis deserunt cupidatat amet ea sit
 										eiusmod</p>
@@ -211,14 +231,17 @@
                 <div class="bottom_bar">
                     <div class="bottom_bar--left">
                         <div class="page-btn">
-                            <a href="">Explore Our Services</a>
+                            <a href="">Explore Our Services <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24.08 23.88" class="svg-arow"><defs><style>.cls-1{fill:#fff; width: 2%}</style></defs><title>arrow</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M24.08,18.83V1.63A1.42,1.42,0,0,0,23.57.54,1.43,1.43,0,0,0,22.45,0H5.25a1.43,1.43,0,1,0,0,2.87H19L.42,21.43a1.43,1.43,0,0,0,2,2L21.21,4.69V18.83a1.43,1.43,0,1,0,2.87,0Z"/></g></g></svg></a>
                         </div>
                     </div>
                     <div class="bottom_bar--right">
-                        <img src="../images/left.svg" alt=""  id="gotoPre" class="left_move">
-                        <img src="../images/right.svg" alt=""  id="gotoNext" class="right_move">
+                           <div class="left left_move" id="gotoPre">
+                                <img src="../icons/left-arr.svg" alt="">
+                            </div>
+                            <div class="right right_move"  id="gotoNext">
+                                <img src="../icons/right-arr.svg" alt="">
+                            </div> 
                     </div>
-                </div>
             </div>
         </section>
 
@@ -250,8 +273,8 @@
                             <div class="base_heading--underline"></div>
                         </div>
                         <div class="res_btn">
-                            <a  class="res_btn--link" id="blog" >Blogs</a>
-                            <a  class="res_btn--link" id="vlog">Vlogs</a>
+                            <a  class="res_btn--link res_active" onclick="active_blog()" id="blog" >Blogs</a>
+                            <a  class="res_btn--link" onclick="active_vlog()" id="vlog">Vlogs</a>
                         </div>
                     </div>
 					<div id="blog-view">
@@ -299,12 +322,18 @@
 					<div class="bottom_bar">
                         <div class="bottom_bar--left">
                             <div class="page-btn">
-                                <a href="">See All Blogs</a>
+                                <a href="">See All Blogs <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24.08 23.88" class="svg-arow"><defs><style>.cls-1{fill:#fff; width: 2%}</style></defs><title>arrow</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M24.08,18.83V1.63A1.42,1.42,0,0,0,23.57.54,1.43,1.43,0,0,0,22.45,0H5.25a1.43,1.43,0,1,0,0,2.87H19L.42,21.43a1.43,1.43,0,0,0,2,2L21.21,4.69V18.83a1.43,1.43,0,1,0,2.87,0Z"/></g></g></svg></a>
                             </div>
                         </div>
                         <div class="bottom_bar--right">
-                            <img src="../images/left.svg" alt="" id="gotoPre1" class="left_move">
-                            <img src="../images/right.svg" alt="" id="gotoNext1" class="right_move">
+                            <!-- <img src="../images/left.svg" alt="" id="gotoPre1" class="left_move">
+                            <img src="../images/right.svg" alt="" id="gotoNext1" class="right_move"> -->
+                            <div class="left left_move" id="gotoPre1">
+                                <img src="../icons/left-arr.svg" alt="">
+                            </div>
+                            <div class="right right_move" id="gotoNext1">
+                                <img src="../icons/right-arr.svg" alt="">
+                            </div> 
                         </div>
                     </div>					
 				</div>
@@ -342,12 +371,16 @@
                  <div class="bottom_bar">
                         <div class="bottom_bar--left">
                             <div class="page-btn">
-                                <a href="">See All Blogs</a>
+                                <a href="">See All Blogs </a>
                             </div>
                         </div>
                         <div class="bottom_bar--right">
-                            <img src="../images/left.svg" alt="" id="gotoPre1_1" class="left_move">
-                            <img src="../images/right.svg" alt="" id="gotoNext1_1" class="right_move">
+                            <div class="left left_move" id="gotoPre1_1">
+                                <img src="../icons/left-arr.svg" alt="">
+                            </div>
+                            <div class="right right_move" id="gotoNext1_1">
+                                <img src="../icons/right-arr.svg" alt="">
+                            </div> 
                         </div>
                     </div>						
 				</div>
@@ -365,7 +398,7 @@
                 <div class="testimonial_main">
 
                     <div class="base_heading">
-                        <p class="base_heading--title">OUR SERVICES</p>
+                        <p class="base_heading--title">TESTIMONIAL</p>
                         <h2 class="base_heading--h2">Adding Value to Every Growth Professionals or Marketeer</h2>
                         <div class="base_heading--underline"></div>
                     </div>
@@ -492,12 +525,18 @@
                     <div class="bottom_bar">
                         <div class="bottom_bar--left">
                             <div class="page-btn">
-                                <a href="">Join Our Community</a>
+                                <a href="">Join Our Community <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24.08 23.88" class="svg-arow"><defs><style>.cls-1{fill:#fff; width: 2%}</style></defs><title>arrow</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M24.08,18.83V1.63A1.42,1.42,0,0,0,23.57.54,1.43,1.43,0,0,0,22.45,0H5.25a1.43,1.43,0,1,0,0,2.87H19L.42,21.43a1.43,1.43,0,0,0,2,2L21.21,4.69V18.83a1.43,1.43,0,1,0,2.87,0Z"/></g></g></svg></a>
                             </div>
                         </div>
                         <div class="bottom_bar--right">
-                            <img src="../images/left.svg" alt="" id="gotoPre2" class="left_move" >
-                            <img src="../images/right.svg" alt="" id="gotoNext2" class="right_move" >
+                            <!-- <img src="../images/left.svg" alt="" id="gotoPre2" class="left_move" >
+                            <img src="../images/right.svg" alt="" id="gotoNext2" class="right_move" > -->
+                            <div class="left left_move" id="gotoPre2">
+                                <img src="../icons/left-arr.svg" alt="">
+                            </div>
+                            <div class="right right_move" id="gotoNext2">
+                                <img src="../icons/right-arr.svg" alt="">
+                            </div> 
                         </div>
                     </div>
 
@@ -514,18 +553,21 @@
 
                 <div class="client_gallery">
                     <div class="client_gallery--left">
-                        <img src="../images/left.svg" id="gotoPre3" alt="">
+                        <!-- <img src="../images/left.svg" id="gotoPre3" alt=""> -->
+                        <div class="left left_move" id="gotoPre3">
+                                <img src="../icons/left-arr.svg" alt="">
+                        </div>
                     </div>
 				<!-- <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel" data-interval='false'> -->
 					<!-- <div class="carousel-inner "> -->
 						<!-- <div class="carousel-item active">	 -->
-							<div class="client_gallery--mid">
-								<div class="gallery-item"></div>
-								<div class="gallery-item"></div>
-								<div class="gallery-item"></div>
-								<div class="gallery-item"></div>
-								<div class="gallery-item"></div>
-							</div>
+                        <div class="client_gallery--mid">
+                            <div class="gallery-item"></div>
+                            <div class="gallery-item"></div>
+                            <div class="gallery-item"></div>
+                            <div class="gallery-item"></div>
+                            <div class="gallery-item"></div>
+                        </div>
 						<!-- </div> -->
 						<!-- <div class="carousel-item ">	 -->
 							<!-- <div class="client_gallery--mid">
@@ -540,7 +582,10 @@
 				<!-- </div>	 -->
 						
                     <div class="client_gallery--right">
-                        <img src="../images/right.svg" id="gotoNext3" alt="">
+                        <!-- <img src="../images/right.svg" id="gotoNext3" alt=""> -->
+                        <div class="right right_move" id="gotoNext3">
+                                <img src="../icons/right-arr.svg" alt="">
+                        </div> 
                     </div>
                 </div>
 
@@ -552,75 +597,10 @@
 
 
     <!-- Footer Section -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer_main">
-                <div class="footer_main--head">
-                    <div class="footer_main--head-sec f-sec-1">
-                        <div class="head">
-                            <div class="head_logo">
-                                <img src="../details/logo.png" alt="" class="logo">
-                            </div>
-                            <div class="head_icons">
-                                <a href=""><img src="../images/facebook.png" alt="" class="s-icon"></a>
-                                <a href=""><img src="../images/instagram.png" alt="" class="s-icon"></a>
-                                <a href=""><img src="../images/twitter.png" alt="" class="s-icon"></a>
-                                <a href=""><img src="../images/linkedin.png" alt="" class="s-icon"></a>
-                            </div>
-                        </div>
-                        <div class="bottom">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <p>+ 91 9986 440124</p>
-                            <p>contactus@growtfolks.com</p>
-                        </div>
-
-                    </div>
-                    <div class="footer_main--head-sec f-sec-2">
-                        <div class="head">
-                            <h3>Quick Links</h3>
-                        </div>
-                        <div class="bottom">
-                            <ul>
-                                <li><a href="">Services</a></li>
-                                <li><a href="">Events</a></li>
-                                <li><a href="">About Us</a></li>
-                                <li><a href="">Let’s Collab</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="footer_main--head-sec f-sec-1">
-                        <div class="head">
-                            <h3>Newsletter</h3>
-                        </div>
-                        <div class="bottom">
-                            <div class="bottom">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                <div class="newsletter-box">
-								<form method="POST" action="newsletter_to_excel.php" >
-                                    <input type="text" name="mail" class="newsletter-inp" placeholder="jhoneDoe@gmail.com">
-                                    <button type="submit"  class="newsletter-btn">Get NewsLetter</button>
-								</form>	
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer_main--bottom">
-                    <div class="footer_main--bottom-design">
-                        <p>Design By eniacoder</p>
-                    </div>
-                    <div class="footer_main--bottom-design">
-                          <a href="">Terms and Condition</a>
-                            <span>|</span>
-                            <a href="">Privacy Policy</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    
-    <script src="../js/app.js"></script>
+    <?php require('./common/footer.php') ?>
+    </body>
+</html> 
+   
 	   <script>
 			$("#gotoNext").click(() => $("#carouselExampleIndicators").carousel("next"));
 			$("#gotoPre").click(() => $("#carouselExampleIndicators").carousel("prev"));
@@ -648,11 +628,20 @@
             $( this ).next( ".resources_post" ).show( "fast", showNext );
             });
             });
+        function active_blog(){
+        
+            $('#vlog').removeClass("res_active");
+            $('#blog').addClass("res_active");   
+        }
+        function active_vlog(){
+            $('#blog').removeClass("res_active");
+            $('#vlog').addClass("res_active");   
+        }
         </script>     
 
-
+    <script>
+        $('.nav-item').removeClass("nav-active");
+        $('#home').addClass("nav-active");
+    </script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
-
-</html>

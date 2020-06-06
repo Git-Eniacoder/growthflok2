@@ -1,3 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;400;500;600;700;800&family=Lato:wght@300;400&display=swap"
+        rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>GrothFloks services</title>
+</head>
+
+<body>
+
 <?php require('./common/header.php') ?>
     <!-- Main -->
     <main>
@@ -40,16 +58,16 @@
 
                                 <div class="tag">
                                     <label for="">Name</label>
-                                    <input name="name" type="text">
+                                    <input name="name" type="text" required>
                                 </div>
                                 <div class="email">
                                     <div class="tag tag-1">
                                         <label for="">Email Address</label>
-                                        <input name="email" type="text">
+                                        <input name="email" type="email" required>
                                     </div>
                                     <div class="tag tag-2">
                                         <label for="">Mobile</label>
-                                        <input name="mobile" type="text">
+                                        <input name="mobile" type="text" required>
                                     </div>
                                 </div>
                                 <div class="tag">
@@ -61,7 +79,7 @@
                                 </div>
                                 <div class="tag">
                                     <label for="">Description</label>
-                                    <textarea name="description" id="" cols="30" rows="4"></textarea>
+                                    <textarea name="description" id="" cols="30" rows="4" required></textarea>
                                 </div>
                                 <div class="tag">
                                     <button class="btn">Book Now</button>
@@ -72,6 +90,8 @@
 
                         </div>
                     </div>
+
+                    </div>
                 </div>
             </div>
 
@@ -80,7 +100,9 @@
 
     </main>
 
-
-
-
-    <?php require('./common/footer.php') ?>
+ <?php require('./common/footer.php') ?>
+</body>
+<script>
+    $('.nav-item').removeClass("nav-active");
+ </script>
+</html>

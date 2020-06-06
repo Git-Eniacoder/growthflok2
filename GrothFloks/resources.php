@@ -1,3 +1,21 @@
+<?php error_reporting(E_ERROR | E_PARSE);?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;400;500;600;700;800&family=Lato:wght@300;400&display=swap"
+        rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>GrothFloks services</title>
+</head>
+
+<body>
 <?php require('./common/header.php') ?>
     <!-- Main -->
     <main>
@@ -14,10 +32,10 @@
         <section class="blog_post">
             <div class="container">
                 <div class="blog_post--toggel">
-                    <div id="blog" class="blog_post--toggel-btn activeBtn">
+                    <div id="blog" onclick="active_blog()" class="blog_post--toggel-btn res_blog_active">
                         <span><a>Blogs</a></span>
                     </div>
-                    <div id="vlog" class="blog_post--toggel-btn">
+                    <div id="vlog" onclick="active_vlog()" class="blog_post--toggel-btn">
                         <span><a>Vlogs</a></span>
                     </div>
                 </div>
@@ -65,7 +83,9 @@
             <div class="container">
                 <div class="pagination_main">
                     <div class="pagination_main--left">
-                        <img src="../images/left.svg" alt="">
+                         <div class="left left_move" id="gotoPre1_1">
+                                <img src="../icons/left-arr.svg" alt="">
+                        </div>
                     </div>
                     <div class="pagination_main--mid">
 
@@ -84,7 +104,9 @@
                             
                     </div>
                     <div class="pagination_main--right">
-                        <img src="../images/right.svg" alt="">
+                        <div class="right right_move" id="gotoNext1_1">
+                                <img src="../icons/right-arr.svg" alt="">
+                        </div> 
                     </div>
                 </div>
             </div>
@@ -92,71 +114,11 @@
         <!-- End Pagination -->
 
     </main>
+    <?php require('./common/footer.php') ?>
+    </body>
+</html>
+    
 
-     <!-- Footer Section -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer_main">
-                <div class="footer_main--head">
-                    <div class="footer_main--head-sec f-sec-1">
-                        <div class="head">
-                            <div class="head_logo">
-                                <img src="../details/logo.png" alt="" class="logo">
-                            </div>
-                            <div class="head_icons">
-                                <a href=""><img src="../images/facebook.png" alt="" class="s-icon"></a>
-                                <a href=""><img src="../images/instagram.png" alt="" class="s-icon"></a>
-                                <a href=""><img src="../images/twitter.png" alt="" class="s-icon"></a>
-                                <a href=""><img src="../images/linkedin.png" alt="" class="s-icon"></a>
-                            </div>
-                        </div>
-                        <div class="bottom">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <p>+ 91 9986 440124</p>
-                            <p>contactus@growtfolks.com</p>
-                        </div>
-
-                    </div>
-                    <div class="footer_main--head-sec f-sec-2">
-                        <div class="head">
-                           <h3>Quick Links</h3>
-                        </div>
-                        <div class="bottom">
-                            <ul>
-                                <li><a href="">Services</a></li>
-                                <li><a href="">Events</a></li>
-                                <li><a href="">About Us</a></li>
-                                <li><a href="">Let’s Collab</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="footer_main--head-sec f-sec-1">
-                        <div class="head">
-                            <h3>Newsletter</h3>
-                        </div>
-                        <div class="bottom">
-                            <div class="bottom">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                <div class="newsletter-box">
-                                    <input type="text" class="newsletter-inp" placeholder="jhoneDoe@gmail.com">
-                                    <button  class="newsletter-btn">Get NewsLetter</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer_main--bottom">
-                    <div class="footer_main--bottom-design">
-
-                    </div>
-                    <div class="footer_main--bottom-design">
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-<script src="../js/app.js"></script>   
 <script>
  $('#vlog-view').hide();
     $(document).ready(function(){
@@ -172,6 +134,29 @@
     $( this ).next( ".resources_post" ).show( "fast", showNext );
       });
     });
-    </script>
+</script>
+
+<script>
+    $('.nav-item').removeClass("nav-active");
+    $('#resources').addClass("nav-active");
+</script>
+
+<script>
+    $('.nav-item').removeClass("nav-active");
+    $('#resources').addClass("nav-active");
+    function active_blog(){
+        $('#vlog').removeClass("res_blog_active");
+        $('#blog').addClass("res_blog_active");   
+    }
+    function active_vlog(){
+        $('#blog').removeClass("res_blog_active");
+        $('#vlog').addClass("res_blog_active");   
+    }
+</script>
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
