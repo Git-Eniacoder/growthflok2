@@ -28,7 +28,7 @@
                      <div class="contact_main--content">
                         <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel" data-interval='false'>
                            <div class="carousel-inner ">
-                              <div class="carousel-item">
+                              <div class="carousel-item active">
                                  <div>
                                     <div class="base_heading">
                                        <!-- <p class="base_heading--title">ABOUT US</p> -->
@@ -53,11 +53,11 @@
                                     </div>
                                  </div>
                               </div>
-                              <div class="carousel-item active">
+                              <div class="carousel-item ">
                                  <div>
                                     <div class="base_heading">
                                        <!-- <p class="base_heading--title">ABOUT US</p> -->
-                                       <h2 class="base_heading--h2">India's largest sex Community of Growth Enthusiast</h2>
+                                       <h2 class="base_heading--h2">India's largest Community of Growth Enthusiast</h2>
                                        <div class="base_heading--underline"></div>
                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
                                     </div>
