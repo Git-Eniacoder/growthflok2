@@ -179,75 +179,139 @@
                         <div class="base_heading--underline"></div>
                     </div>
 
-                    <div class="testimonial_main--items">
+                    <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel" data-interval='false'>
+					<div class="carousel-inner ">
+						<div class="carousel-item active">
+							<div class="testimonial_main--items">
 
-                        <div class="testimonial_item">
-                            <div class="testimonial_item--head">
-                                <div class="head--img">
-                                    <img src="../images/boy-img1.png" alt="">
-                                </div>
-                                <div class="head--title">
-                                    <h3 class="ser_item-h">Workshops & Meetups</h3>
-                                    <p>Founder at Commmunity Folks</p>
-                                </div>
-                            </div>
-                            <div class="testimonial_item--bottom">
-                                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                    Lorem Ipsum has been the industry's</p>
-                            </div>
-                        </div>
+								<div class="testimonial_item">
+									<div class="testimonial_item--head">
+										<div class="head--img">
+											<img src="../images/boy-img1.png" alt="">
+										</div>
+										<div class="head--title">
+											<h3 class="ser_item-h">Workshops & Meetups</h3>
+											<p>Founder at Commmunity Folks</p>
+										</div>
+									</div>
+									<div class="testimonial_item--bottom">
+										<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+											unknown printer took a galley of type and scrambled it to make a type specimen book.
+											Lorem Ipsum has been the industry's</p>
+									</div>
+								</div>
 
-                        <div class="testimonial_item">
-                            <div class="testimonial_item--head">
-                                <div class="head--img">
-                                    <img src="../images/boy-img1.png" alt="">
-                                </div>
-                                <div class="head--title">
-                                    <h3 class="ser_item-h">Mitchell Cooper</h3>
-                                    <p>Founder at Commmunity Folks</p>
-                                </div>
-                            </div>
-                            <div class="testimonial_item--bottom">
-                                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                    Lorem Ipsum has been the industry's</p>
-                            </div>
-                        </div>
+								<div class="testimonial_item">
+									<div class="testimonial_item--head">
+										<div class="head--img">
+											<img src="../images/boy-img1.png" alt="">
+										</div>
+										<div class="head--title">
+											<h3 class="ser_item-h">Mitchell Cooper</h3>
+											<p>Founder at Commmunity Folks</p>
+										</div>
+									</div>
+									<div class="testimonial_item--bottom">
+										<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+											unknown printer took a galley of type and scrambled it to make a type specimen book.
+											Lorem Ipsum has been the industry's</p>
+									</div>
+								</div>
 
 
-                        <div class="testimonial_item">
-                            <div class="testimonial_item--head">
-                                <div class="head--img">
-                                    <img src="../images/boy-img1.png" alt="">
-                                </div>
-                                <div class="head--title">
-                                    <h3 class="ser_item-h">Bernard Nguyen</h3>
-                                    <p>Founder at Commmunity Folks</p>
-                                </div>
-                            </div>
-                            <div class="testimonial_item--bottom">
-                                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                    Lorem Ipsum has been the industry's</p>
-                            </div>
-                        </div>
+								<div class="testimonial_item">
+									<div class="testimonial_item--head">
+										<div class="head--img">
+											<img src="../images/boy-img1.png" alt="">
+										</div>
+										<div class="head--title">
+											<h3 class="ser_item-h">Bernard Nguyen</h3>
+											<p>Founder at Commmunity Folks</p>
+										</div>
+									</div>
+									<div class="testimonial_item--bottom">
+										<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+											unknown printer took a galley of type and scrambled it to make a type specimen book.
+											Lorem Ipsum has been the industry's</p>
+									</div>
+								</div>
 
-                    </div>
+							</div>
+						</div>
+						
+												<div class="carousel-item">
+							<div class="testimonial_main--items">
 
-                    <div class="bottom_bar">
+								<div class="testimonial_item">
+									<div class="testimonial_item--head">
+										<div class="head--img">
+											<img src="../images/boy-img1.png" alt="">
+										</div>
+										<div class="head--title">
+											<h3 class="ser_item-h">Workshops & Meetups</h3>
+											<p>Founder at Commmunity Folks</p>
+										</div>
+									</div>
+									<div class="testimonial_item--bottom">
+										<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+											unknown printer took a galley of type and scrambled it to make a type specimen book.
+											Lorem Ipsum has been the industry's</p>
+									</div>
+								</div>
+
+								<div class="testimonial_item">
+									<div class="testimonial_item--head">
+										<div class="head--img">
+											<img src="../images/boy-img1.png" alt="">
+										</div>
+										<div class="head--title">
+											<h3 class="ser_item-h">Mitchell Cooper</h3>
+											<p>Founder at Commmunity Folks</p>
+										</div>
+									</div>
+									<div class="testimonial_item--bottom">
+										<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+											unknown printer took a galley of type and scrambled it to make a type specimen book.
+											Lorem Ipsum has been the industry's</p>
+									</div>
+								</div>
+
+
+								<div class="testimonial_item">
+									<div class="testimonial_item--head">
+										<div class="head--img">
+											<img src="../images/boy-img1.png" alt="">
+										</div>
+										<div class="head--title">
+											<h3 class="ser_item-h">Bernard Nguyen</h3>
+											<p>Founder at Commmunity Folks</p>
+										</div>
+									</div>
+									<div class="testimonial_item--bottom">
+										<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+											unknown printer took a galley of type and scrambled it to make a type specimen book.
+											Lorem Ipsum has been the industry's</p>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+                <div class="bottom_bar">
                         <div class="bottom_bar--left">
                             <div class="page-btn">
-                                <a href="">Join Our Community</a>
+                                <a href="">Join Our Community <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24.08 23.88" class="svg-arow"><defs><style>.cls-1{fill:#fff; width: 2%}</style></defs><title>arrow</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M24.08,18.83V1.63A1.42,1.42,0,0,0,23.57.54,1.43,1.43,0,0,0,22.45,0H5.25a1.43,1.43,0,1,0,0,2.87H19L.42,21.43a1.43,1.43,0,0,0,2,2L21.21,4.69V18.83a1.43,1.43,0,1,0,2.87,0Z"/></g></g></svg></a>
                             </div>
                         </div>
                         <div class="bottom_bar--right">
-                            <!-- <img src="../images/left.svg" alt="" class="left_move">
-                            <img src="../images/right.svg" alt="" class="right_move"> -->
-                            <div class="left left_move" id="gotoPre1_1">
+                            <!-- <img src="../images/left.svg" alt="" id="gotoPre2" class="left_move" >
+                            <img src="../images/right.svg" alt="" id="gotoNext2" class="right_move" > -->
+                            <div class="left left_move" id="gotoPre2">
                                 <img src="../icons/left-arr.svg" alt="">
                             </div>
-                            <div class="right right_move" id="gotoNext1_1">
+                            <div class="right right_move" id="gotoNext2">
                                 <img src="../icons/right-arr.svg" alt="">
                             </div> 
                         </div>
@@ -271,35 +335,35 @@
                             <img src="../icons/left-arr.svg" alt="">
                     </div>
                 </div>
-            <!-- <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel" data-interval='false'> -->
-                <!-- <div class="carousel-inner "> -->
-                    <!-- <div class="carousel-item active">	 -->
-                    <div class="client_gallery--mid">
-                        <div class="gallery-item"></div>
-                        <div class="gallery-item"></div>
-                        <div class="gallery-item"></div>
-                        <div class="gallery-item"></div>
-                        <div class="gallery-item"></div>
+                <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel" data-interval='false'>
+					<div class="carousel-inner ">
+						<div class="carousel-item active">	
+                        <div class="client_gallery--mid">
+                            <div class="gallery-item"></div>
+                            <div class="gallery-item"></div>
+                            <div class="gallery-item"></div>
+                            <div class="gallery-item"></div>
+                            <div class="gallery-item"></div>
+                        </div>
+						</div>
+						<div class="carousel-item ">	
+							<div class="client_gallery--mid">
+								<div class="gallery-item"></div>
+								<div class="gallery-item"></div>
+								<div class="gallery-item"></div>
+								<div class="gallery-item"></div>
+								<div class="gallery-item"></div>
+							</div>
+						</div>
+					</div>	
+				</div>	
+						
+                    <div class="client_gallery--right">
+                        <!-- <img src="../images/right.svg" id="gotoNext3" alt=""> -->
+                        <div class="right right_move" id="gotoNext3">
+                                <img src="../icons/right-arr.svg" alt="">
+                        </div> 
                     </div>
-                    <!-- </div> -->
-                    <!-- <div class="carousel-item ">	 -->
-                        <!-- <div class="client_gallery--mid">
-                            <div class="gallery-item"></div>
-                            <div class="gallery-item"></div>
-                            <div class="gallery-item"></div>
-                            <div class="gallery-item"></div>
-                            <div class="gallery-item"></div>
-                        </div> -->
-                    <!-- </div> -->
-                <!-- </div>	 -->
-            <!-- </div>	 -->
-                    
-                <div class="client_gallery--right">
-                    <!-- <img src="../images/right.svg" id="gotoNext3" alt=""> -->
-                    <div class="right right_move" id="gotoNext1_1">
-                            <img src="../icons/right-arr.svg" alt="">
-                    </div> 
-                </div>
             </div>
 
             </div>
@@ -317,7 +381,13 @@
     $('.nav-item').removeClass("nav-active");
     $('#services').addClass("nav-active");
      </script>
+<script>			
+			$("#gotoNext2").click(() => $("#carouselExampleIndicators2").carousel("next"));			
+			$("#gotoPre2").click(() => $("#carouselExampleIndicators2").carousel("prev"));
+            $("#gotoNext3").click(() => $("#carouselExampleIndicators3").carousel("next"));			
+			$("#gotoPre3").click(() => $("#carouselExampleIndicators3").carousel("prev"));
 
+		</script>
 
 
         <!-- Client -->
