@@ -2,7 +2,7 @@
     error_reporting(E_ERROR | E_PARSE);
     $json_string = file_get_contents("https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/growth-folks");
     $parsed_json['blog'] = json_decode($json_string);
-    $json_string = file_get_contents("https://www.googleapis.com/youtube/v3/search?key=AIzaSyCE5GTdzhiouSn2ssUKplnLgIgDVlGedjY&channelId=UC4NoSzAHBhkKbfa6YPFyVNA&part=snippet,id&order=date&maxResults=20");
+    $json_string = file_get_contents("https://www.googleapis.com/youtube/v3/search?key=AIzaSyASMCXnqPPfhnShDhr7zUDel9NAITa0HqA&channelId=UCAI1rofJTx9oH8GKJfPYSNA&part=snippet,id&order=date&maxResults=20");
     $parsed_json['vlog'] = json_decode($json_string);
     // echo "<pre>";
     // print_r($parsed_json['blog']);
@@ -342,30 +342,28 @@
 						 <div class="carousel-inner ">
 							<div class="carousel-item">
 								<div class="resources_main--posts">
-								<?php for($i=0;$i<3;$i++){
-									
-									echo '<div class="resources_post">
-										<iframe id="ytplayer" type="text/html" width="100%" height="150%"
-										src="https://www.youtube.com/embed/'.$parsed_json['vlog']->items[$i]->id->videoId.'?autoplay=1"
-										frameborder="0"></iframe>
-									</div>';
-								}
-									?>
+								    <?php for($i=0;$i<3;$i++){?>
+                                        <div class="resources_post">
+                                            <a href="<?php echo "https://www.youtube.com/watch?v=".$parsed_json['vlog']->items[$i]->id->videoId; ?>">         
+                                            <img src="<?php echo "https://img.youtube.com/vi/".$parsed_json['vlog']->items[$i]->id->videoId."/hqdefault.jpg" ; ?>" alt="" class="post_img"></a>
+                                            <h3><?php echo $parsed_json['vlog']->items[$i]->snippet->title; ?></h3>
+                                            <p class="date"><?php echo $parsed_json['vlog']->items[$i]->snippet->publishTime; ?> · <span> 3 min read</span></p>
+                                        </div>
+							        <?php } ?>
 								</div>
 							</div>
 							<div class="carousel-item active">
 								<div class="resources_main--posts">
-								<?php for($i=0;$i<3;$i++){
-									
-									echo '<div class="resources_post">
-										<iframe id="ytplayer" type="text/html" width="100%" height="150%"
-										src="https://www.youtube.com/embed/'.$parsed_json['vlog']->items[$i]->id->videoId.'?autoplay=1"
-										frameborder="0"></iframe>
-									</div>';
-								}
-									?>
-								</div>
-							</div>
+                                    <?php for($i=0;$i<3;$i++) { ?>
+                                        <div class="resources_post">
+                                                <a href="<?php echo "https://www.youtube.com/watch?v=".$parsed_json['vlog']->items[$i]->id->videoId; ?>">         
+                                                <img src="<?php echo "https://img.youtube.com/vi/".$parsed_json['vlog']->items[$i]->id->videoId."/hqdefault.jpg" ; ?>" alt="" class="post_img"></a>
+                                                <h3><?php echo $parsed_json['vlog']->items[$i]->snippet->title; ?></h3>
+                                                <p class="date"><?php echo $parsed_json['vlog']->items[$i]->snippet->publishTime; ?> · <span> 3 min read</span></p>
+                                            </div>
+                                    <?php } ?>
+                                </div>
+                            </div>
 						</div>
 					</div>
                  <div class="bottom_bar">
