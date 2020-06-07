@@ -59,7 +59,7 @@
                         <div class="content-sec">
 
                             <div class="img-bx">
-                                <img src="../images/events-1.png" alt="" class="ser_item-img">
+                                <img src="../icons/community.svg" alt="" class="ser_item-img">
                                 <span>02</span>
                             </div>
                             <!-- <img src="../images/events-1.png" alt="" class="ser_item-img"> -->
@@ -82,7 +82,7 @@
                     <div class="services_port--main-content sec2-1">
                         <div class="content-sec">
                              <div class="img-bx">
-                                <img src="../images/events-1.png" alt="" class="ser_item-img">
+                                <img src="../icons/hackathon.svg" alt="" class="ser_item-img">
                                 <span>03</span>
                             </div>
                             <h3 class="ser_item-h">Workshops & Meetups</h3>
@@ -94,7 +94,7 @@
                         </div>
                         <div class="content-sec">
                             <div class="img-bx">
-                                <img src="../images/events-1.png" alt="" class="ser_item-img">
+                                <img src="../icons/roadmap.svg" alt="" class="ser_item-img">
                                 <span>04</span>
                             </div>
                             <h3 class="ser_item-h">Workshops & Meetups</h3>
@@ -106,7 +106,7 @@
                         </div>
                     </div>
                     <div class="services_port--main-img sec2-2">
-                        <img src="../images/ser-img1.png" alt="" class="ser_img">
+                        <img src="../imgs2/ser-img2.png" alt="" class="ser_img">
                     </div>
                 </div>
             </div>
@@ -120,7 +120,7 @@
                         <div class="services_port--sub-content">
                             <!-- <img src="../images/events-1.png" alt="" class="ser_item-img"> -->
                             <div class="img-bx">
-                                <img src="../images/events-1.png" alt="" class="ser_item-img">
+                                <img src="../imgs2/vlogs.png" alt="" class="ser_item-img">
                                 <span>05</span>
                             </div>
                             <h3 class="ser_item-h">Workshops & Meetups</h3>
@@ -131,7 +131,7 @@
                         <div class="services_port--sub-content">
                             <!-- <img src="../images/events-1.png" alt="" class="ser_item-img"> -->
                             <div class="img-bx">
-                                <img src="../images/events-1.png" alt="" class="ser_item-img">
+                                <img src="../imgs2/blogs.png" alt="" class="ser_item-img">
                                 <span>06</span>
                             </div>
                             <h3 class="ser_item-h">Workshops & Meetups</h3>
@@ -204,7 +204,7 @@
 								<div class="testimonial_item">
 									<div class="testimonial_item--head">
 										<div class="head--img">
-											<img src="../images/boy-img1.png" alt="">
+											<img src="../imgs2/tes-img-2.png" alt="">
 										</div>
 										<div class="head--title">
 											<h3 class="ser_item-h">Mitchell Cooper</h3>
@@ -222,7 +222,7 @@
 								<div class="testimonial_item">
 									<div class="testimonial_item--head">
 										<div class="head--img">
-											<img src="../images/boy-img1.png" alt="">
+											<img src="../imgs2/tes-img-3.png" alt="">
 										</div>
 										<div class="head--title">
 											<h3 class="ser_item-h">Bernard Nguyen</h3>

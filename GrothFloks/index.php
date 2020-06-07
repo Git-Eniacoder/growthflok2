@@ -425,7 +425,7 @@
 								<div class="testimonial_item">
 									<div class="testimonial_item--head">
 										<div class="head--img">
-											<img src="../images/boy-img1.png" alt="">
+											<img src="../imgs2/tes-img-2.png" alt="">
 										</div>
 										<div class="head--title">
 											<h3 class="ser_item-h">Mitchell Cooper</h3>
@@ -443,7 +443,7 @@
 								<div class="testimonial_item">
 									<div class="testimonial_item--head">
 										<div class="head--img">
-											<img src="../images/boy-img1.png" alt="">
+											<img src="../imgs2/tes-img-3.png" alt="">
 										</div>
 										<div class="head--title">
 											<h3 class="ser_item-h">Bernard Nguyen</h3>

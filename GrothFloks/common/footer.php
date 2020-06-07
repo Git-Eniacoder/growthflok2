@@ -53,7 +53,7 @@
                 </div>
                 <div class="footer_main--bottom">
                     <div class="footer_main--bottom-design">
-                           <p>Design By eniacoder</p>
+                           <p>Design By <a href="http://eniacoder.com/">eniacoder</a></p>
                     </div>
                     <div class="footer_main--bottom-design">
                             <a href="">Terms and Condition</a>

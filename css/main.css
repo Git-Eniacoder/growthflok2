@@ -559,9 +559,7 @@ body {
 .nav-active {
   position: relative;
   transition: all .3s ease-in;
-  color: black !important;
-  font-weight: 600;
-
+  color: #26423D;
 }
 
 .nav-active::before {
@@ -983,7 +981,30 @@ body {
   background-position: cover;
   background-position-x: 110%;
   background-position-y: 60%;
+}
+
+.ourteam_members--card .head-col-1 {
   background-color: #f3b36a;
+}
+
+.ourteam_members--card .head-col-2 {
+  background-color: #9BBCCA;
+}
+
+.ourteam_members--card .head-col-3 {
+  background-color: #FFC8C7;
+}
+
+.ourteam_members--card .head-col-4 {
+  background-color: #ABABAB;
+}
+
+.ourteam_members--card .head-col-5 {
+  background-color: #55AA79;
+}
+
+.ourteam_members--card .head-col-6 {
+  background-color: #70B2FF;
 }
 
 .ourteam_members--card .profile {
@@ -1609,7 +1630,7 @@ body {
   height: 12rem;
   border-radius: .2rem;
   background-color: #EFF2F2;
-  margin : 0 8px;
+  margin: 0 8px;
 }
 
 .client_gallery--right {

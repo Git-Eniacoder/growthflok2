@@ -152,10 +152,10 @@
                   <div class="ourteam_members">
                      <!-- Member Card -->
                      <div class="ourteam_members--card">
-                        <div class="head">
+                        <div class="head head-col-1">
                         </div>
                         <div>
-                           <img src="../images/team-img2.png" alt="" class="profile">
+                           <img src="../imgs2/ourtem-img1.png" alt="" class="profile">
                         </div>
                         <div class="bottom">
                            <h2>Robert Edwards</h2>
@@ -170,10 +170,10 @@
                      <!-- End Member Card -->
                      <!-- Member Card -->
                      <div class="ourteam_members--card">
-                        <div class="head">
+                        <div class="head head-col-2">
                         </div>
                         <div>
-                           <img src="../images/team-img2.png" alt="" class="profile">
+                           <img src="../imgs2/ourtem-img2.png" alt="" class="profile">
                         </div>
                         <div class="bottom">
                            <h2>Robert Edwards</h2>
@@ -187,28 +187,10 @@
                      </div>
                      <!-- Member Card -->
                      <div class="ourteam_members--card">
-                        <div class="head">
+                        <div class="head head-col-3">
                         </div>
                         <div>
-                           <img src="../images/team-img2.png" alt="" class="profile">
-                        </div>
-                        <div class="bottom">
-                           <h2>Robert Edwards</h2>
-                           <p>Co-Founder</p>
-                           <div class="social">
-                              <a href=""><img src="../images/facebook.png" alt="" class="icon"></a>
-                              <a href=""><img src="../images/twitter.png" alt="" class="icon"></a>
-                              <a href=""><img src="../images/linkedin.png" alt="" class="icon"></a>
-                           </div>
-                        </div>
-                     </div>
-                     <!-- member end -->
-                     <!-- Member Card -->
-                     <div class="ourteam_members--card">
-                        <div class="head">
-                        </div>
-                        <div>
-                           <img src="../images/team-img2.png" alt="" class="profile">
+                           <img src="../imgs2/ourtem-img3.png" alt="" class="profile">
                         </div>
                         <div class="bottom">
                            <h2>Robert Edwards</h2>
@@ -223,10 +205,10 @@
                      <!-- member end -->
                      <!-- Member Card -->
                      <div class="ourteam_members--card">
-                        <div class="head">
+                        <div class="head head-col-4">
                         </div>
                         <div>
-                           <img src="../images/team-img2.png" alt="" class="profile">
+                           <img src="../imgs2/ourtem-img4.png" alt="" class="profile">
                         </div>
                         <div class="bottom">
                            <h2>Robert Edwards</h2>
@@ -241,10 +223,28 @@
                      <!-- member end -->
                      <!-- Member Card -->
                      <div class="ourteam_members--card">
-                        <div class="head">
+                        <div class="head head-col-5">
                         </div>
                         <div>
-                           <img src="../images/team-img2.png" alt="" class="profile">
+                           <img src="../imgs2/ourtem-img5.png" alt="" class="profile">
+                        </div>
+                        <div class="bottom">
+                           <h2>Robert Edwards</h2>
+                           <p>Co-Founder</p>
+                           <div class="social">
+                              <a href=""><img src="../images/facebook.png" alt="" class="icon"></a>
+                              <a href=""><img src="../images/twitter.png" alt="" class="icon"></a>
+                              <a href=""><img src="../images/linkedin.png" alt="" class="icon"></a>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- member end -->
+                     <!-- Member Card -->
+                     <div class="ourteam_members--card">
+                        <div class="head head-col-6">
+                        </div>
+                        <div>
+                           <img src="../imgs2/ourtem-img6.png" alt="" class="profile">
                         </div>
                         <div class="bottom">
                            <h2>Robert Edwards</h2>
@@ -294,17 +294,17 @@
                                  <p>UI&UX Designer at Hakaru LLP</p>
                               </div>
                               <div class="mentor_main--card-item">
-                                 <img src="../images/mentor-img1.png" alt="">
+                                 <img src="../imgs2/men1.png" alt="">
                                  <h2>Wade Richards</h2>
                                  <p>UI&UX Designer at Hakaru LLP</p>
                               </div>
                               <div class="mentor_main--card-item">
-                                 <img src="../images/mentor-img1.png" alt="">
+                                 <img src="../imgs2/men3.png" alt="">
                                  <h2>Wade Richards</h2>
                                  <p>UI&UX Designer at Hakaru LLP</p>
                               </div>
                               <div class="mentor_main--card-item">
-                                 <img src="../images/mentor-img1.png" alt="">
+                                 <img src="../imgs2/men4.png" alt="">
                                  <h2>Wade Richards</h2>
                                  <p>UI&UX Designer at Hakaru LLP</p>
                               </div>
