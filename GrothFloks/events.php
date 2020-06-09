@@ -82,15 +82,11 @@ for($i=0; $i<count($parsed_json->data); $i++){
         <section class="blog_post">
             <div class="container">
                 <div class="blog_post--toggel">
+                   
                     <div class="blog_post--toggel-btn active_btn">
-                        <span><a href="">All</a></span>
-                    </div>
-                    <div class="blog_post--toggel-btn">
                         <span><a href="">Upcomming</a></span>
                     </div>
-                    <div class="blog_post--toggel-btn">
-                        <span><a href="">Past</a></span>
-                    </div>
+                
                 </div>
                 
                 <!-- Events -->

@@ -15,17 +15,135 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/extra.css">
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <link
         href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;400;500;600;700;800&family=Lato:wght@300;400&display=swap"
         rel="stylesheet">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <title>GrothFloks services</title>
 </head>
 
 <body>
+<style>
 
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+</style>
 <?php require('./common/header.php') ?>
     <!-- Main Section -->
     <main>
@@ -39,7 +157,7 @@
                                 <h1 class="heading-box-h1">India's largest Community of Growth Enthusiast</h1>
                                 <p class="heading-box-p">Sub Text will be written here and we need to ask ayush for
                                     providing us the content</p>
-                                <a href="#" class="heading-box-btn">Join Our Community</a>
+                                <a href="./contact.php" class="heading-box-btn">Join Our Community</a>
                             </div>
                         </div>
                         <div class="hero_main--img">
@@ -72,7 +190,7 @@
                                 nemo nostrum! Ipsum tempore totam illo quasi ipsam rerum, provident aliquam deleniti
                                 saepe minus tempora assumenda culpa ex laudantium blanditiis voluptatibus! Corrupti,
                                 similique iste. Officiis, delectus accusamus?</p>
-                            <a href="#" class="about-btn">Know More About Us <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24.08 23.88" class="svg-arow"><defs><style>.cls-1{fill:#fff; width: 2%}</style></defs><title>arrow</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M24.08,18.83V1.63A1.42,1.42,0,0,0,23.57.54,1.43,1.43,0,0,0,22.45,0H5.25a1.43,1.43,0,1,0,0,2.87H19L.42,21.43a1.43,1.43,0,0,0,2,2L21.21,4.69V18.83a1.43,1.43,0,1,0,2.87,0Z"/></g></g></svg></a>
+                            <a href="./about.php" class="about-btn">Know More About Us <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24.08 23.88" class="svg-arow"><defs><style>.cls-1{fill:#fff; width: 2%}</style></defs><title>arrow</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M24.08,18.83V1.63A1.42,1.42,0,0,0,23.57.54,1.43,1.43,0,0,0,22.45,0H5.25a1.43,1.43,0,1,0,0,2.87H19L.42,21.43a1.43,1.43,0,0,0,2,2L21.21,4.69V18.83a1.43,1.43,0,1,0,2.87,0Z"/></g></g></svg></a>
                         </div>
                         <div class="about_main--detail-show">
                             <div class="show_item">
@@ -122,29 +240,58 @@
             <div class="container">
                 <div class="gallery_main">
                     <div class="gallery_main--sec g-sec-1">
-                        <!-- <div class="g-sec-1-img1">
 
-                        </div>
-                        <div class="g-sec-1-img2">
-
-                        </div>
-                        <div class="g-sec-1-img3">
-
-                        </div> -->
-
-                        <img src="../images/gallery-img2.png" alt="" class="g-sec-1-img1 img-hover">
-                        <img src="../images/gallery-img1.png" alt="" class="g-sec-1-img2 img-hover">
-                        <img src="../images/gallery-img-3.png" alt="" class="g-sec-1-img3 img-hover">
+                        <img src="../images/gallery-img2.png" onclick="openModal();currentSlide(1)" alt="" class="g-sec-1-img1 img-hover hover-shadow cursor">
+                        <img src="../images/gallery-img1.png" alt="" onclick="openModal();currentSlide(2)"  class="g-sec-1-img2 img-hover hover-shadow cursor">
+                        <img src="../images/gallery-img-3.png" alt="" onclick="openModal();currentSlide(3)" class="g-sec-1-img3 img-hover hover-shadow cursor">
 
                     </div>
                     <div class="gallery_main--sec g-sec-2">
-                        <img src="../images/gallery-sec2-img.png" alt="" class="g-sec-2-img1 img-hover">
+                        <img src="../images/gallery-sec2-img.png" alt="" onclick="openModal();currentSlide(4)" class="g-sec-2-img1 img-hover hover-shadow cursor">
                     </div>
-                    <div class="gallery_main--sec g-sec-3">
-                        <img src="../images/gallery-sec3-img1.png" alt="" class="g-sec-3-img1 img-hover">
-                        <img src="../images/gallery-sec3-img2.png" alt="" class="g-sec-3-img2 img-hover">
+                    <div class="gallery_main--sec g-sec-3 hover-shadow cursor">
+                        <img src="../images/gallery-sec3-img1.png" alt="" onclick="openModal();currentSlide(5)" class="g-sec-3-img1 img-hover hover-shadow cursor">
+                        <img src="../images/gallery-sec3-img2.png" alt="" onclick="openModal();currentSlide(6)" class="g-sec-3-img2 img-hover hover-shadow cursor">
                     </div>
                 </div>
+                <div id="myModal" class="modal">
+            
+  <div class="modal-content">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="mySlides">
+      <div class="numbertext"> </div>
+      <img src="../images/gallery-img2.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 6</div>
+      <img src="../images/gallery-img1.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 6</div>
+      <img src="../images/gallery-img-3.png" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 6</div>
+      <img src="../images/gallery-sec2-img.png" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">5 / 6</div>
+      <img src="../images/gallery-sec3-img1.png" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">6 / 6</div>
+      <img src="../images/gallery-sec3-img2.png" style="width:100%">
+    </div>
+    
+    
+    
+
+    
+  </div>
+</div>
             </div>
         </section>
 
@@ -231,7 +378,7 @@
                 <div class="bottom_bar">
                     <div class="bottom_bar--left">
                         <div class="page-btn">
-                            <a href="">Explore Our Services <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24.08 23.88" class="svg-arow"><defs><style>.cls-1{fill:#fff; width: 2%}</style></defs><title>arrow</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M24.08,18.83V1.63A1.42,1.42,0,0,0,23.57.54,1.43,1.43,0,0,0,22.45,0H5.25a1.43,1.43,0,1,0,0,2.87H19L.42,21.43a1.43,1.43,0,0,0,2,2L21.21,4.69V18.83a1.43,1.43,0,1,0,2.87,0Z"/></g></g></svg></a>
+                            <a href="./services.php">Explore Our Services <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24.08 23.88" class="svg-arow"><defs><style>.cls-1{fill:#fff; width: 2%}</style></defs><title>arrow</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M24.08,18.83V1.63A1.42,1.42,0,0,0,23.57.54,1.43,1.43,0,0,0,22.45,0H5.25a1.43,1.43,0,1,0,0,2.87H19L.42,21.43a1.43,1.43,0,0,0,2,2L21.21,4.69V18.83a1.43,1.43,0,1,0,2.87,0Z"/></g></g></svg></a>
                         </div>
                     </div>
                     <div class="bottom_bar--right">
@@ -322,7 +469,7 @@
 					<div class="bottom_bar">
                         <div class="bottom_bar--left">
                             <div class="page-btn">
-                                <a href="">See All Blogs <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24.08 23.88" class="svg-arow"><defs><style>.cls-1{fill:#fff; width: 2%}</style></defs><title>arrow</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M24.08,18.83V1.63A1.42,1.42,0,0,0,23.57.54,1.43,1.43,0,0,0,22.45,0H5.25a1.43,1.43,0,1,0,0,2.87H19L.42,21.43a1.43,1.43,0,0,0,2,2L21.21,4.69V18.83a1.43,1.43,0,1,0,2.87,0Z"/></g></g></svg></a>
+                                <a href="./resources.php">See All Blogs <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24.08 23.88" class="svg-arow"><defs><style>.cls-1{fill:#fff; width: 2%}</style></defs><title>arrow</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M24.08,18.83V1.63A1.42,1.42,0,0,0,23.57.54,1.43,1.43,0,0,0,22.45,0H5.25a1.43,1.43,0,1,0,0,2.87H19L.42,21.43a1.43,1.43,0,0,0,2,2L21.21,4.69V18.83a1.43,1.43,0,1,0,2.87,0Z"/></g></g></svg></a>
                             </div>
                         </div>
                         <div class="bottom_bar--right">
@@ -413,8 +560,8 @@
 											<img src="../images/boy-img1.png" alt="">
 										</div>
 										<div class="head--title">
-											<h3 class="ser_item-h">Workshops & Meetups</h3>
-											<p>Founder at Commmunity Folks</p>
+											<h3 class="ser_item-h">Program Manager</h3>
+											<p>Microsoft Reactor Bangalore</p>
 										</div>
 									</div>
 									<div class="testimonial_item--bottom">
@@ -525,7 +672,7 @@
                     <div class="bottom_bar">
                         <div class="bottom_bar--left">
                             <div class="page-btn">
-                                <a href="">Join Our Community <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24.08 23.88" class="svg-arow"><defs><style>.cls-1{fill:#fff; width: 2%}</style></defs><title>arrow</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M24.08,18.83V1.63A1.42,1.42,0,0,0,23.57.54,1.43,1.43,0,0,0,22.45,0H5.25a1.43,1.43,0,1,0,0,2.87H19L.42,21.43a1.43,1.43,0,0,0,2,2L21.21,4.69V18.83a1.43,1.43,0,1,0,2.87,0Z"/></g></g></svg></a>
+                                <a href="./contact.php">Join Our Community <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24.08 23.88" class="svg-arow"><defs><style>.cls-1{fill:#fff; width: 2%}</style></defs><title>arrow</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M24.08,18.83V1.63A1.42,1.42,0,0,0,23.57.54,1.43,1.43,0,0,0,22.45,0H5.25a1.43,1.43,0,1,0,0,2.87H19L.42,21.43a1.43,1.43,0,0,0,2,2L21.21,4.69V18.83a1.43,1.43,0,1,0,2.87,0Z"/></g></g></svg></a>
                             </div>
                         </div>
                         <div class="bottom_bar--right">
@@ -562,20 +709,16 @@
 					<div class="carousel-inner ">
 						<div class="carousel-item active">	
                         <div class="client_gallery--mid">
-                            <div class="gallery-item"></div>
-                            <div class="gallery-item"></div>
-                            <div class="gallery-item"></div>
-                            <div class="gallery-item"></div>
-                            <div class="gallery-item"></div>
+                        <?php for($i=0; $i<6; $i++) {?>
+                            <div class="gallery-item"><img src="../images/Logo/<?php echo $i ?>.png" alt="" srcset=""></div>
+                        <?php }?>
                         </div>
 						</div>
 						<div class="carousel-item ">	
 							<div class="client_gallery--mid">
-								<div class="gallery-item"></div>
-								<div class="gallery-item"></div>
-								<div class="gallery-item"></div>
-								<div class="gallery-item"></div>
-								<div class="gallery-item"></div>
+                            <?php for($i=6; $i<12; $i++) {?>
+                            <div class="gallery-item"><img src="../images/Logo/<?php echo $i ?>.png" alt="" srcset=""></div>
+                        <?php }?>
 							</div>
 						</div>
 					</div>	
@@ -644,4 +787,41 @@
         $('.nav-item').removeClass("nav-active");
         $('#home').addClass("nav-active");
     </script>
-  
+  <script>
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>

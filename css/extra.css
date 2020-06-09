@@ -1,0 +1,16 @@
+.social_icons{
+    color: #207a6a;
+    font-size: 26px;
+    margin: 0 4px;
+}
+.social_icons:hover{
+    color: #fff;
+}
+.mentor_img{
+    width : 256px;
+    height: 288px;
+}
+.gallery-item img{
+    width : 100%;
+    height: inherit;
+}

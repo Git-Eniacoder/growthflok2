@@ -108,7 +108,8 @@
                            <div class="tag">
                               <label for="">Subject</label>
                               <select name="subject" id="">
-                                 <option value="demo_subject"></option>
+                                 <option value="demo_subject">demo1</option>
+                                 <option value="demo_subject">demo2</option>
                               </select>
                            </div>
                            <div class="tag">
@@ -127,9 +128,9 @@
          </section>
       </main>
       <script>
-         $('.nav-item').removeClass("nav-active");
-         
-      </script>
+
+    $('#contact').css({"background-color": "#207A6A", "color": "#fff"});
+ </script>
       <script>
          $("#gotoNext").click(() => $("#carouselExampleIndicators3").carousel("next"));
          $("#gotoPre").click(() => $("#carouselExampleIndicators3").carousel("prev"));

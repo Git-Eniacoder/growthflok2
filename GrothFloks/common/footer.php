@@ -10,10 +10,10 @@
                                 <img src="../details/logo.png" alt="" class="logo">
                             </div>
                             <div class="head_icons">
-                                <a href=""><img src="../images/facebook.png" alt="" class="s-icon"></a>
-                                <a href=""><img src="../images/instagram.png" alt="" class="s-icon"></a>
-                                <a href=""><img src="../images/twitter.png" alt="" class="s-icon"></a>
-                                <a href=""><img src="../images/linkedin.png" alt="" class="s-icon"></a>
+                                <a class="social_icons" href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                                <a class="social_icons" href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                                <a class="social_icons" href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                <a class="social_icons" href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="bottom">
@@ -32,6 +32,7 @@
                                 <li><a href="">Services</a></li>
                                 <li><a href="">Events</a></li>
                                 <li><a href="">About Us</a></li>
+                                <li><a href="">Resources</a></li>
                                 <li><a href="">Let’s Collab</a></li>
                             </ul>
                         </div>
