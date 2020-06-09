@@ -239,7 +239,26 @@
                 background-position: cover;
                 background-position-x:110%;
                 background-position-y:60%;
-                background-color: rgb(243, 179, 106);
+                // background-color: rgb(243, 179, 106);
+
+                &-col-1{
+                    background-color: rgb(243, 179, 106);
+                }
+                &-col-2{
+                    background-color: #9BBCCA;
+                }
+                &-col-3{
+                    background-color: #FFC8C7;
+                }
+                &-col-4{
+                    background-color: #ABABAB;
+                }
+                &-col-5{
+                    background-color: #55AA79;
+                }
+                &-col-6{
+                    background-color: #70B2FF;
+                }
             }
 
             .profile{
