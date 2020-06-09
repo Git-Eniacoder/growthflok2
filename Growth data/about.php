@@ -47,10 +47,10 @@
          <!-- Base end -->
          <!-- About Calender -->
          <section class="about_calender">
-         <div class="left left_move arrow_left">
+         <div class="left left_move arrow_left" id="gotoPre1">
                                 <img src="../icons/left-arr.svg" alt="">
                             </div>
-             <div class="right right_move arrow_right">
+             <div class="right right_move arrow_right" id="teamNext">
                         <img src="../icons/right-arr.svg" alt="">
                      </div>
             <div class="container-fluid padding_scroll pl-0">
@@ -61,86 +61,86 @@
                         <div class="start_div">
                         </div>
                         <div class="item">
-                           <div style="color:#207a6a" class="point-up"><i style="font-size:10px"  class="fa">&#xf111;</i></div>
+                           <div class="point-up"><i style="font-size:10px" class="fa">&#xf111;</i></div>
                            <div class="item-bx">
-                              <span style="color:#207a6a">NOV 2017</span>
+                              <span>NOV 2017</span>
                               <p>Founded The Community</p>
                            </div>
                         </div>
                         <div class="item">
-                           <div style="color:#207a6a" class="point-up"><i style="font-size:10px" class="fa">&#xf111;</i></div>
+                           <div class="point-up"><i style="font-size:10px" class="fa">&#xf111;</i></div>
                            <div class="item-bx">
-                              <span style="color:#207a6a">Dec 2017</span>
-                              <p>1st Offline Community Meetup</p>
+                              <span>NOV 2017</span>
+                              <p>Founded The Community</p>
                            </div>
                         </div>
                         <div class="item">
-                        <div style="color:orange" class="point-up"><i style="font-size:10px" class="fa">&#xf111;</i></div>
+                        <div class="point-up"><i style="font-size:10px" class="fa">&#xf111;</i></div>
                            <div class="item-bx">
-                              <span style="color:orange">Jun 2017</span>
-                              <p>150 Active Members</p>
+                              <span>NOV 2017</span>
+                              <p>Founded The Community</p>
                            </div>
                         </div>
                         <div class="item">
-                        <div style="color:orange" class="point-up"><i style="font-size:10px" class="fa">&#xf111;</i></div>
+                        <div class="point-up"><i style="font-size:10px" class="fa">&#xf111;</i></div>
                            <div class="item-bx">
-                              <span style="color:orange">Dec 2018</span>
-                              <p>1st Informal Brunch at BLR</p>
+                              <span>NOV 2017</span>
+                              <p>Founded The Community</p>
                            </div>
                         </div>
                         <div class="item">
-                        <div style="color:blue" class="point-up"><i style="font-size:10px" class="fa">&#xf111;</i></div>
+                        <div class="point-up"><i style="font-size:10px" class="fa">&#xf111;</i></div>
                            <div class="item-bx">
-                              <span style="color:blue">Jan 2019</span>
-                              <p>1st Growth Shop in BLR & HYD</p>
+                              <span>NOV 2017</span>
+                              <p>Founded The Community</p>
                            </div>
                         </div>
                         <div class="item">
-                        <div style="color:blue" class="point-up"><i style="font-size:10px" class="fa">&#xf111;</i></div>
+                        <div class="point-up"><i style="font-size:10px" class="fa">&#xf111;</i></div>
                            <div class="item-bx">
-                              <span style="color:blue">Fab 2019</span>
-                              <p>Pune , Mumbai & NCR Launched </p>
+                              <span>NOV 2017</span>
+                              <p>Founded The Community</p>
                            </div>
                         </div>
                         <div class="item">
-                        <div style="color:blue" class="point-up"><i style="font-size:10px" class="fa">&#xf111;</i></div>
+                        <div class="point-up"><i style="font-size:10px" class="fa">&#xf111;</i></div>
                            <div class="item-bx">
-                              <span style="color:blue">Mar 2019</span>
-                              <p>Chandigarh & Chennai Launched</p>
+                              <span>NOV 2017</span>
+                              <p>Founded The Community</p>
                            </div>
                         </div>
                         <div class="item">
-                        <div style="color:blue" class="point-up"><i style="font-size:10px" class="fa">&#xf111;</i></div>
+                        <div class="point-up"><i style="font-size:10px" class="fa">&#xf111;</i></div>
                            <div class="item-bx">
-                              <span style="color:blue">Jun 2019</span>
-                              <p>Makeathon 1.O</p>
+                              <span>NOV 2017</span>
+                              <p>Founded The Community</p>
                            </div>
                         </div>
                         <div class="item">
-                        <div style="color:purple" class="point-up"><i style="font-size:10px" class="fa">&#xf111;</i></div>
+                        <div class="point-up"><i style="font-size:10px" class="fa">&#xf111;</i></div>
                            <div class="item-bx">
-                              <span style="color:purple">Oct 2019</span>
-                              <p>50 Events Across 8 Cities</p>
+                              <span>NOV 2017</span>
+                              <p>Founded The Community</p>
                            </div>
                         </div>
                         <div class="item">
-                        <div style="color:purple" class="point-up"><i style="font-size:10px" class="fa">&#xf111;</i></div>
+                        <div class="point-up"><i style="font-size:10px" class="fa">&#xf111;</i></div>
                            <div class="item-bx">
-                              <span style="color:purple">Jan 2020 </span>
-                              <p>3d Paid Event </p>
+                              <span>NOV 2017</span>
+                              <p>Founded The Community</p>
                            </div>
                         </div>
                         <div class="item">
-                        <div style="color:purple" class="point-up"><i style="font-size:10px" class="fa">&#xf111;</i></div>
+                        <div class="point-up"><i style="font-size:10px" class="fa">&#xf111;</i></div>
                            <div class="item-bx">
-                              <span style="color:purple">Nov 2020</span>
-                              <p>Makeathon 2.O</p>
+                              <span>NOV 2017</span>
+                              <p>Founded The Community</p>
                            </div>
                         </div>
                         <div class="item">
-                        <div style="color:purple" class="point-up"><i style="font-size:10px" class="fa">&#xf111;</i></div>
+                        <div class="point-up"><i style="font-size:10px" class="fa">&#xf111;</i></div>
                            <div class="item-bx">
-                              <span style="color:purple">NOV 2017</span>
+                              <span>NOV 2017</span>
                               <p>Founded The Community</p>
                            </div>
                         </div>
