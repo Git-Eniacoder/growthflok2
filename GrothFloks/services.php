@@ -18,6 +18,7 @@
 
 <body>
 <?php require('./common/header.php') ?>
+
     <main>
         <section class="herobar">
             <div class="herobar_main">
@@ -342,14 +343,14 @@
 						<div class="carousel-item active">	
                         <div class="client_gallery--mid">
                         <?php for($i=0; $i<6; $i++) {?>
-                            <div class="gallery-item"><img src="../images/Logo/<?php echo $i ?>.png" alt="" srcset=""></div>
+                            <div class="gallery-item"><img src="../images/Logo/<?php echo $i ?>.png" alt="" srcset="" class="client-img"></div>
                         <?php }?>
                         </div>
 						</div>
 						<div class="carousel-item ">	
                         <div class="client_gallery--mid">
                             <?php for($i=6; $i<12; $i++) {?>
-                            <div class="gallery-item"><img src="../images/Logo/<?php echo $i ?>.png" alt="" srcset=""></div>
+                            <div class="gallery-item"><img src="../images/Logo/<?php echo $i ?>.png" alt="" srcset="" class="client-img"></div>
                         <?php }?>
 							</div>
 						</div>

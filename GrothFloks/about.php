@@ -263,7 +263,7 @@
                      </div>
                      <!-- member end -->
                      <div class="ourteam_members--card">
-                        <div class="head">
+                        <div class="head head-col-1">
                         </div>
                         <div>
                            <img src="../images/team/Kritika.jpg" alt="" class="profile">
@@ -279,7 +279,7 @@
                      <!-- End Member Card -->
                      <!-- Member Card -->
                      <div class="ourteam_members--card">
-                        <div class="head">
+                        <div class="head head-col-2">
                         </div>
                         <div>
                            <img src="../images/team/Piyush.jpeg" alt="" class="profile">
@@ -294,7 +294,7 @@
                      </div>
                      <!-- Member Card -->
                      <div class="ourteam_members--card">
-                        <div class="head">
+                        <div class="head head-col-3">
                         </div>
                         <div>
                            <img src="../images/team/Siddharth.png" alt="" class="profile">
@@ -310,7 +310,7 @@
                      <!-- member end -->
                      <!-- Member Card -->
                      <div class="ourteam_members--card">
-                        <div class="head">
+                        <div class="head head-col-4">
                         </div>
                         <div>
                            <img src="../images/team/Sujith.jpeg" alt="" class="profile">
@@ -326,7 +326,7 @@
                      <!-- member end -->
                      <!-- Member Card -->
                      <div class="ourteam_members--card">
-                        <div class="head">
+                        <div class="head head-col-5">
                         </div>
                         <div>
                            <img src="../images/team/Jatin.jpg" alt="" class="profile">
@@ -342,7 +342,7 @@
                      <!-- member end -->
                      <!-- Member Card -->
                      <div class="ourteam_members--card">
-                        <div class="head">
+                        <div class="head head-col-6">
                         </div>
                         <div>
                            <img src="../images/team/Karan.jpg" alt="" class="profile">
@@ -357,7 +357,7 @@
                      </div>
                      <!-- member end -->
                      <div class="ourteam_members--card">
-                        <div class="head">
+                        <div class="head head-col-1">
                         </div>
                         <div>
                            <img src="../images/team/Rajdeep.jpg" alt="" class="profile">
@@ -373,7 +373,7 @@
                      <!-- End Member Card -->
                      <!-- Member Card -->
                      <div class="ourteam_members--card">
-                        <div class="head">
+                        <div class="head head-col-2">
                         </div>
                         <div>
                            <img src="../images/team/Azhar.jpeg" alt="" class="profile">
@@ -388,7 +388,7 @@
                      </div>
                      <!-- Member Card -->
                      <div class="ourteam_members--card">
-                        <div class="head">
+                        <div class="head head-col-3">
                         </div>
                         <div>
                            <img src="../images/team/Shubham.jpeg" alt="" class="profile">
@@ -404,7 +404,7 @@
                      <!-- member end -->
                      <!-- Member Card -->
                      <div class="ourteam_members--card">
-                        <div class="head">
+                        <div class="head head-col-4">
                         </div>
                         <div>
                            <img src="../images/team/Harit.jpg" alt="" class="profile">
@@ -432,6 +432,10 @@
                </div>
             </section>
          </section>
+
+
+
+
          <!-- Mentor -->
          <section class="mentor">
             <div class="container">
@@ -454,8 +458,9 @@
                                  <p>Program Manager at Microsoft <br>Reactor Bangalore</p>
                                  <hr>
                                  <div class="social text-center">
-                                    <a href="https://www.linkedin.com/in/iamparaspundir/"><img src="../images/linkedin.png" alt="" class="icon"></a>
-                                    <hr>
+                                    <!-- <a href="https://www.linkedin.com/in/iamparaspundir/"><img src="../images/linkedin.png" alt="" class="icon"></a> -->
+                                    <a href="https://www.linkedin.com/in/iamparaspundir/" ><i class="fa fa-linkedin-square men-icon" aria-hidden="true"></i></a>
+                                    <!-- <hr> -->
                                  </div>
                               </div>
                               <div class="mentor_main--card-item">
@@ -464,8 +469,9 @@
                                  <p>Product Head at Landmark Group</p>
                                  <hr>
                                  <div class="social text-center">
-                                    <a href="https://www.linkedin.com/in/theniks/"><img src="../images/linkedin.png" alt="" class="icon"></a>
-                                    <hr>
+                                    <!-- <a href="https://www.linkedin.com/in/theniks/"><img src="../images/linkedin.png" alt="" class="icon"></a> -->
+                                    <a href="https://www.linkedin.com/in/iamparaspundir/" ><i class="fa fa-linkedin-square men-icon" aria-hidden="true"></i></a>
+                                    <!-- <hr> -->
                                  </div>
                               </div>
                               <div class="mentor_main--card-item">
@@ -474,8 +480,9 @@
                                  <p>Head of Marketing  at Springworks</p>
                                  <hr>
                                  <div class="social text-center">
-                                    <a href="https://www.linkedin.com/in/aabhashk/"><img src="../images/linkedin.png" alt="" class="icon"></a>
-                                    <hr>
+                                    <!-- <a href="https://www.linkedin.com/in/aabhashk/"><img src="../images/linkedin.png" alt="" class="icon"></a> -->
+                                    <a href="https://www.linkedin.com/in/iamparaspundir/" ><i class="fa fa-linkedin-square men-icon" aria-hidden="true"></i></a>
+                                    <!-- <hr> -->
                                  </div>
                               </div>
                               <div class="mentor_main--card-item">
@@ -484,8 +491,9 @@
                                  <p>Growth Consultant at Ex- DDB Mudra</p>
                                  <hr>
                                  <div class="social text-center">
-                                    <a href="https://www.linkedin.com/in/ahluwaliaaditya/"><img src="../images/linkedin.png" alt="" class="icon"></a>
-                                    <hr>
+                                    <!-- <a href="https://www.linkedin.com/in/ahluwaliaaditya/"><img src="../images/linkedin.png" alt="" class="icon"></a> -->
+                                    <a href="https://www.linkedin.com/in/iamparaspundir/" ><i class="fa fa-linkedin-square men-icon" aria-hidden="true"></i></a>
+                                    <!-- <hr> -->
                                  </div>
                               </div>
                            </div>
@@ -498,8 +506,9 @@
                                  <p>Director- Digital Marketing  at Redbus</p>
                                  <hr>
                                  <div class="social text-center">
-                                    <a href="https://www.linkedin.com/in/jagadeesh-j/"><img src="../images/linkedin.png" alt="" class="icon"></a>
-                                    <hr>
+                                    <!-- <a href="https://www.linkedin.com/in/jagadeesh-j/"><img src="../images/linkedin.png" alt="" class="icon"></a> -->
+                                    <a href="https://www.linkedin.com/in/iamparaspundir/" ><i class="fa fa-linkedin-square men-icon" aria-hidden="true"></i></a>
+                                    <!-- <hr> -->
                                  </div>
                               </div>
                               <div class="mentor_main--card-item">
@@ -508,8 +517,9 @@
                                  <p>Founder @ Infidigit at Ex-Myntra</p>
                                  <hr>
                                  <div class="social text-center">
-                                    <a href="https://www.linkedin.com/in/kaushalthakkar/"><img src="../images/linkedin.png" alt="" class="icon"></a>
-                                    <hr>
+                                    <!-- <a href="https://www.linkedin.com/in/kaushalthakkar/"><img src="../images/linkedin.png" alt="" class="icon"></a> -->
+                                    <a href="https://www.linkedin.com/in/iamparaspundir/" ><i class="fa fa-linkedin-square men-icon" aria-hidden="true"></i></a>
+                                    <!-- <hr> -->
                                  </div>
                               </div>
                               <div class="mentor_main--card-item">
@@ -518,8 +528,9 @@
                                  <p>Growth Consultant at Ex- Quickride, Rapido</p>
                                  <hr>
                                  <div class="social text-center">
-                                    <a href="https://www.linkedin.com/in/hiteshkothari/"><img src="../images/linkedin.png" alt="" class="icon"></a>
-                                    <hr>
+                                    <!-- <a href="https://www.linkedin.com/in/hiteshkothari/"><img src="../images/linkedin.png" alt="" class="icon"></a> -->
+                                    <a href="https://www.linkedin.com/in/iamparaspundir/" ><i class="fa fa-linkedin-square men-icon" aria-hidden="true"></i></a>
+                                    <!-- <hr> -->
                                  </div>
                               </div>
                               <div class="mentor_main--card-item">
@@ -528,8 +539,9 @@
                                  <p>Head of Product Marketing at Pushowl</p>
                                  <hr>
                                  <div class="social text-center">
-                                    <a href="https://www.linkedin.com/in/walkadm/"><img src="../images/linkedin.png" alt="" class="icon"></a>
-                                    <hr>
+                                    <!-- <a href="https://www.linkedin.com/in/walkadm/"><img src="../images/linkedin.png" alt="" class="icon"></a> -->
+                                    <a href="https://www.linkedin.com/in/iamparaspundir/" ><i class="fa fa-linkedin-square men-icon" aria-hidden="true"></i></a>
+                                    <!-- <hr> -->
                                  </div>
                               </div>
                            </div>
@@ -542,8 +554,9 @@
                                  <p>Executive Director at TiE Bangalore</p>
                                  <hr>
                                  <div class="social text-center">
-                                    <a href="https://www.linkedin.com/in/vijethashastry/"><img src="../images/linkedin.png" alt="" class="icon"></a>
-                                    <hr>
+                                    <!-- <a href="https://www.linkedin.com/in/vijethashastry/"><img src="../images/linkedin.png" alt="" class="icon"></a> -->
+                                    <a href="https://www.linkedin.com/in/iamparaspundir/" ><i class="fa fa-linkedin-square men-icon" aria-hidden="true"></i></a>
+                                    <!-- <hr> -->
                                  </div>
                               </div>
                            </div>
