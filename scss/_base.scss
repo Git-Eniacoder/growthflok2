@@ -110,6 +110,32 @@ main{
         }
     }
 
+
+    .newsletter-box{
+        margin-top: 1.7rem;    
+        background-color: #fff;
+        padding: .5rem;
+        border-radius: 2px;
+    
+    
+        .newsletter-inp{
+            border: none;
+            padding: .8rem;
+            width: 100%;
+            border-radius: 2px;
+            text-align: center;
+            
+        }
+    
+        .newsletter-btn{
+           
+            width: 100%;
+            margin-top: .5rem;
+
+        }
+    
+    }
+
 }
 
 
@@ -317,11 +343,11 @@ main{
     }
     
     .index_banner-main{
-        height: 33rem;
+        height: 40rem;
     }
 
     .about_banner{
-        height: 35rem;
+        height: 40rem;
     }
 
 }

@@ -126,6 +126,11 @@
 
 }
 
+.men-icon{
+    color: rgb(168, 172, 172);
+    font-size: 3rem;
+}
+
 // About Calender page
 
 .about_calender{
@@ -357,6 +362,11 @@
                     color: #7A8281;
                     font-size: 1.4rem;
                 }
+
+                .men-icon{
+                    color: rgb(168, 172, 172);
+                    font-size: 2rem;
+                }
             }
 
 
@@ -478,7 +488,8 @@
             // flex-wrap: wrap;
             
             &--card{
-                width: 70%;
+                width: 85%;
+                // border: 1px solid red;
                 // height: 38rem;
                 // padding: .5rem;
                 // margin: 2rem;
@@ -557,7 +568,7 @@
     
                 &-item{
                     // border: 1px solid red;
-                    margin-bottom: 1.3rem;
+                    margin-bottom: 3rem;
                     text-align: center;
     
                     img{
@@ -572,6 +583,11 @@
                     p{
                         color: #7A8281;
                         font-size: 1.4rem;
+                    }
+
+                    .men-icon{
+                        color: rgb(168, 172, 172);
+                        font-size: 3rem;
                     }
                 }
     

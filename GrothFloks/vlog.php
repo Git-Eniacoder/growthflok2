@@ -33,7 +33,7 @@
         <section class="herobar">
             <div class="herobar_main">
                 <div class="container">
-                    <h1>Resources</h1>
+                    <h1>Vlogs</h1>
                 </div>
             </div>
         </section>
@@ -41,16 +41,17 @@
         <section class="blog_post">
             <div class="container">
                 <div class="blog_post--toggel">
-                    <div id="blog" onclick="active_blog()" class="blog_post--toggel-btn res_blog_active">
+                    <!-- <div id="blog" onclick="active_blog()" class="blog_post--toggel-btn res_blog_active">
                         <span><a>Blogs</a></span>
-                    </div>
-                    <div id="vlog" onclick="active_vlog()" class="blog_post--toggel-btn">
+                    </div> -->
+                    <!-- onclick="active_vlog()" -->
+                    <div id="vlog" class="blog_post--toggel-btn">
                         <span><a>Vlogs</a></span>
                     </div>
                 </div>
 
 
-                <div id="blog-view" class="blog_post--items">
+                <!-- <div id="blog-view" class="blog_post--items">
                     <?php for($i=0; $i<count($parsed_json['blog']->items); $i++){ ?>
                         <a href="<?php echo $parsed_json['blog']->items[$i]->link ; ?>"> 
                             <div class="resources_post">
@@ -65,7 +66,7 @@
                             </div>
                         </a>
                     <?php }?>
-                </div>
+                </div> -->
                 <div id="vlog-view" class="blog_post--items">
                     <?php for($i=0; $i<count($parsed_json['vlog']->items)-1; $i++){ ?>
                             <div class="resources_post">

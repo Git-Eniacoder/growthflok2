@@ -11,6 +11,11 @@
             justify-content: space-between;
             align-items: start;
 
+            .logo{
+                // width: 15rem;
+                margin-bottom: .7rem;
+            }
+
             h3{
                 color: #5A6361;
                }
@@ -48,8 +53,11 @@
         
                     .head_icons{
         
-                        .s-icon{
-                            background: #207A6A;
+                        .social_icons{
+                            color: #207a6a;
+                            font-size: 2.3rem;
+                            padding-left: .5rem;
+
                         }
                     }
                 }
@@ -104,13 +112,20 @@
 @media only screen and (max-width: 700px){
 
     .footer{
-        
+        // border: 1px solid red;
     
         &_main{
-           
+           width: 100%;
     
             &--head{
                 flex-direction: column;
+                align-items: center;
+                // justify-content: center;
+
+                .logo{
+                    width: 13rem;
+                    margin-bottom: 1rem;
+                }
     
     
                 .f-sec-1{
@@ -122,44 +137,47 @@
                 }
                
     
-                // &-sec{
+                &-sec{
     
 
-                //     .head{
-                //         // border: 1px solid red;
+                    .head{
+                        // border: 1px solid red;
                         
             
-                //         .head_icons{
+                        .head_icons{
             
-                //             .s-icon{
-                               
-                //             }
-                //         }
-                //     }
+                            .social_icons{
+                                color: #207a6a;
+                                font-size: 2.3rem;
+
+                            }
+                        }
+                    }
     
-                //     .bottom{
+                    // .bottom{
     
-                //         p{
+                    //     p{
                             
-                //         }
+                    //     }
     
-                //         li{
+                    //     li{
                             
     
-                //             a{
+                    //         a{
                                 
                                 
-                //             }
-                //         }
+                    //         }
+                    //     }
     
                         
-                //     }
-                // }
+                    // }
+                }
                 
             }
 
             &--bottom{
 
+                flex-direction: column;
             }
         }
     }
