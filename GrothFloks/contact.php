@@ -129,7 +129,7 @@
          </section>
       </main>
       <script>
-
+$('.nav-item').removeClass("nav-active");
     $('#contact').css({"background-color": "#207A6A", "color": "#fff"});
  </script>
       <script>

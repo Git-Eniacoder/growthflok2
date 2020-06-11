@@ -996,8 +996,8 @@ body {
 }
 
 .about_calender {
-  min-height: 20rem;
-  background: #EFF2F2;
+  /* min-height: 20rem;
+  background: #EFF2F2; */
 }
 
 .about_calender_head {
@@ -1458,6 +1458,7 @@ body {
 .resources_main--posts .resources_post {
   padding: 1rem;
   width: 32%;
+  min-height: 325px;
 }
 
 .resources_main--posts .resources_post .post_img {
@@ -1579,6 +1580,7 @@ body {
 .blog_post--items .resources_post {
   padding: 1rem;
   margin: 2rem 0rem;
+  min-height: 325px;
   width: 32%;
 }
 

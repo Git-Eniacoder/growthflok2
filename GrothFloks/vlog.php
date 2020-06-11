@@ -5,6 +5,9 @@
     $json_string = file_get_contents("https://www.googleapis.com/youtube/v3/search?key=AIzaSyASMCXnqPPfhnShDhr7zUDel9NAITa0HqA&channelId=UCAI1rofJTx9oH8GKJfPYSNA&part=snippet,id&order=date&maxResults=20");
     $parsed_json['vlog'] = json_decode($json_string);
     // echo "<pre>";
+    // print_r($parsed_json['vlog']);
+    // die;
+    // echo "<pre>";
     // print_r($parsed_json['blog']);
 ?>
 <!DOCTYPE html>
@@ -45,37 +48,21 @@
                         <span><a>Blogs</a></span>
                     </div> -->
                     <!-- onclick="active_vlog()" -->
-                    <div id="vlog" class="blog_post--toggel-btn">
+                    <!-- <div id="vlog" class="blog_post--toggel-btn">
                         <span><a>Vlogs</a></span>
                     </div>
-                </div>
-
-
-                <!-- <div id="blog-view" class="blog_post--items">
-                    <?php for($i=0; $i<count($parsed_json['blog']->items); $i++){ ?>
-                        <a href="<?php echo $parsed_json['blog']->items[$i]->link ; ?>"> 
-                            <div class="resources_post">
-                                <img src="<?php echo $parsed_json['blog']->items[$i]->thumbnail; ?>" alt="" class="post_img">
-                                <div class="tags">
-                                    <?php for($j=0; $j<count($parsed_json['blog']->items[$i]->categories); $j++){ ?>
-                                    <a href="" class="tags_links"><?php echo $parsed_json['blog']->items[$i]->categories[$j]; ?></a>
-                                    <?php } ?>
-                                </div>
-                                <h3><?php echo $parsed_json['blog']->items[$i]->title; ?></h3>
-                                <p class="date"><?php echo $parsed_json['blog']->items[$i]->pubDate; ?> · <span> 3 min read</span></p>
-                            </div>
-                        </a>
-                    <?php }?>
                 </div> -->
-                <div id="vlog-view" class="blog_post--items">
-                    <?php for($i=0; $i<count($parsed_json['vlog']->items)-1; $i++){ ?>
+
+
+                <div id="blog-view" class="blog_post--items">
+                    <?php for($i=0; $i<count($parsed_json['vlog']->items); $i++){ ?>
+                        <a href="<?php echo "https://www.youtube.com/watch?v=".$parsed_json['vlog']->items[$i]->id->videoId; ?>"> 
                             <div class="resources_post">
-                            <a href="<?php echo "https://www.youtube.com/watch?v=".$parsed_json['vlog']->items[$i]->id->videoId; ?>">         
                                 <img src="<?php echo "https://img.youtube.com/vi/".$parsed_json['vlog']->items[$i]->id->videoId."/hqdefault.jpg" ; ?>" alt="" class="post_img"></a>
-                                <h3><?php echo $parsed_json['vlog']->items[$i]->snippet->title; ?></h3>
+                                <a class="text-dark" href="<?php echo "https://www.youtube.com/watch?v=".$parsed_json['vlog']->items[$i]->id->videoId; ?>">  <h3><?php echo $parsed_json['vlog']->items[$i]->snippet->title; ?></h3></a>
                                 <p class="date"><?php echo $parsed_json['vlog']->items[$i]->snippet->publishTime; ?> · <span> 3 min read</span></p>
                             </div>
-                        
+                   
                     <?php }?>
                 </div>
             </div>

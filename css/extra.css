@@ -67,7 +67,9 @@
 .social img{
     width: 31px;
 }
-
+.mentor_main--card-item{
+    min-height: 415px;
+}
 @media only screen and (max-width: 600px) {
     .arrow_left {
       left: 102px;

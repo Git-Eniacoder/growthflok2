@@ -129,7 +129,7 @@
                             <h3 class="ser_item-h">Workshops & Meetups</h3>
                             <p class="ser_item-para">There are many variations of passages of Lorem Ipsum available, but
                                 the majority have suffered alteration in some form, by injected humour.</p>
-                            <a href="">See All Vlogs <img src="../icons/go-arr.svg" alt="" class="go-arr"></a>
+                            <a href="./vlog.php">See All Vlogs <img src="../icons/go-arr.svg" alt="" class="go-arr"></a>
                         </div>
                         <div class="services_port--sub-content">
                             <!-- <img src="../images/events-1.png" alt="" class="ser_item-img"> -->
@@ -140,7 +140,7 @@
                             <h3 class="ser_item-h">Workshops & Meetups</h3>
                             <p class="ser_item-para">There are many variations of passages of Lorem Ipsum available, but
                                 the majority have suffered alteration in some form, by injected humour.</p>
-                            <a href="">See All Blogs <img src="../icons/go-arr.svg" alt="" class="go-arr"></a>
+                            <a href="./blog.php">See All Blogs <img src="../icons/go-arr.svg" alt="" class="go-arr"></a>
                         </div>
                     </div>
                 </div>
@@ -305,7 +305,7 @@
                 <div class="bottom_bar">
                         <div class="bottom_bar--left">
                             <div class="page-btn">
-                                <a href="">Join Our Community <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24.08 23.88" class="svg-arow"><defs><style>.cls-1{fill:#fff; width: 2%}</style></defs><title>arrow</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M24.08,18.83V1.63A1.42,1.42,0,0,0,23.57.54,1.43,1.43,0,0,0,22.45,0H5.25a1.43,1.43,0,1,0,0,2.87H19L.42,21.43a1.43,1.43,0,0,0,2,2L21.21,4.69V18.83a1.43,1.43,0,1,0,2.87,0Z"/></g></g></svg></a>
+                                <a href="./contact.php">Join Our Community <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24.08 23.88" class="svg-arow"><defs><style>.cls-1{fill:#fff; width: 2%}</style></defs><title>arrow</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M24.08,18.83V1.63A1.42,1.42,0,0,0,23.57.54,1.43,1.43,0,0,0,22.45,0H5.25a1.43,1.43,0,1,0,0,2.87H19L.42,21.43a1.43,1.43,0,0,0,2,2L21.21,4.69V18.83a1.43,1.43,0,1,0,2.87,0Z"/></g></g></svg></a>
                             </div>
                         </div>
                         <div class="bottom_bar--right">

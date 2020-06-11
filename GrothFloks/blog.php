@@ -1,11 +1,20 @@
 <?php error_reporting(E_ERROR | E_PARSE);?>
 <?php
-    $json_string = file_get_contents("https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/growth-folks");
+    $json_string = file_get_contents("http://growthfolks.in/blog/wp-json/wp/v2/posts?per_page=12&_embed");
     $parsed_json['blog'] = json_decode($json_string);
-    $json_string = file_get_contents("https://www.googleapis.com/youtube/v3/search?key=AIzaSyASMCXnqPPfhnShDhr7zUDel9NAITa0HqA&channelId=UCAI1rofJTx9oH8GKJfPYSNA&part=snippet,id&order=date&maxResults=20");
-    $parsed_json['vlog'] = json_decode($json_string);
-    // echo "<pre>";
-    // print_r($parsed_json['blog']);
+//     // print_r($parsed_json['blog']);
+//     echo count($parsed_json['blog']);
+// for($i=0; $i< count($parsed_json['blog']); $i++){
+//     echo "<br><br>";
+//     echo $parsed_json['blog'][$i]->title->rendered."<br>";
+//     echo $parsed_json['blog'][$i]->date."<br>";
+//     foreach($parsed_json['blog'][$i]->_embedded->{'wp:term'}[0] as $value){
+//         echo $value->name;
+//     }
+//     echo '<br>'.$parsed_json['blog'][$i]->_embedded->{'wp:featuredmedia'}[0]->media_details->sizes->thumbnail->source_url."<br>";
+//     echo $parsed_json['blog'][$i]->link."<br>";
+// }
+// die;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -14,6 +23,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/extra.css">
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <link
         href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;400;500;600;700;800&family=Lato:wght@300;400&display=swap"
@@ -42,9 +52,9 @@
             <div class="container">
                 <div class="blog_post--toggel">
                 <!-- onclick="active_blog() -->
-                    <div id="blog" class="blog_post--toggel-btn res_blog_active">
+                    <!-- <div id="blog" class="blog_post--toggel-btn res_blog_active">
                         <span><a>Blogs</a></span>
-                    </div>
+                    </div> -->
                     <!-- <div id="vlog" onclick="active_vlog()" class="blog_post--toggel-btn">
                         <span><a>Vlogs</a></span>
                     </div> -->
@@ -52,32 +62,20 @@
 
 
                 <div id="blog-view" class="blog_post--items">
-                    <?php for($i=0; $i<count($parsed_json['blog']->items); $i++){ ?>
-                        <a href="<?php echo $parsed_json['blog']->items[$i]->link ; ?>"> 
+                    <?php for($i=0; $i< count($parsed_json['blog']); $i++){ ?>
                             <div class="resources_post">
-                                <img src="<?php echo $parsed_json['blog']->items[$i]->thumbnail; ?>" alt="" class="post_img">
+                            <a href="<?php echo $parsed_json['blog'][$i]->link ?>">  <img src="<?php echo $parsed_json['blog'][$i]->_embedded->{'wp:featuredmedia'}[0]->media_details->sizes->medium->source_url; ?>" alt="" class="post_img"></a>
                                 <div class="tags">
-                                    <?php for($j=0; $j<count($parsed_json['blog']->items[$i]->categories); $j++){ ?>
-                                    <a href="" class="tags_links"><?php echo $parsed_json['blog']->items[$i]->categories[$j]; ?></a>
+                                    <?php  foreach($parsed_json['blog'][$i]->_embedded->{'wp:term'}[0] as $value){ ?>
+                                    <a href="<?php echo $parsed_json['blog'][$i]->link ?>" class="tags_links"><?php  echo $value->name; ?></a>
                                     <?php } ?>
                                 </div>
-                                <h3><?php echo $parsed_json['blog']->items[$i]->title; ?></h3>
-                                <p class="date"><?php echo $parsed_json['blog']->items[$i]->pubDate; ?> · <span> 3 min read</span></p>
+                                <a class="text-dark" href="<?php echo $parsed_json['blog'][$i]->link ?>"><h3><?php echo $parsed_json['blog'][$i]->title->rendered ;?></h3></a>
+                                <p class="date"><?php echo $parsed_json['blog'][$i]->date ; ?> · <span> 3 min read</span></p>
                             </div>
-                        </a>
                     <?php }?>
                 </div>
-                <!-- <div id="vlog-view" class="blog_post--items">
-                    <?php for($i=0; $i<count($parsed_json['vlog']->items)-1; $i++){ ?>
-                            <div class="resources_post">
-                            <a href="<?php echo "https://www.youtube.com/watch?v=".$parsed_json['vlog']->items[$i]->id->videoId; ?>">         
-                                <img src="<?php echo "https://img.youtube.com/vi/".$parsed_json['vlog']->items[$i]->id->videoId."/hqdefault.jpg" ; ?>" alt="" class="post_img"></a>
-                                <h3><?php echo $parsed_json['vlog']->items[$i]->snippet->title; ?></h3>
-                                <p class="date"><?php echo $parsed_json['vlog']->items[$i]->snippet->publishTime; ?> · <span> 3 min read</span></p>
-                            </div>
-                        
-                    <?php }?>
-                </div> -->
+                
             </div>
         </section>
 

@@ -1,6 +1,6 @@
 <?php
     error_reporting(E_ERROR | E_PARSE);
-    $json_string = file_get_contents("https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/growth-folks");
+    $json_string = file_get_contents("http://growthfolks.in/blog/wp-json/wp/v2/posts?per_page=12&_embed");
     $parsed_json['blog'] = json_decode($json_string);
     $json_string = file_get_contents("https://www.googleapis.com/youtube/v3/search?key=AIzaSyASMCXnqPPfhnShDhr7zUDel9NAITa0HqA&channelId=UCAI1rofJTx9oH8GKJfPYSNA&part=snippet,id&order=date&maxResults=20");
     $parsed_json['vlog'] = json_decode($json_string);
@@ -429,39 +429,34 @@ img.hover-shadow {
 						 <div class="carousel-inner ">
 							<div class="carousel-item">
 								<div class="resources_main--posts">
-								<?php
-								for($i=0;$i<3;$i++){
-								echo	'<div class="resources_post">
-										<a href="'.$parsed_json['blog']->items[$i]->link.'"><img src="'.$parsed_json['blog']->items[$i]->thumbnail.'" alt="" class="post_img"></a>
-										<div class="tags">';
-								for($j=0; $j<count($parsed_json['blog']->items[$i]->categories); $j++)
-								{ 
-                                    echo '<a href="" class="tags_links">'.$parsed_json['blog']->items[$i]->categories[$j].'</a>';
-                                }
-								echo '</div>
-									<h3>'.$parsed_json['blog']->items[$i]->title.'</h3>
-										<p class="date">'.$parsed_json['blog']->items[$i]->pubDate.'<span> 3 min read</span></p>
-									</div>';
-								}?>
+                                <?php for($i=0; $i< 3; $i++){ ?>
+                            <div class="resources_post">
+                            <a href="<?php echo $parsed_json['blog'][$i]->link ?>">  <img src="<?php echo $parsed_json['blog'][$i]->_embedded->{'wp:featuredmedia'}[0]->media_details->sizes->medium->source_url; ?>" alt="" class="post_img"></a>
+                                <div class="tags">
+                                    <?php  foreach($parsed_json['blog'][$i]->_embedded->{'wp:term'}[0] as $value){ ?>
+                                    <a href="<?php echo $parsed_json['blog'][$i]->link ?>" class="tags_links"><?php  echo $value->name; ?></a>
+                                    <?php } ?>
+                                </div>
+                                <a class="text-dark" href="<?php echo $parsed_json['blog'][$i]->link ?>"><h3><?php echo $parsed_json['blog'][$i]->title->rendered ;?></h3></a>
+                                <p class="date"><?php echo $parsed_json['blog'][$i]->date ; ?> · <span> 3 min read</span></p>
+                            </div>
+                             <?php }?>
 								</div>
 							</div>
 							<div class="carousel-item active">
 								<div class="resources_main--posts">
-								<?php
-									for($i=3;$i<6;$i++){
-									echo	'<div class="resources_post">
-											<a href="'.$parsed_json['blog']->items[$i]->link.'"><img src="'.$parsed_json['blog']->items[$i]->thumbnail.'" alt="" class="post_img"></a>
-											<div class="tags">';
-									for($j=0; $j<count($parsed_json['blog']->items[$i]->categories); $j++)
-									{ 
-										echo '<a href="" class="tags_links">'.$parsed_json['blog']->items[$i]->categories[$j].'</a>';
-									}
-									echo'</div>
-										<h3>'.$parsed_json['blog']->items[$i]->title.'</h3>
-											<p class="date">'.$parsed_json['blog']->items[$i]->pubDate.'<span> 3 min read</span></p>
-										</div>';
-									}
-								?>
+                                <?php for($i=3; $i< 6; $i++){ ?>
+                            <div class="resources_post">
+                            <a href="<?php echo $parsed_json['blog'][$i]->link ?>">  <img src="<?php echo $parsed_json['blog'][$i]->_embedded->{'wp:featuredmedia'}[0]->media_details->sizes->medium->source_url; ?>" alt="" class="post_img"></a>
+                                <div class="tags">
+                                    <?php  foreach($parsed_json['blog'][$i]->_embedded->{'wp:term'}[0] as $value){ ?>
+                                    <a href="<?php echo $parsed_json['blog'][$i]->link ?>" class="tags_links"><?php  echo $value->name; ?></a>
+                                    <?php } ?>
+                                </div>
+                                <a class="text-dark" href="<?php echo $parsed_json['blog'][$i]->link ?>"><h3><?php echo $parsed_json['blog'][$i]->title->rendered ;?></h3></a>
+                                <p class="date"><?php echo $parsed_json['blog'][$i]->date ; ?> · <span> 3 min read</span></p>
+                            </div>
+                              <?php }?>
 								</div>
 							</div>
 						</div>
