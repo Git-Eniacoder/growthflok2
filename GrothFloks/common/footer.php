@@ -32,7 +32,8 @@
                                 <li><a href="">Services</a></li>
                                 <li><a href="">Events</a></li>
                                 <li><a href="">About Us</a></li>
-                                <li><a href="">Resources</a></li>
+                                <li><a href="">Blogs</a></li>
+                                <li><a href="">Vlogs</a></li>
                                 <li><a href="">Let’s Collab</a></li>
                             </ul>
                         </div>

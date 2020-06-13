@@ -49,10 +49,10 @@
          <section class="about_calender">
          <div class="left left_move arrow_left">
                                 <img src="../icons/left-arr.svg" alt="">
-                            </div>
-             <div class="right right_move arrow_right">
-                        <img src="../icons/right-arr.svg" alt="">
-                     </div>
+         </div>
+         <div class="right right_move arrow_right">
+                  <img src="../icons/right-arr.svg" alt="">
+        </div>
             <div class="container-fluid padding_scroll pl-0">
             <div class="row">
                <div class="col-md-12 overflow-auto scroller pt-3">

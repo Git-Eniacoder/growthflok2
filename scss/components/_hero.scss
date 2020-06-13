@@ -86,6 +86,7 @@
                 height: 53rem;
                 border-radius: 3px;
                 background-color: rgb(170, 41, 41);
+                // border: 1px solid red;
                 z-index: 1;
                 position: absolute;
                 top: 8.8rem;
@@ -153,13 +154,14 @@
 
                 .d-box-l-1{
                     top: 3rem;
+                    left: 1rem;
                 }
 
                 .hero_img-box{
-                    width:25rem;
+                    width:26rem;
                     height: 40rem;
                     top: 7rem;
-                    left: 2rem;
+                    left: 2.8rem;
 
                   
                 }
@@ -168,7 +170,7 @@
                     width: 9rem ;
                     height: 13.6rem;
                     top: 37rem;
-                    left: 20rem;
+                    left: 22rem;
                 }
             }
         }
@@ -240,12 +242,3 @@
 
 // }
 
-
-@media only screen and (max-width: 900px){
-
-
-
-
-
-
-}

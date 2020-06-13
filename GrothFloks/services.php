@@ -172,7 +172,7 @@
         </section>
 
         <!-- Testimonials -->
-        <div class="testimonial">
+        <div class="testimonial ser_testimonial">
             <div class="container">
                 <div class="testimonial_main">
 

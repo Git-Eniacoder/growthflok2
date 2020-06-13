@@ -132,10 +132,14 @@
     .bottom_bar{
         flex-direction: column;
         align-items: center;
+
+        &--left{
+            order: 2;
+        }
     
         &--right{
-           display: none;
-            
+            order: 1;
+            margin-bottom: 2rem;
         }
     
     }

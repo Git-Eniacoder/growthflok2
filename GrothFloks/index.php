@@ -511,7 +511,7 @@ img.hover-shadow {
                  <div class="bottom_bar">
                         <div class="bottom_bar--left">
                             <div class="page-btn">
-                                <a href="">See All Blogs </a>
+                                <a href="" class="index-res-btn">See All Blogs </a>
                             </div>
                         </div>
                         <div class="bottom_bar--right">
@@ -769,10 +769,13 @@ img.hover-shadow {
         
             $('#vlog').removeClass("res_active");
             $('#blog').addClass("res_active");   
+            $('.index-res-btn').text('See All Blogs'); 
+
         }
         function active_vlog(){
             $('#blog').removeClass("res_active");
-            $('#vlog').addClass("res_active");   
+            $('#vlog').addClass("res_active");  
+            $('.index-res-btn').text('See All Vlogs');  
         }
         </script>     
 
