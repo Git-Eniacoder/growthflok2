@@ -7,8 +7,8 @@
     color: #fff;
 }
 .mentor_img{
-    width : 256px;
-    height: 288px;
+    width : 25.6rem;
+    /* height: 288px; */
 }
 /* .gallery-item img{
     width : 100%;
@@ -67,15 +67,15 @@
 .social img{
     width: 31px;
 }
-.mentor_main--card-item{
-    min-height: 415px;
-}
+/* .mentor_main--card-item{
+    min-height: 36rem;
+} */
 @media only screen and (max-width: 600px) {
     .arrow_left {
-      left: 102px;
+      left: 30px;
     }
     .arrow_right{
-        right: 105px;
+        right: 30px;
     }
     .about{
         margin : 3rem 0;

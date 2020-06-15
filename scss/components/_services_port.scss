@@ -221,31 +221,34 @@
     
             &-img{
                 
-                min-height: 50rem;
+                min-height: 42rem;
                 text-align: center;
                 
                 
                 width: 98%;
                 
                 .ser_img{
-                    width: 32rem; 
+                    width: 28rem; 
                 }
             }
         }
 
 
         &--sub{
+
             // border: 1px solid red;
             height:68rem;
+
             .division-2{
                 flex-direction: column;
+                // margin-bottom: 2rem;
                 }
     
             &-content{
                 // border: 1px solid red;
                 width: 98%;
                 text-align: center;
-                margin: 2rem 0;
+                margin: 1rem 0;
 
                 .img-bx{
                     // border: 1px solid red;
@@ -272,6 +275,10 @@
 
 
     
+    }
+
+    .ser_testimonial{
+        margin-top: 28rem;
     }
     
 
