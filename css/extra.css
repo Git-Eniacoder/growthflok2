@@ -77,4 +77,16 @@
     .arrow_right{
         right: 105px;
     }
+    .about{
+        margin : 3rem 0;
+    }
+    .about_main--detail-show .show_item{
+        width: 11rem;
+    }
+    .hover-shadow {
+        width: 80% !important;
+    }
+    .testimonial{
+        margin: -5rem 0;
+    }
   }

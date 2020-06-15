@@ -1,9 +1,9 @@
 <?php error_reporting(E_ERROR | E_PARSE);?>
 <?php
-    $json_string = file_get_contents("https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/growth-folks");
-    $parsed_json['blog'] = json_decode($json_string);
-    $json_string = file_get_contents("https://www.googleapis.com/youtube/v3/search?key=AIzaSyASMCXnqPPfhnShDhr7zUDel9NAITa0HqA&channelId=UCAI1rofJTx9oH8GKJfPYSNA&part=snippet,id&order=date&maxResults=20");
-    $parsed_json['vlog'] = json_decode($json_string);
+    $con = mysqli_connect("13.233.17.47","growthfolks","@Navneet1","growthfolks");
+    $sql = "select * from growthfolks";
+    $result = mysqli_query($con,$sql);
+    $data = mysqli_fetch_all($result);
     // echo "<pre>";
     // print_r($parsed_json['vlog']);
     // die;
@@ -55,15 +55,13 @@
 
 
                 <div id="blog-view" class="blog_post--items">
-                    <?php for($i=0; $i<count($parsed_json['vlog']->items); $i++){ ?>
-                        <a href="<?php echo "https://www.youtube.com/watch?v=".$parsed_json['vlog']->items[$i]->id->videoId; ?>"> 
-                            <div class="resources_post">
-                                <img src="<?php echo "https://img.youtube.com/vi/".$parsed_json['vlog']->items[$i]->id->videoId."/hqdefault.jpg" ; ?>" alt="" class="post_img"></a>
-                                <a class="text-dark" href="<?php echo "https://www.youtube.com/watch?v=".$parsed_json['vlog']->items[$i]->id->videoId; ?>">  <h3><?php echo $parsed_json['vlog']->items[$i]->snippet->title; ?></h3></a>
-                                <p class="date"><?php echo $parsed_json['vlog']->items[$i]->snippet->publishTime; ?> · <span> 3 min read</span></p>
+                <?php for($i=0;$i<count($data);$i++){?>
+                                        <div class="resources_post">
+                            <a href="https://www.youtube.com/watch?v=<?php echo $data[$i][1] ?>">  <img src="<?php echo $data[$i][2] ?>" alt="" class="post_img"></a>
+                                <a class="text-dark" href="https://www.youtube.com/watch?v=<?php echo $data[$i][1] ?>"><h3><?php echo $data[$i][4] ?></h3></a>
+                                <p class="date"><?php echo $data[$i][3] ?><span></span></p>
                             </div>
-                   
-                    <?php }?>
+							        <?php } ?>
                 </div>
             </div>
         </section>

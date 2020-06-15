@@ -1504,7 +1504,7 @@ body {
 @media only screen and (max-width: 700px) {
   .resources {
     padding-top: 5rem;
-    height: 163rem;
+    height: 147rem;
   }
   .resources_main--content {
     flex-direction: column;
@@ -1747,7 +1747,7 @@ body {
   height: 12rem;
   border-radius: .2rem;
   position: relative;
-  background-color: #EFF2F2;
+  /* background-color: #EFF2F2; */
   margin: 0 8px;
 }
 
