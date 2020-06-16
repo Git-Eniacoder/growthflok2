@@ -130,10 +130,6 @@ for($i=0; $i<count($parsed_json->data); $i++){
                                     <p>'.$city.'</p>
                                 </div>
                                 <div class="data-set">
-                                    <span class="data-head">Event Type</span>
-                                    <p>'.$parsed_json->data[$i]->category.'</p>
-                                </div>
-                                <div class="data-set">
                                     <span class="data-head">Medium</span>
                                     <p>'.$online.'</p>
                                 </div>

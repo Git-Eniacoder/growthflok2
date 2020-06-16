@@ -1001,8 +1001,8 @@ body {
 }
 
 .about_calender {
-  min-height: 20rem;
-  background: #EFF2F2;
+  /* min-height: 20rem; */
+  /* background: #EFF2F2; */
 }
 
 .about_calender_head {
@@ -1514,7 +1514,7 @@ body {
 @media only screen and (max-width: 700px) {
   .resources {
     padding-top: 7rem;
-    height: 152rem;
+    height: 81rem;
   }
   .resources_main--content {
     flex-direction: column;
@@ -1715,7 +1715,7 @@ body {
 @media only screen and (max-width: 700px) {
   .testimonial {
     margin: 8rem 0;
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
   .testimonial_main--items {
     flex-direction: column;
@@ -1799,10 +1799,10 @@ body {
     flex-direction: column;
   }
   .client_gallery--mid .gallery-item {
-    width: 25rem;
-    height: 20rem;
+    width: 18rem;
+    height: 10rem;
     border-radius: .2rem;
-    background-color: #EFF2F2;
+    /* background-color: #EFF2F2; */
     margin: 1rem;
   }
   .client_gallery--mid .gallery-item:last-child {

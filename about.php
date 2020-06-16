@@ -47,15 +47,15 @@
          <!-- Base end -->
          <!-- About Calender -->
          <section class="about_calender">
-         <div class="left left_move arrow_left">
+         <div id="slideleft" class="left left_move arrow_left">
                                 <img src="./icons/left-arr.svg" alt="">
          </div>
-         <div class="right right_move arrow_right">
+         <div id="slideright" class="right right_move arrow_right">
                   <img src="./icons/right-arr.svg" alt="">
         </div>
             <div class="container-fluid padding_scroll pl-0">
             <div class="row">
-               <div class="col-md-12 overflow-auto scroller pt-3">
+               <div id="scroll" class="col-md-12 overflow-auto scroller pt-3">
                   <div class="clr">
                      <div class="d-flex">
                         <div class="start_div">
@@ -595,6 +595,16 @@
    $("#teamNext").click(() => $("#teamcrousel").carousel("next"));
    $("#teamPre").click(() => $("#teamcrousel").carousel("prev"));
    
+</script>
+<script>
+const left = document.getElementById('slideleft');
+const right = document.getElementById('slideright');
+left.onclick = function () {
+  document.getElementById('scroll').scrollLeft += 20;
+};
+right.onclick = function () {
+  document.getElementById('scroll').scrollLeft -= 20;
+};
 </script>
 <!-- <div class="mentor_main">
    <div class="mentor_main--left">
