@@ -92,6 +92,9 @@ for($i=0; $i<count($parsed_json->data); $i++){
                 
                 <!-- Events -->
 			<?php
+            if(count($parsed_json->data)==0){
+                echo "<p>Hey Homie,</p><p>There are no upcoming events right now. There are some really exciting events lined up. We will update you about this soon. Watch this space for more updates.</p>";
+            }
 			for($i=0; $i<count($parsed_json->data); $i++){
                try{
                 $city=$parsed_json->data[$i]->place->location->city;

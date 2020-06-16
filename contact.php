@@ -1,3 +1,11 @@
+<?php 
+if(!isset($_GET['msg_sig'])){  
+   $message=" ";
+}
+else{ 
+   $message="Form Submitted Successfully";
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
    <head>
@@ -91,6 +99,7 @@
                         </div>
                      </div>
                      <div class="contact_main--form">
+                     <p class="text-success"><?php echo $message;?></p>
                         <form action="contact_to_excel.php" method="post">
                            <div class="tag">
                               <label for="">Name</label>

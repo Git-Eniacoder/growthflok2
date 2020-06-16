@@ -5,8 +5,8 @@ $fp = fopen('contact.csv', 'a+');
 fwrite($fp, $data);  
 fwrite($fp, "\n");  
 fclose($fp); 
-	echo  "<SCRIPT LANGUAGE='JavaScript'>
-    window.alert('Thank you for contacting us we will get back to you soon..');
-    window.location.href='contact.php';
+    echo  "<SCRIPT LANGUAGE='JavaScript'>
+    alert('Thank you for submitting your request. We appreciate your efforts. We will get in touch with you in next 24-28 hrs');
+    window.location.href='contact.php?msg_sig=1';
     </SCRIPT>";
 ?>
