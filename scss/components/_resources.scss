@@ -52,6 +52,7 @@
         &--posts{
             // border: 1px solid red;
             margin: 2rem 0;
+            height: 35rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -148,7 +149,7 @@
              }
      
              &--posts{
-
+                height: 90rem;
                 flex-direction: column;
      
                  .resources_post{
@@ -232,9 +233,9 @@
 
         .resources_post{
             padding: 1rem;
-            margin: 2rem 0rem;
+            margin-top: 3rem;
             width: 32%;
-            min-height: 325px;
+            min-height: 25rem;
             // border: 1px solid red;
         
             .post_img{
@@ -325,13 +326,14 @@
             .resources_post{
                 // @include center;
                 // padding: 1rem;
-                // margin: 2rem 0rem;
+                margin-top: 2rem;
                 width: 99%;
                 // border: 1px solid red;
-                text-align: center;          
+                text-align: center;    
+                // min-height: 30rem;      
             
                 .post_img{
-                    width: 32rem;
+                    width: 28rem;
                     margin-bottom: .5rem;
                 }
                 

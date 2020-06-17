@@ -4,7 +4,7 @@
         <div class="container">
             <div class="header_main">
                 <div class="header_main--logo">
-                    <a href="#"><img src="./details/logo.png" alt="GrowthFolks" class="logo"></a>
+                    <a href="https://growthfolks.in/"><img src="./details/logo.png" alt="GrowthFolks" class="logo"></a>
                 </div>
                 <nav class="header_main--nav">
                     <a href="index.php" id="home" class="nav-item nav-active">Home</a>

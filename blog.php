@@ -80,7 +80,7 @@
         </section>
 
         <!-- Pagination -->
-        <section class="pagination">
+        <!-- <section class="pagination">
             <div class="container">
                 <div class="pagination_main">
                     <div class="pagination_main--left">
@@ -111,7 +111,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- End Pagination -->
 
     </main>
