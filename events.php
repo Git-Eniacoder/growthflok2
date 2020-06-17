@@ -1,6 +1,6 @@
 <?php
 error_reporting(E_ERROR | E_PARSE);
-$json_string = file_get_contents("https://graph.facebook.com/v7.0/1024689994349720/events/?fields=category,is_online,start_time,end_time,place,type,cover,maybe_count,name&access_token=EAADrR9GcnwIBACajKzZALd2vsv5MvEnLQ7lxFVeZCrIOlHT8AuUBt3vPDAroOnv4zSZAqYBYnVXtEAPZBXmnuTU9hDmgKJgCZBaJP4wo1n4znnZAUzAraRw7bAZAWb9ZBYCPLy64wcZBtD7lrojIemBTUYlC8JdZCCZBk79K3CT18NgE0CYJWhjneNR");
+$json_string = file_get_contents("https://graph.facebook.com/v7.0/growthfolks/events/?fields=category,is_online,start_time,end_time,place,type,cover,maybe_count,name&access_token=EAAmI9uiMvgIBAAU2IswvNdLTZBnKSF5zIDnKYWG5dGW8EZBBFRrNWH1MfKWYvuBDxDzXU2cntKtXe72t66UOxyglHoisNJeZAznDrNS9KhaCjqx1sI8FlX6EweV3nCQZBizKd1zap2tAelgLcc2URKhuhuj7TLuyp5iZA5j1NxwZDZD");
 $parsed_json = json_decode($json_string);
 //echo "Total Posts :".count($parsed_json->data);
 $months=Array('01'=>'January',
@@ -156,40 +156,7 @@ for($i=0; $i<count($parsed_json->data); $i++){
 
         </section>
 
-             <!-- Pagination -->
-             <section class="pagination">
-            <div class="container">
-                <div class="pagination_main">
-                    <div class="pagination_main--left">
-                        <div class="left left_move" id="gotoPre1_1">
-                                <img src="./icons/left-arr.svg" alt="">
-                        </div>
-                    </div>
-                    <div class="pagination_main--mid">
-
-                        <div class="page_number">
-                           <a href=""><span class="page_number-text">1</span></a> 
-                        </div>
-                        <div class="page_number">
-                            <span class="page_number-text">2</span>
-                        </div>
-                        <div class="page_number">
-                            <span class="page_number-text">3</span>
-                        </div>
-                        <div class="page_number">
-                            <span class="page_number-text">4</span>
-                        </div>
-                            
-                    </div>
-                    <div class="pagination_main--right">
-                        <div class="right right_move" id="gotoNext1_1">
-                                <img src="./icons/right-arr.svg" alt="">
-                        </div> 
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End Pagination -->
+             
     </main>
    
 <?php require('./common/footer.php') ?>

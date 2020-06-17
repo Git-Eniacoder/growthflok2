@@ -10,10 +10,10 @@
                                 <a href="https://growthfolks.in/"><img src="./details/logo.png" alt="" class="logo"></a>
                             </div>
                             <div class="head_icons">
-                                <a class="social_icons" href="www.facebook.com/growthfolks"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-                                <a class="social_icons" href="www.twitter.com/growthfolks"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-                                <a class="social_icons" href="www.instagram.com/growthfolks"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                                <a class="social_icons" href="www.linkedin.com/company/growth-folks"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                                <a class="social_icons" href="http://www.facebook.com/growthfolks"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                                <a class="social_icons" href="https://www.twitter.com/growthfolks"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                                <a class="social_icons" href="http://www.instagram.com/growthfolks"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                <a class="social_icons" href="http://www.linkedin.com/company/growth-folks"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="bottom">
