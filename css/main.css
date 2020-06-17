@@ -457,7 +457,7 @@ body {
   z-index: 4;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.377);
   font-size: 1rem;
-  transition: all .3s ease-in;
+  transition: all .1s ease-in-out;
 }
 
 .header_main {
@@ -487,12 +487,12 @@ body {
 
 .header_main--nav .nav-item {
   position: relative;
-  transition: all .3s ease-in;
+  transition: all .1s ease-in-out;
 }
 
 .header_main--nav .nav-item:hover {
   text-decoration: none;
-  transition: all .3s ease-in;
+  transition: all .1s ease-in;
   color: #26423D;
 }
 
@@ -582,7 +582,7 @@ body {
   background: rgba(53, 204, 176, 0.16);
   border: 1px solid rgba(53, 204, 176, 0.16);
   border-radius: 2px;
-  transition: all .3s ease-in;
+  transition: all .1s ease-in;
 }
 
 .header_main--nav .h-btn:hover {
@@ -595,6 +595,7 @@ body {
   height: 4rem;
   position: relative;
   display: none;
+  backface-visibility: hidden;
 }
 
 .header_main--burger-menu {
@@ -647,7 +648,7 @@ body {
 
 .nav-active {
   position: relative;
-  transition: all .3s ease-in;
+  transition: all .1s ease-in;
   color: #26423D;
 }
 
@@ -858,7 +859,7 @@ body {
   left: 36rem;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 600px) {
   .container {
     width: 40rem;
   }
@@ -893,15 +894,15 @@ body {
   }
   .hero_main--img .hero_img-box {
     width: 26rem;
-    height: 40rem;
+    height: 38rem;
     top: 7rem;
-    left: 2.8rem;
+    left: 3.5rem;
   }
   .hero_main--img .d-box-l-2 {
     width: 9rem;
     height: 13.6rem;
-    top: 37rem;
-    left: 22rem;
+    top: 35rem;
+    left: 23rem;
   }
 }
 
@@ -1147,7 +1148,7 @@ body {
 
 .ourteam_members--card .bottom .social {
   border-top: 1px solid #eef0f0;
-  margin: 4rem  1rem;
+  margin: 2.5rem  0rem;
   padding-top: .7rem;
 }
 
@@ -1229,7 +1230,7 @@ body {
   }
   .ourteam_members--card .bottom .social {
     border-top: 1px solid #eef0f0;
-    margin: 4rem  1rem;
+    margin: 2.5rem  0rem;
     padding-top: .7rem;
   }
   .mentor {

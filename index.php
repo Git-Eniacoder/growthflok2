@@ -363,7 +363,7 @@ img.hover-shadow {
 							</div>
 					</div>
 					
-						<div class="carousel-item">
+						<!-- <div class="carousel-item">
 							<div class="services_main--comp">
 								<div class="services_main--comp-item">
 									<img src="./images/events-1.png" alt="" class="ser_item-img">
@@ -390,7 +390,7 @@ img.hover-shadow {
 										eiusmod</p>
 								</div>
 							</div>
-						</div>
+						</div> -->
 					</div>
 				</div>
 			</div>				
@@ -401,12 +401,12 @@ img.hover-shadow {
                         </div>
                     </div>
                     <div class="bottom_bar--right">
-                           <div class="left left_move" id="gotoPre">
+                           <!-- <div class="left left_move" id="gotoPre">
                                 <img src="./icons/left-arr.svg" alt="">
-                            </div>
-                            <div class="right right_move"  id="gotoNext">
+                           </div> -->
+                           <!-- <div class="right right_move"  id="gotoNext">
                                 <img src="./icons/right-arr.svg" alt="">
-                            </div> 
+                          </div>  -->
                     </div>
             </div>
         </section>

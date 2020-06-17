@@ -9,7 +9,7 @@
     // border: 1px solid red;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.377);
     font-size: 1rem;
-    transition: all .3s ease-in;
+    transition: all .1s ease-in-out;
 
     &_main{
         height: $head-sec-h;
@@ -42,14 +42,14 @@
 
             .nav-item{
                 position: relative;
-                transition: all .3s ease-in;
+                transition: all .1s ease-in-out;
 
                 
 
                 &:hover{
                 
                     text-decoration: none;
-                    transition: all .3s ease-in;
+                    transition: all .1s ease-in;
                     color: #26423D;
 
                     &::before{
@@ -170,7 +170,7 @@
                 background: $head-btn-bk-col;
                 border: 1px solid  $head-btn-bk-col;
                 border-radius: 2px;
-                transition: all .3s ease-in;
+                transition: all .1s ease-in;
 
                 &:hover{
 
@@ -186,6 +186,7 @@
             height: 4rem;
             position: relative;
             display: none;
+            backface-visibility: hidden;
             // border: 1px solid red;
 
             &-menu{
@@ -262,7 +263,7 @@
 // }
 .nav-active{
     position: relative;
-    transition: all .3s ease-in;
+    transition: all .1s ease-in;
     color: #26423D;
 
 
@@ -278,6 +279,7 @@
             border-radius: 50%;
             background: #FFB468;
             text-decoration: none;
+            // transition: all .3s ease-in;
             transition: all .3s ease-in;
             
         }

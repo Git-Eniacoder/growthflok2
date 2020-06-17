@@ -84,7 +84,7 @@
         width: 11rem;
     }
     .hover-shadow {
-        width: 80% !important;
+        /* width: 100% !important; */
     }
     /* .testimonial{
         margin: -5rem 0;

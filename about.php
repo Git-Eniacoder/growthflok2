@@ -48,7 +48,7 @@
          <!-- About Calender -->
          <section class="about_calender">
          <div id="slideleft" class="left left_move arrow_left">
-                                <img src="./icons/left-arr.svg" alt="">
+               <img src="./icons/left-arr.svg" alt="">
          </div>
          <div id="slideright" class="right right_move arrow_right">
                   <img src="./icons/right-arr.svg" alt="">
@@ -175,7 +175,7 @@
                         </div>
                         <div class="bottom">
                            <h2>Ayush Srivastava</h2>
-                           <p>Early Initiator</p>
+                           <p>Founding Member & City Head - Bangalore</p>
                            <div class="social">
                               <a href="https://www.linkedin.com/in/ayushsrivastava17"><img src="./images/linkedin.png" alt="" class="icon"></a>
                            </div>
@@ -470,7 +470,7 @@
                                  <hr>
                                  <div class="social text-center">
                                     <!-- <a href="https://www.linkedin.com/in/theniks/"><img src="./images/linkedin.png" alt="" class="icon"></a> -->
-                                    <a href="https://www.linkedin.com/in/iamparaspundir/" ><i class="fa fa-linkedin-square men-icon" aria-hidden="true"></i></a>
+                                    <a href="https://www.linkedin.com/in/theniks/" ><i class="fa fa-linkedin-square men-icon" aria-hidden="true"></i></a>
                                     <!-- <hr> -->
                                  </div>
                               </div>
@@ -481,7 +481,7 @@
                                  <hr>
                                  <div class="social text-center">
                                     <!-- <a href="https://www.linkedin.com/in/aabhashk/"><img src="./images/linkedin.png" alt="" class="icon"></a> -->
-                                    <a href="https://www.linkedin.com/in/iamparaspundir/" ><i class="fa fa-linkedin-square men-icon" aria-hidden="true"></i></a>
+                                    <a href="https://www.linkedin.com/in/aabhashk/" ><i class="fa fa-linkedin-square men-icon" aria-hidden="true"></i></a>
                                     <!-- <hr> -->
                                  </div>
                               </div>
@@ -492,7 +492,7 @@
                                  <hr>
                                  <div class="social text-center">
                                     <!-- <a href="https://www.linkedin.com/in/ahluwaliaaditya/"><img src="./images/linkedin.png" alt="" class="icon"></a> -->
-                                    <a href="https://www.linkedin.com/in/iamparaspundir/" ><i class="fa fa-linkedin-square men-icon" aria-hidden="true"></i></a>
+                                    <a href="https://www.linkedin.com/in/ahluwaliaaditya/" ><i class="fa fa-linkedin-square men-icon" aria-hidden="true"></i></a>
                                     <!-- <hr> -->
                                  </div>
                               </div>
@@ -507,7 +507,7 @@
                                  <hr>
                                  <div class="social text-center">
                                     <!-- <a href="https://www.linkedin.com/in/jagadeesh-j/"><img src="./images/linkedin.png" alt="" class="icon"></a> -->
-                                    <a href="https://www.linkedin.com/in/iamparaspundir/" ><i class="fa fa-linkedin-square men-icon" aria-hidden="true"></i></a>
+                                    <a href="https://www.linkedin.com/in/jagadeesh-j/" ><i class="fa fa-linkedin-square men-icon" aria-hidden="true"></i></a>
                                     <!-- <hr> -->
                                  </div>
                               </div>
@@ -518,7 +518,7 @@
                                  <hr>
                                  <div class="social text-center">
                                     <!-- <a href="https://www.linkedin.com/in/kaushalthakkar/"><img src="./images/linkedin.png" alt="" class="icon"></a> -->
-                                    <a href="https://www.linkedin.com/in/iamparaspundir/" ><i class="fa fa-linkedin-square men-icon" aria-hidden="true"></i></a>
+                                    <a href="https://www.linkedin.com/in/kaushalthakkar/" ><i class="fa fa-linkedin-square men-icon" aria-hidden="true"></i></a>
                                     <!-- <hr> -->
                                  </div>
                               </div>
@@ -529,7 +529,7 @@
                                  <hr>
                                  <div class="social text-center">
                                     <!-- <a href="https://www.linkedin.com/in/hiteshkothari/"><img src="./images/linkedin.png" alt="" class="icon"></a> -->
-                                    <a href="https://www.linkedin.com/in/iamparaspundir/" ><i class="fa fa-linkedin-square men-icon" aria-hidden="true"></i></a>
+                                    <a href="https://www.linkedin.com/in/hiteshkothari/" ><i class="fa fa-linkedin-square men-icon" aria-hidden="true"></i></a>
                                     <!-- <hr> -->
                                  </div>
                               </div>
@@ -540,13 +540,14 @@
                                  <hr>
                                  <div class="social text-center">
                                     <!-- <a href="https://www.linkedin.com/in/walkadm/"><img src="./images/linkedin.png" alt="" class="icon"></a> -->
-                                    <a href="https://www.linkedin.com/in/iamparaspundir/" ><i class="fa fa-linkedin-square men-icon" aria-hidden="true"></i></a>
+                                    <a href="https://www.linkedin.com/in/walkadm/" ><i class="fa fa-linkedin-square men-icon" aria-hidden="true"></i></a>
                                     <!-- <hr> -->
                                  </div>
                               </div>
                            </div>
                         </div>
-                        <div class="carousel-item">
+                        
+                        <!-- <div class="carousel-item">
                            <div class="mentor_main--card">
                               <div class="mentor_main--card-item">
                                  <img class="mentor_img" src="./images/Mentors/Nikhil.jpg" alt="">
@@ -554,13 +555,14 @@
                                  <p>Executive Director at TiE Bangalore</p>
                                  <hr>
                                  <div class="social text-center">
-                                    <!-- <a href="https://www.linkedin.com/in/vijethashastry/"><img src="./images/linkedin.png" alt="" class="icon"></a> -->
-                                    <a href="https://www.linkedin.com/in/iamparaspundir/" ><i class="fa fa-linkedin-square men-icon" aria-hidden="true"></i></a>
-                                    <!-- <hr> -->
+                                    <a href="https://www.linkedin.com/in/vijethashastry/"><img src="./images/linkedin.png" alt="" class="icon"></a>
+                                    <a href="https://www.linkedin.com/in/vijethashastry/" ><i class="fa fa-linkedin-square men-icon" aria-hidden="true"></i></a>
+                                    <hr>
                                  </div>
                               </div>
                            </div>
-                        </div>
+                        </div> -->
+                        
                      </div>
                   </div>
                </div>
