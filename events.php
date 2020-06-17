@@ -2,6 +2,7 @@
 error_reporting(E_ERROR | E_PARSE);
 $json_string = file_get_contents("https://graph.facebook.com/v7.0/growthfolks/events/?fields=category,is_online,start_time,end_time,place,type,cover,maybe_count,name&access_token=EAAmI9uiMvgIBAAU2IswvNdLTZBnKSF5zIDnKYWG5dGW8EZBBFRrNWH1MfKWYvuBDxDzXU2cntKtXe72t66UOxyglHoisNJeZAznDrNS9KhaCjqx1sI8FlX6EweV3nCQZBizKd1zap2tAelgLcc2URKhuhuj7TLuyp5iZA5j1NxwZDZD");
 $parsed_json = json_decode($json_string);
+$signal=1;
 //echo "Total Posts :".count($parsed_json->data);
 $months=Array('01'=>'January',
 			  '02'=>'February',
@@ -92,10 +93,17 @@ for($i=0; $i<count($parsed_json->data); $i++){
                 
                 <!-- Events -->
 			<?php
-            if(count($parsed_json->data)==0){
-                echo "<p>Hey Homie,</p><p>There are no upcoming events right now. There are some really exciting events lined up. We will update you about this soon. Watch this space for more updates.</p>";
-            }
-			for($i=0; $i<count($parsed_json->data); $i++){
+            for($i=0; $i<count($parsed_json->data); $i++){
+                $fbdate = strtotime($parsed_json->data[$i]->start_time);
+                date_default_timezone_set('Asia/Calcutta');
+                $timezone = date_default_timezone_get();
+                $date_fb = date('Y-m-d', $fbdate);
+                $date_now = date("Y-m-d");
+                $date1 = date_create($date_fb);
+                $date2 = date_create($date_now);
+                $diff=date_diff($date2,$date1);
+           if($diff->format("%R%a")>0){
+               $signal=0;
                try{
                 $city=$parsed_json->data[$i]->place->location->city;
                 }
@@ -149,7 +157,12 @@ for($i=0; $i<count($parsed_json->data); $i++){
                     </div>
 
                 </div>';
-			}
+            }
+        }
+        if(count($parsed_json->data)==0 || $signal==1){
+            echo "<p>Hey Homie,</p><p>There are no upcoming events right now. There are some really exciting events lined up. We will update you about this soon. Watch this space for more updates.</p>";
+        }
+
 			?>
                 <!-- end Event sec -->
                 <!-- Events -->
