@@ -14,6 +14,22 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
+<div class="modal fade" id="model2" role="dialog">
+<div class="modal-dialog modal-sm">
+<div class="modal-content">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title"></h4>
+    </div>
+    <div class="modal-body">
+    <p class="text-success">Thank you for submitting your request. </p>
+    </div>
+
+</div>
+</div>
+</div>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -739,7 +755,7 @@ img.hover-shadow {
 </html> 
    <script>
    $('.carousel').carousel({
-  interval: 2000
+  interval: 5000
 })</script>
 	   <script>
 			$("#gotoNext").click(() => $("#carouselExampleIndicators").carousel("next"));
@@ -825,3 +841,13 @@ function showSlides(n) {
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
 </script>
+
+<?php 
+if(!isset($_GET['id'])){  
+   $message=" ";
+}
+else{ 
+   echo "<script>$('#model2').modal('show');</script>";
+   echo '<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>';
+}
+?>

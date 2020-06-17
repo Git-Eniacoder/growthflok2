@@ -6,7 +6,6 @@ fwrite($fp, $data);
 fwrite($fp, "\n");  
 fclose($fp); 
 	echo  "<SCRIPT LANGUAGE='JavaScript'>
-    window.alert('Thank you for subscription');
-    window.location.href='index.php';
+    window.location.href='index.php?id=1';
     </SCRIPT>";
 ?>

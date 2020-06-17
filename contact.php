@@ -1,11 +1,3 @@
-<?php 
-if(!isset($_GET['msg_sig'])){  
-   $message=" ";
-}
-else{ 
-   $message="Form Submitted Successfully";
-}
-?>
 <!DOCTYPE html>
 <html lang="en">
    <head>
@@ -22,6 +14,7 @@ else{
       <title>GrothFloks services</title>
    </head>
    <body>
+
       <?php require('./common/header.php') ?>
       <!-- Main -->
       <main>
@@ -99,7 +92,6 @@ else{
                         </div>
                      </div>
                      <div class="contact_main--form">
-                     <p class="text-success"><?php echo $message;?></p>
                         <form action="contact_to_excel.php" method="post">
                            <div class="tag">
                               <label for="">Name</label>
@@ -149,3 +141,13 @@ $('.nav-item').removeClass("nav-active");
       
    </body>
 </html>
+
+<?php 
+if(!isset($_GET['msg_sig'])){  
+   $message=" ";
+}
+else{ 
+   echo "<script>$('#model1').modal('show');</script>";
+   echo '<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>';
+}
+?>

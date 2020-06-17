@@ -600,10 +600,10 @@
 const left = document.getElementById('slideleft');
 const right = document.getElementById('slideright');
 left.onclick = function () {
-  document.getElementById('scroll').scrollLeft += 20;
+  document.getElementById('scroll').scrollLeft -= 20;
 };
 right.onclick = function () {
-  document.getElementById('scroll').scrollLeft -= 20;
+  document.getElementById('scroll').scrollLeft += 20;
 };
 </script>
 <!-- <div class="mentor_main">
