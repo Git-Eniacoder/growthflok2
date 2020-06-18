@@ -1,7 +1,7 @@
 <?php error_reporting(E_ERROR | E_PARSE);?>
 <?php
     $con = mysqli_connect("13.233.17.47","growthfolks","@Navneet1","growthfolks");
-    $sql = "select * from growthfolks";
+    $sql = "select * from growthfolks ORDER BY id DESC";
     $result = mysqli_query($con,$sql);
     $data = mysqli_fetch_all($result);
     // echo "<pre>";

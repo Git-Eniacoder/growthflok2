@@ -61,7 +61,7 @@
                                     <?php } ?>
                                 </div>
                                 <h3><?php echo $parsed_json['blog']->items[$i]->title; ?></h3>
-                                <p class="date"><?php echo $parsed_json['blog']->items[$i]->pubDate; ?> · <span> 3 min read</span></p>
+                                <p class="date"><?php echo $parsed_json['blog']->items[$i]->pubDate; ?> </p>
                             </div>
                         </a>
                     <?php }?>
@@ -72,7 +72,7 @@
                             <a href="<?php echo "https://www.youtube.com/watch?v=".$parsed_json['vlog']->items[$i]->id->videoId; ?>">         
                                 <img src="<?php echo "https://img.youtube.com/vi/".$parsed_json['vlog']->items[$i]->id->videoId."/hqdefault.jpg" ; ?>" alt="" class="post_img"></a>
                                 <h3><?php echo $parsed_json['vlog']->items[$i]->snippet->title; ?></h3>
-                                <p class="date"><?php echo $parsed_json['vlog']->items[$i]->snippet->publishTime; ?> · <span> 3 min read</span></p>
+                                <p class="date"><?php echo $parsed_json['vlog']->items[$i]->snippet->publishTime; ?> </p>
                             </div>
                         
                     <?php }?>

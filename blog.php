@@ -71,7 +71,7 @@
                                     <?php } ?>
                                 </div>
                                 <a class="text-dark" href="<?php echo $parsed_json['blog'][$i]->link ?>"><h3><?php echo $parsed_json['blog'][$i]->title->rendered ;?></h3></a>
-                                <p class="date"><?php echo $parsed_json['blog'][$i]->date ; ?> · <span> 3 min read</span></p>
+                                <p class="date"><?php echo $parsed_json['blog'][$i]->date ; ?> </p>
                             </div>
                     <?php }?>
                 </div>

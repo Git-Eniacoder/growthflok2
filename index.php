@@ -3,7 +3,7 @@
     $json_string = file_get_contents("http://growthfolks.in/blog/wp-json/wp/v2/posts?per_page=12&_embed");
     $parsed_json['blog'] = json_decode($json_string);
     $con = mysqli_connect("13.233.17.47","growthfolks","@Navneet1","growthfolks");
-    $sql = "select * from growthfolks";
+    $sql = "select * from growthfolks ORDER BY id DESC";
     $result = mysqli_query($con,$sql);
     $data = mysqli_fetch_all($result);
   
@@ -402,7 +402,7 @@ img.hover-shadow {
                                     <?php } ?>
                                 </div>
                                 <a class="text-dark" href="<?php echo $parsed_json['blog'][$i]->link ?>"><h3><?php echo $parsed_json['blog'][$i]->title->rendered ;?></h3></a>
-                                <p class="date"><?php echo $parsed_json['blog'][$i]->date ; ?> · <span> 3 min read</span></p>
+                                <p class="date"><?php echo $parsed_json['blog'][$i]->date ; ?> </p>
                             </div>
                              <?php }?>
 								</div>
@@ -418,7 +418,7 @@ img.hover-shadow {
                                     <?php } ?>
                                 </div>
                                 <a class="text-dark" href="<?php echo $parsed_json['blog'][$i]->link ?>"><h3><?php echo $parsed_json['blog'][$i]->title->rendered ;?></h3></a>
-                                <p class="date"><?php echo $parsed_json['blog'][$i]->date ; ?> · <span> 3 min read</span></p>
+                                <p class="date"><?php echo $parsed_json['blog'][$i]->date ; ?> </p>
                             </div>
                               <?php }?>
 								</div>
