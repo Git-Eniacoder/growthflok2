@@ -15,20 +15,6 @@
 <html lang="en">
 
 
-<div class="modal fade" id="model2" role="dialog">
-<div class="modal-dialog modal-sm">
-<div class="modal-content">
-    <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title"></h4>
-    </div>
-    <div class="modal-body">
-    <p class="text-success">Thank you for submitting your request. </p>
-    </div>
-
-</div>
-</div>
-</div>
 
 <head>
     <meta charset="UTF-8">
@@ -48,7 +34,7 @@
 <body>
 <style>
 
-.modal {
+.gallery_modal {
   display: none;
   position: fixed;
   z-index: 1;
@@ -62,7 +48,7 @@
 }
 
 /* Modal Content */
-.modal-content {
+.gallery_content {
   position: relative;
   background-color: #fefefe;
   margin: auto;
@@ -72,7 +58,7 @@
 }
 
 /* The Close Button */
-.close {
+.close_modal {
   color: white;
   position: absolute;
   top: 10px;
@@ -81,14 +67,14 @@
   font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
+.close_modal:hover,
+.close_modal:focus {
   color: #999;
   text-decoration: none;
   cursor: pointer;
 }
 
-.mySlides {
+.myslide_modal {
   display: none;
 }
 
@@ -275,16 +261,16 @@ img.hover-shadow {
                         <img src="./images/gallery-sec3-img2.png" alt="" onclick="openModal();currentSlide(6)" class="g-sec-3-img2 img-hover hover-shadow cursor">
                     </div>
                 </div>
-                <div id="myModal" class="modal">
+                <div id="myModal" class="modal gallery_modal">
             
-  <div class="modal-content">
-  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content gallery_content">
+  <span class="close close_modal cursor" onclick="closeModal()">&times;</span>
     <div class="mySlides">
       <div class="numbertext"> </div>
       <img src="./images/gallery-img2.png" style="width:100%">
     </div>
 
-    <div class="mySlides">
+    <div class="mySlides myslide_modal">
       <div class="numbertext">2 / 6</div>
       <img src="./images/gallery-img1.png" style="width:100%">
     </div>
@@ -844,6 +830,20 @@ function showSlides(n) {
 }
 </script>
 
+<div class="modal fade" id="model2" role="dialog">
+<div class="modal-dialog modal-sm">
+<div style="border:none" class="modal-content">
+    <div style="background: rgb(32, 122, 106); " class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title"></h4>
+    </div>
+    <div class="modal-body">
+    <p class="text-success text-center">Thank you for submitting your request. </p>
+    </div>
+
+</div>
+</div>
+</div>s
 <?php 
 if(!isset($_GET['id'])){  
    $message=" ";

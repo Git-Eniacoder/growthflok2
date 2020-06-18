@@ -43,16 +43,18 @@
         </section>
 
         <section class="container my-5">
-            <div class="d-flex w-100 flex-wrap justify-content-start align-item-start">
+            <div class="row">
             <?php for($i=0;$i<count($data);$i++){?>
-                <div class="card m-3 w-24 border-0 card-blog" >
-                       <a href="https://www.youtube.com/watch?v=<?php echo $data[$i][1] ?>"><img class="mb-3" src="<?php echo $data[$i][2] ?>" alt="Card image cap"></a>
+            <div class="col-md-4">
+                <div class="card my-4 border-0 " >
+                       <a href="https://www.youtube.com/watch?v=<?php echo $data[$i][1] ?>"><img class="w-100" src="<?php echo $data[$i][2] ?>" alt="Card image cap"></a>
                         <div class="card-body p-0">
                         <!-- <a href="" class="tags_links mb-4">Sex education</a> -->
                        <a href="https://www.youtube.com/watch?v=<?php echo $data[$i][1] ?>" class="text-dark"><h3 class="card-title mt-3"><?php echo $data[$i][4] ?></h3></a> 
                          <p class="card-text date-vlog"><?php echo $data[$i][3] ?></p>
                         
                        </div>   
+                </div>
                 </div> 
             <?php } ?>
                   

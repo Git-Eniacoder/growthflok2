@@ -49,10 +49,11 @@
         </section>
 
         <section class="container my-5">
-            <div class="d-flex w-100 flex-wrap justify-content-start align-item-start">
+            <div class="row">
             <?php for($i=0; $i< count($parsed_json['blog']); $i++){ ?>
-                <div class="card m-3 w-24 border-0 card-blog" >
-                       <a href="<?php echo $parsed_json['blog'][$i]->link ?>"><img class="mb-3" src="<?php echo $parsed_json['blog'][$i]->_embedded->{'wp:featuredmedia'}[0]->media_details->sizes->medium->source_url; ?>" alt="Card image cap"></a>
+                <div class="col-md-4">
+                <div class="card my-4 border-0" >
+                       <a href="<?php echo $parsed_json['blog'][$i]->link ?>"><img class="w-100" src="<?php echo $parsed_json['blog'][$i]->_embedded->{'wp:featuredmedia'}[0]->media_details->sizes->medium->source_url; ?>" alt="Card image cap"></a>
                         <div class="card-body p-0">
                         <?php  foreach($parsed_json['blog'][$i]->_embedded->{'wp:term'}[0] as $value){ ?>
                         <a href="<?php echo $parsed_json['blog'][$i]->link ?>" class="tags_links mb-4"><?php  echo $value->name; ?></a>
@@ -62,6 +63,7 @@
                         
                        </div>   
                 </div> 
+             </div>
             <?php } ?>
                   
            </div>
