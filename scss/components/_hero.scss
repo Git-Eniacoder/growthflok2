@@ -68,8 +68,12 @@
 
         &--img{
             width: 48%;
-            position: relative;
+            // position: relative;
             // border: 1px solid blue;
+
+            .img-sec-2{
+                position: relative;
+            }
 
             .d-box-l-1{
                 width: 8rem ;
@@ -114,11 +118,12 @@
 
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 700px){
 
     .container{
         width: 40rem;
     }
+
     .hero{
  
         &_back{
@@ -150,30 +155,107 @@
             &--img{
                 width: 95%;
                 height: 55rem;
+                text-align: center;
                 // align-items: center;
 
-                .d-box-l-1{
-                    top: 3rem;
-                    left: 1rem;
+                .img-sec-2{
+                    // border: 1px solid red;
+                    height: 100%;
+                    width: 95%;
+                    margin: 0 auto;
+
+                    
+                    .d-box-l-1{
+                        top: 3rem;
+                        // left: 1rem;
+                    }
+
+                    .hero_img-box{
+                        // width:26rem;
+                        width: 80%;
+                        // height: 38rem;
+                        height: 70%;
+                        top: 7rem;
+                        left: 2.8rem;
+                    }
+
+                    .d-box-l-2{
+                        width: 9rem ;
+                        height: 13.6rem;
+                        top: 35rem;
+                        left: 21rem;
+                    }
+
                 }
 
-                .hero_img-box{
-                    width:26rem;
-                    height: 38rem;
-                    top: 7rem;
-                    left: 3.5rem;
-                }
-
-                .d-box-l-2{
-                    width: 9rem ;
-                    height: 13.6rem;
-                    top: 35rem;
-                    left: 23rem;
-                }
             }
         }
     }
     
+
+}
+
+
+@media only screen and (max-width: 320px){
+
+
+    .hero{
+ 
+       
+        &_main{
+          
+           
+
+            &--img{
+              
+                .img-sec-2{
+                  
+
+                    .d-box-l-2{
+                        width: 9rem ;
+                        height: 13.6rem;
+                        top: 35rem;
+                        left: 18rem;
+                    }
+
+                }
+
+            }
+        }
+    }
+
+
+
+}
+@media only screen and (max-width: 450px){
+
+
+    .hero{
+ 
+       
+        &_main{
+          
+           
+
+            &--img{
+              
+                .img-sec-2{
+                  
+
+                    .d-box-l-2{
+                        width: 9rem ;
+                        height: 13.6rem;
+                        top: 35rem;
+                        left: 21rem;
+                    }
+
+                }
+
+            }
+        }
+    }
+
+
 
 }
 

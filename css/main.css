@@ -821,6 +821,9 @@ body {
 
 .hero_main--img {
   width: 48%;
+}
+
+.hero_main--img .img-sec-2 {
   position: relative;
 }
 
@@ -859,7 +862,7 @@ body {
   left: 36rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .container {
     width: 40rem;
   }
@@ -887,22 +890,45 @@ body {
   .hero_main--img {
     width: 95%;
     height: 55rem;
+    text-align: center;
   }
-  .hero_main--img .d-box-l-1 {
+  .hero_main--img .img-sec-2 {
+    height: 100%;
+    width: 95%;
+    margin: 0 auto;
+  }
+  .hero_main--img .img-sec-2 .d-box-l-1 {
     top: 3rem;
-    left: 1rem;
   }
-  .hero_main--img .hero_img-box {
-    width: 26rem;
-    height: 38rem;
+  .hero_main--img .img-sec-2 .hero_img-box {
+    width: 80%;
+    height: 70%;
     top: 7rem;
-    left: 3.5rem;
+    left: 2.8rem;
   }
-  .hero_main--img .d-box-l-2 {
+  .hero_main--img .img-sec-2 .d-box-l-2 {
     width: 9rem;
     height: 13.6rem;
     top: 35rem;
-    left: 23rem;
+    left: 21rem;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .hero_main--img .img-sec-2 .d-box-l-2 {
+    width: 9rem;
+    height: 13.6rem;
+    top: 35rem;
+    left: 18rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .hero_main--img .img-sec-2 .d-box-l-2 {
+    width: 9rem;
+    height: 13.6rem;
+    top: 35rem;
+    left: 21rem;
   }
 }
 
@@ -999,11 +1025,6 @@ body {
 .men-icon {
   color: #a8acac;
   font-size: 3rem;
-}
-
-.about_calender {
-  min-height: 20rem;
-  background: #EFF2F2;
 }
 
 .about_calender_head {
@@ -2109,6 +2130,10 @@ body {
   .ser_testimonial {
     margin-top: 28rem;
   }
+}
+
+.blog_post {
+  min-height: 50rem;
 }
 
 .blog_post--events {

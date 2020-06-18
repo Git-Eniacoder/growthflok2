@@ -70,6 +70,25 @@
 /* .mentor_main--card-item{
     min-height: 36rem;
 } */
+
+.tags_links{
+    text-decoration: none;
+    font-size: 1rem;
+    padding: .5rem;
+    color: #7A8281;
+    background-color: #E0E0E0;
+}
+
+.date-vlog{
+    font-size: 1.2rem;
+}
+
+.card-blog{
+    width: 30%;
+    margin-top: 3rem;
+}
+
+
 @media only screen and (max-width: 600px) {
     .arrow_left {
       left: 30px;
@@ -89,4 +108,9 @@
     /* .testimonial{
         margin: -5rem 0;
     } */
+
+    .card-blog{
+        width: 100%;
+        align-items: center;
+    }
   }
