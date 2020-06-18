@@ -17,11 +17,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/extra.css">
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <link
         href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;400;500;600;700;800&family=Lato:wght@300;400&display=swap"
         rel="stylesheet">
-        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh3PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <title>GrothFloks services</title>
@@ -41,29 +42,22 @@
             </div>
         </section>
 
-        <section class="blog_post">
-            <div class="container">
-                <div class="blog_post--toggel">
-                    <!-- <div id="blog" onclick="active_blog()" class="blog_post--toggel-btn res_blog_active">
-                        <span><a>Blogs</a></span>
-                    </div> -->
-                    <!-- onclick="active_vlog()" -->
-                    <!-- <div id="vlog" class="blog_post--toggel-btn">
-                        <span><a>Vlogs</a></span>
-                    </div>
-                </div> -->
-
-
-                <div id="blog-view" class="blog_post--items">
-                <?php for($i=0;$i<count($data);$i++){?>
-                                        <div class="resources_post">
-                            <a href="https://www.youtube.com/watch?v=<?php echo $data[$i][1] ?>">  <img src="<?php echo $data[$i][2] ?>" alt="" class="post_img"></a>
-                                <a class="text-dark" href="https://www.youtube.com/watch?v=<?php echo $data[$i][1] ?>"><h3><?php echo $data[$i][4] ?></h3></a>
-                                <p class="date"><?php echo $data[$i][3] ?><span></span></p>
-                            </div>
-							        <?php } ?>
-                </div>
-            </div>
+        <section class="container my-5">
+            <div class="d-flex w-100 flex-wrap justify-content-start align-item-start">
+            <?php for($i=0;$i<count($data);$i++){?>
+                <div class="card m-3 w-24 border-0 card-blog" >
+                       <a href="https://www.youtube.com/watch?v=<?php echo $data[$i][1] ?>"><img class="mb-3" src="<?php echo $data[$i][2] ?>" alt="Card image cap"></a>
+                        <div class="card-body p-0">
+                        <!-- <a href="" class="tags_links mb-4">Sex education</a> -->
+                       <a href="https://www.youtube.com/watch?v=<?php echo $data[$i][1] ?>" class="text-dark"><h3 class="card-title mt-3"><?php echo $data[$i][4] ?></h3></a> 
+                         <p class="card-text date-vlog"><?php echo $data[$i][3] ?></p>
+                        
+                       </div>   
+                </div> 
+            <?php } ?>
+                  
+           </div>
+            
         </section>
 
         <!-- Pagination -->

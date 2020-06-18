@@ -125,11 +125,13 @@ img.hover-shadow {
                             </div>
                         </div>
                         <div class="hero_main--img">
-                            <div class="d-box-l-1"></div>
-                            <div class="hero_img-box">
-                                <img src="./images/img1.png" alt="" class="hero-img">
+                            <div class="img-sec-2">
+                                <div class="d-box-l-1"></div>
+                                <div class="hero_img-box">
+                                    <img src="./images/img1.png" alt="" class="hero-img">
+                                </div>
+                                <div class="d-box-l-2"></div>
                             </div>
-                            <div class="d-box-l-2"></div>
                         </div>
                     </div>
                 </div>

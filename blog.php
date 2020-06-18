@@ -48,36 +48,28 @@
             </div>
         </section>
 
-        <section class="blog_post">
-            <div class="container">
-                <div class="blog_post--toggel">
-                <!-- onclick="active_blog() -->
-                    <!-- <div id="blog" class="blog_post--toggel-btn res_blog_active">
-                        <span><a>Blogs</a></span>
-                    </div> -->
-                    <!-- <div id="vlog" onclick="active_vlog()" class="blog_post--toggel-btn">
-                        <span><a>Vlogs</a></span>
-                    </div> -->
-                </div>
-
-
-                <div id="blog-view" class="blog_post--items">
-                    <?php for($i=0; $i< count($parsed_json['blog']); $i++){ ?>
-                            <div class="resources_post">
-                            <a href="<?php echo $parsed_json['blog'][$i]->link ?>">  <img src="<?php echo $parsed_json['blog'][$i]->_embedded->{'wp:featuredmedia'}[0]->media_details->sizes->medium->source_url; ?>" alt="" class="post_img"></a>
-                                <div class="tags">
-                                    <?php  foreach($parsed_json['blog'][$i]->_embedded->{'wp:term'}[0] as $value){ ?>
-                                    <a href="<?php echo $parsed_json['blog'][$i]->link ?>" class="tags_links"><?php  echo $value->name; ?></a>
-                                    <?php } ?>
-                                </div>
-                                <a class="text-dark" href="<?php echo $parsed_json['blog'][$i]->link ?>"><h3><?php echo $parsed_json['blog'][$i]->title->rendered ;?></h3></a>
-                                <p class="date"><?php echo $parsed_json['blog'][$i]->date ; ?> </p>
-                            </div>
-                    <?php }?>
-                </div>
-                
-            </div>
+        <section class="container my-5">
+            <div class="d-flex w-100 flex-wrap justify-content-start align-item-start">
+            <?php for($i=0; $i< count($parsed_json['blog']); $i++){ ?>
+                <div class="card m-3 w-24 border-0 card-blog" >
+                       <a href="<?php echo $parsed_json['blog'][$i]->link ?>"><img class="mb-3" src="<?php echo $parsed_json['blog'][$i]->_embedded->{'wp:featuredmedia'}[0]->media_details->sizes->medium->source_url; ?>" alt="Card image cap"></a>
+                        <div class="card-body p-0">
+                        <?php  foreach($parsed_json['blog'][$i]->_embedded->{'wp:term'}[0] as $value){ ?>
+                        <a href="<?php echo $parsed_json['blog'][$i]->link ?>" class="tags_links mb-4"><?php  echo $value->name; ?></a>
+                        <?php } ?>
+                       <a href="<?php echo $parsed_json['blog'][$i]->link ?>" class="text-dark"><h3 class="card-title mt-3"><?php echo $parsed_json['blog'][$i]->title->rendered ;?></h3></a> 
+                         <p class="card-text date-vlog"><?php echo $parsed_json['blog'][$i]->date ; ?></p>
+                        
+                       </div>   
+                </div> 
+            <?php } ?>
+                  
+           </div>
+            
         </section>
+
+
+
 
         <!-- Pagination -->
         <!-- <section class="pagination">

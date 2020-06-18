@@ -1,0 +1,26 @@
+ <div id="blog-view" class="blog_post--items">
+                <?php for($i=0;$i<count($data);$i++){?>
+                                        <div class="resources_post">
+                            <a href="https://www.youtube.com/watch?v=<?php echo $data[$i][1] ?>">  <img src="<?php echo $data[$i][2] ?>" alt="" class="post_img"></a>
+                                <a class="text-dark" href="https://www.youtube.com/watch?v=<?php echo $data[$i][1] ?>"><h3><?php echo $data[$i][4] ?></h3></a>
+                                <p class="date"><?php echo $data[$i][3] ?><span></span></p>
+                            </div>
+							        <?php } ?>
+                </div>
+
+
+
+                <div id="blog-view" class="blog_post--items">
+                    <?php for($i=0; $i< count($parsed_json['blog']); $i++){ ?>
+                            <div class="resources_post">
+                            <a href="<?php echo $parsed_json['blog'][$i]->link ?>">  <img src="<?php echo $parsed_json['blog'][$i]->_embedded->{'wp:featuredmedia'}[0]->media_details->sizes->medium->source_url; ?>" alt="" class="post_img"></a>
+                                <div class="tags">
+                                    <?php  foreach($parsed_json['blog'][$i]->_embedded->{'wp:term'}[0] as $value){ ?>
+                                    <a href="<?php echo $parsed_json['blog'][$i]->link ?>" class="tags_links"><?php  echo $value->name; ?></a>
+                                    <?php } ?>
+                                </div>
+                                <a class="text-dark" href="<?php echo $parsed_json['blog'][$i]->link ?>"><h3><?php echo $parsed_json['blog'][$i]->title->rendered ;?></h3></a>
+                                <p class="date"><?php echo $parsed_json['blog'][$i]->date ; ?> · <span> 3 min read</span></p>
+                            </div>
+                    <?php }?>
+                </div>
