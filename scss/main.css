@@ -456,8 +456,16 @@ body {
         -ms-flex-align: center;
             align-items: center;
   }
+  .bottom_bar--left {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
   .bottom_bar--right {
-    display: none;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin-bottom: 2rem;
   }
 }
 
@@ -979,23 +987,24 @@ body {
   }
   .hero_main--img .d-box-l-1 {
     top: 3rem;
+    left: 1rem;
   }
   .hero_main--img .hero_img-box {
-    width: 25rem;
+    width: 26rem;
     height: 40rem;
     top: 7rem;
-    left: 2rem;
+    left: 2.8rem;
   }
   .hero_main--img .d-box-l-2 {
     width: 9rem;
     height: 13.6rem;
     top: 37rem;
-    left: 20rem;
+    left: 22rem;
   }
 }
 
 .about {
-  margin: 10rem 0;
+  margin: 8rem 0;
 }
 
 .about_main--detail {
@@ -1060,7 +1069,7 @@ body {
 }
 
 .about_main--detail-show .show_item {
-  width: 17rem;
+  width: 15rem;
   height: 11rem;
   position: relative;
   background-color: #FAFCFC;
@@ -1350,6 +1359,12 @@ body {
   .about_main--detail-show {
     width: 100%;
   }
+  .about_calender_main--left .arrow_left {
+    left: 2.5rem;
+  }
+  .about_calender_main--right .arrow_right {
+    right: 2.5rem;
+  }
   .ourteam .inner_container {
     width: 90%;
     margin: 0 auto;
@@ -1380,7 +1395,7 @@ body {
     text-align: center;
   }
   .mentor_main--card-item img {
-    width: 90%;
+    width: 74%;
     border-radius: 2px;
     margin-bottom: 1rem;
   }
@@ -1585,9 +1600,9 @@ body {
             align-items: center;
   }
   .services_main--comp-item {
-    width: 60%;
+    width: 72%;
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
   }
   .services_main--comp-item .ser_item-img {
     width: 8rem;
@@ -1696,8 +1711,8 @@ body {
 
 @media only screen and (max-width: 700px) {
   .resources {
-    padding-top: 5rem;
-    height: 163rem;
+    padding-top: 7rem;
+    height: 152rem;
   }
   .resources_main--content {
     -webkit-box-orient: vertical;
@@ -1930,7 +1945,11 @@ body {
   font-size: 1.4rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 700px) {
+  .testimonial {
+    margin: 8rem 0;
+    border: 1px solid red;
+  }
   .testimonial_main--items {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1939,6 +1958,7 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    margin: 3rem 0;
   }
   .testimonial_main--items .testimonial_item {
     margin-bottom: 2rem;
@@ -2356,12 +2376,12 @@ body {
     color: #444D4B;
   }
   .services_port--main-img {
-    min-height: 50rem;
+    min-height: 42rem;
     text-align: center;
     width: 98%;
   }
   .services_port--main-img .ser_img {
-    width: 32rem;
+    width: 28rem;
   }
   .services_port--sub {
     height: 68rem;
@@ -2375,7 +2395,7 @@ body {
   .services_port--sub-content {
     width: 98%;
     text-align: center;
-    margin: 2rem 0;
+    margin: 1rem 0;
   }
   .services_port--sub-content .img-bx {
     width: 10rem;
@@ -2392,6 +2412,9 @@ body {
   }
   .services_port--sub-content .img-bx span {
     display: none;
+  }
+  .ser_testimonial {
+    margin-top: 28rem;
   }
 }
 
