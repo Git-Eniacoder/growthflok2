@@ -6,18 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/extra.css">
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;400;500;600;700;800&family=Lato:wght@300;400&display=swap"
-        rel="stylesheet">
-        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;400;500;600;700;800&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <title>GrothFloks services</title>
 </head>
 
 <body>
-<?php require('./common/header.php') ?>
+    <?php require('./common/header.php') ?>
 
     <main>
         <section class="herobar">
@@ -69,14 +66,14 @@
                     <div class="services_port--main-img sec1-2">
                         <img src="./images/ser-img1.png" alt="" class="ser_img">
                     </div>
-                    
+
                 </div>
 
 
                 <div class="services_port--main">
                     <div class="services_port--main-content sec2-1">
                         <div class="content-sec">
-                             <div class="img-bx">
+                            <div class="img-bx">
                                 <img src="./icons/hackathon.svg" alt="" class="ser_item-img">
                                 <span>03</span>
                             </div>
@@ -165,117 +162,132 @@
                     </div>
 
                     <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel" data-interval='false'>
-					<div class="carousel-inner ">
-						<div class="carousel-item active">
-							<div class="testimonial_main--items">
+                        <div class="carousel-inner ">
+                            <div class="carousel-item active">
+                                <div class="testimonial_main--items">
 
-								<div class="testimonial_item">
-									<div class="testimonial_item--head">
-										<div class="head--img">
-											<img src="./images/Fernando.png" alt="">
-										</div>
-										<div class="head--title">
-											<h3 class="ser_item-h">Fernando Angulo</h3>
-											<p>Head of Communication at SEMrush</p>
-										</div>
-									</div>
-									<div class="testimonial_item--bottom">
-										<p>Growth Folks has been doing a great job by building a much needed community of Growth Enthusiasts in India, which is slowly going global. The event we did with them was top notch. I feel growth folks is on the right part to build more growth catalyst with its community efforts.</p>
-									</div>
-								</div>
+                                    <div class="testimonial_item">
+                                        <div class="testimonial_item--head">
+                                            <div class="head--img">
+                                                <img src="./images/Fernando.png" alt="">
+                                            </div>
+                                            <div class="head--title">
+                                                <h3 class="ser_item-h">Fernando Angulo</h3>
+                                                <p>Head of Communication at SEMrush</p>
+                                            </div>
+                                        </div>
+                                        <div class="testimonial_item--bottom">
+                                            <p>Growth Folks has been doing a great job by building a much needed community of Growth Enthusiasts in India, which is slowly going global. The event we did with them was top notch. I feel growth folks is on the right part to build more growth catalyst with its community efforts.</p>
+                                        </div>
+                                    </div>
 
-								<div class="testimonial_item">
-									<div class="testimonial_item--head">
-										<div class="head--img">
-											<img src="./imgs2/Nattu.png" alt="">
-										</div>
-										<div class="head--title">
-											<h3 class="ser_item-h">Natarajan Alagappan</h3>
-											<p>Cheif Growth Officer at Leadwalnut.com</p>
-										</div>
-									</div>
-									<div class="testimonial_item--bottom">
-										<p>Growth marketing is a nascent field & when I need to know great practices or meet the die hard practitioners, I go to Growth Folks. Recently needed an expert Google Ads specialist. Ayush was quick to link up and expert and we had a performing ad launched in 2 weeks. <i><b>Go-Growth Huddle!</b></i></p>
-									</div>
-								</div>
-
-
-								<div class="testimonial_item">
-									<div class="testimonial_item--head">
-										<div class="head--img">
-											<img src="./imgs2/Yogi.png" alt="">
-										</div>
-										<div class="head--title">
-											<h3 class="ser_item-h">Yoheswaran Gnanavel</h3>
-											<p>Marketing & Partnership at Canva India</p>
-										</div>
-									</div>
-									<div class="testimonial_item--bottom">
-										<p>When I first attended their workshop at YourStory, I was expecting a workshop just like any other meetup, some PR & some networking. But the session took me by surprise, it has so many value bombs that I was flabbergasted with the whole setup & the insane amount of value that I got.</p>
-									</div>
-								</div>
-
-							</div>
-						</div>
-						
-												<div class="carousel-item">
-							<div class="testimonial_main--items">
-
-								<div class="testimonial_item">
-									<div class="testimonial_item--head">
-										<div class="head--img">
-											<img src="./images/Ashish.png" alt="">
-										</div>
-										<div class="head--title">
-											<h3 class="ser_item-h">Aashish Ramamurthy</h3>
-											<p>Events Manager - Bangalore at Draper Startup House</p>
-										</div>
-									</div>
-									<div class="testimonial_item--bottom">
-										<p>Growth folks has been an amazing community for myself to learn a lot on growth marketing & marketing trends. I got to connect with marketing and growth enthusiasts from all across India. We have collaborated with Growth folks for many events and they have been really crazy.</p>
-									</div>
-								</div>
-
-								<div class="testimonial_item">
-									<div class="testimonial_item--head">
-										<div class="head--img">
-											<img src="./images/Ketaki.png" alt="">
-										</div>
-										<div class="head--title">
-											<h3 class="ser_item-h">Ketaki Ogale</h3>
-											<p>CEO & Founder at BHyve</p>
-										</div>
-									</div>
-									<div class="testimonial_item--bottom">
-										<p>One of the major reasons for me to join the Growth Folks group was the opportunity to learn from domain experts in marketing. I was fortunate to get a chance to learn basics of SEO from Soumyadip in my first week itself, cortesy, <i>Growth Huddle!</i></p>
-									</div>
-								</div>
+                                    <div class="testimonial_item">
+                                        <div class="testimonial_item--head">
+                                            <div class="head--img">
+                                                <img src="./imgs2/Nattu.png" alt="">
+                                            </div>
+                                            <div class="head--title">
+                                                <h3 class="ser_item-h">Natarajan Alagappan</h3>
+                                                <p>Cheif Growth Officer at Leadwalnut.com</p>
+                                            </div>
+                                        </div>
+                                        <div class="testimonial_item--bottom">
+                                            <p>Growth marketing is a nascent field & when I need to know great practices or meet the die hard practitioners, I go to Growth Folks. Recently needed an expert Google Ads specialist. Ayush was quick to link up and expert and we had a performing ad launched in 2 weeks. <i><b>Go-Growth Huddle!</b></i></p>
+                                        </div>
+                                    </div>
 
 
-								<div class="testimonial_item">
-									<div class="testimonial_item--head">
-										<div class="head--img">
-											<img src="./images/Punit.png" alt="">
-										</div>
-										<div class="head--title">
-											<h3 class="ser_item-h">Punit Jain</h3>
-											<p>Founder & CEO at Incubate IND</p>
-										</div>
-									</div>
-									<div class="testimonial_item--bottom">
-										<p>The best thing about Growth Folks is that the vision on which they started their journey in 2017 to empower the lives of every growth or marketing enthusiasts is still intact and as a community whenever we have collaborated with them, they have surpassed our expectations.</p>
-									</div>
-								</div>
+                                    <div class="testimonial_item">
+                                        <div class="testimonial_item--head">
+                                            <div class="head--img">
+                                                <img src="./imgs2/Yogi.png" alt="">
+                                            </div>
+                                            <div class="head--title">
+                                                <h3 class="ser_item-h">Yoheswaran Gnanavel</h3>
+                                                <p>Marketing & Partnership at Canva India</p>
+                                            </div>
+                                        </div>
+                                        <div class="testimonial_item--bottom">
+                                            <p>When I first attended their workshop at YourStory, I was expecting a workshop just like any other meetup, some PR & some networking. But the session took me by surprise, it has so many value bombs that I was flabbergasted with the whole setup & the insane amount of value that I got.</p>
+                                        </div>
+                                    </div>
 
-							</div>
-						</div>
-					</div>
-				</div>
+                                </div>
+                            </div>
 
-                <div class="bottom_bar">
+                            <div class="carousel-item">
+                                <div class="testimonial_main--items">
+
+                                    <div class="testimonial_item">
+                                        <div class="testimonial_item--head">
+                                            <div class="head--img">
+                                                <img src="./images/Ashish.png" alt="">
+                                            </div>
+                                            <div class="head--title">
+                                                <h3 class="ser_item-h">Aashish Ramamurthy</h3>
+                                                <p>Events Manager - Bangalore at Draper Startup House</p>
+                                            </div>
+                                        </div>
+                                        <div class="testimonial_item--bottom">
+                                            <p>Growth folks has been an amazing community for myself to learn a lot on growth marketing & marketing trends. I got to connect with marketing and growth enthusiasts from all across India. We have collaborated with Growth folks for many events and they have been really crazy.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="testimonial_item">
+                                        <div class="testimonial_item--head">
+                                            <div class="head--img">
+                                                <img src="./images/Ketaki.png" alt="">
+                                            </div>
+                                            <div class="head--title">
+                                                <h3 class="ser_item-h">Ketaki Ogale</h3>
+                                                <p>CEO & Founder at BHyve</p>
+                                            </div>
+                                        </div>
+                                        <div class="testimonial_item--bottom">
+                                            <p>One of the major reasons for me to join the Growth Folks group was the opportunity to learn from domain experts in marketing. I was fortunate to get a chance to learn basics of SEO from Soumyadip in my first week itself, cortesy, <i>Growth Huddle!</i></p>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="testimonial_item">
+                                        <div class="testimonial_item--head">
+                                            <div class="head--img">
+                                                <img src="./images/Punit.png" alt="">
+                                            </div>
+                                            <div class="head--title">
+                                                <h3 class="ser_item-h">Punit Jain</h3>
+                                                <p>Founder & CEO at Incubate IND</p>
+                                            </div>
+                                        </div>
+                                        <div class="testimonial_item--bottom">
+                                            <p>The best thing about Growth Folks is that the vision on which they started their journey in 2017 to empower the lives of every growth or marketing enthusiasts is still intact and as a community whenever we have collaborated with them, they have surpassed our expectations.</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bottom_bar">
                         <div class="bottom_bar--left">
                             <div class="page-btn">
-                                <a href="./contact.php">Join Our Community <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24.08 23.88" class="svg-arow"><defs><style>.cls-1{fill:#fff; width: 2%}</style></defs><title>arrow</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M24.08,18.83V1.63A1.42,1.42,0,0,0,23.57.54,1.43,1.43,0,0,0,22.45,0H5.25a1.43,1.43,0,1,0,0,2.87H19L.42,21.43a1.43,1.43,0,0,0,2,2L21.21,4.69V18.83a1.43,1.43,0,1,0,2.87,0Z"/></g></g></svg></a>
+                                <a href="./contact.php">Join Our Community <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24.08 23.88" class="svg-arow">
+                                        <defs>
+                                            <style>
+                                                .cls-1 {
+                                                    fill: #fff;
+                                                    width: 2%
+                                                }
+                                            </style>
+                                        </defs>
+                                        <title>arrow</title>
+                                        <g id="Layer_2" data-name="Layer 2">
+                                            <g id="Layer_1-2" data-name="Layer 1">
+                                                <path class="cls-1" d="M24.08,18.83V1.63A1.42,1.42,0,0,0,23.57.54,1.43,1.43,0,0,0,22.45,0H5.25a1.43,1.43,0,1,0,0,2.87H19L.42,21.43a1.43,1.43,0,0,0,2,2L21.21,4.69V18.83a1.43,1.43,0,1,0,2.87,0Z" />
+                                            </g>
+                                        </g>
+                                    </svg></a>
                             </div>
                         </div>
                         <div class="bottom_bar--right">
@@ -286,7 +298,7 @@
                             </div>
                             <div class="right right_move" id="gotoNext2">
                                 <img src="./icons/right-arr.svg" alt="">
-                            </div> 
+                            </div>
                         </div>
                     </div>
 
@@ -295,7 +307,7 @@
         </div>
 
         <!-- Client -->
-        <section class="client">
+        <!-- <section class="client">
             <div class="container">
             <div class="client_head">
                 <p>OUR CLIENTS</p>
@@ -303,7 +315,6 @@
 
             <div class="client_gallery">
                 <div class="client_gallery--left">
-                    <!-- <img src="./images/left.svg" id="gotoPre3" alt=""> -->
                     <div class="left left_move" id="gotoPre1_1">
                             <img src="./icons/left-arr.svg" alt="">
                     </div>
@@ -312,28 +323,87 @@
 					<div class="carousel-inner ">
 						<div class="carousel-item active">	
                         <div class="client_gallery--mid">
-                        <?php for($i=0; $i<6; $i++) {?>
+                        <?php for ($i = 0; $i < 6; $i++) { ?>
                             <div class="gallery-item"><img src="./images/Logo/<?php echo $i ?>.png" alt="" srcset="" class="client-img"></div>
-                        <?php }?>
+                        <?php } ?>
                         </div>
 						</div>
 						<div class="carousel-item ">	
                         <div class="client_gallery--mid">
-                            <?php for($i=6; $i<12; $i++) {?>
+                            <?php for ($i = 6; $i < 12; $i++) { ?>
                             <div class="gallery-item"><img src="./images/Logo/<?php echo $i ?>.png" alt="" srcset="" class="client-img"></div>
-                        <?php }?>
+                        <?php } ?>
 							</div>
 						</div>
 					</div>	
 				</div>	
 						
                     <div class="client_gallery--right">
-                        <!-- <img src="./images/right.svg" id="gotoNext3" alt=""> -->
                         <div class="right right_move" id="gotoNext3">
                                 <img src="./icons/right-arr.svg" alt="">
                         </div> 
                     </div>
             </div>
+
+            </div>
+        </section> -->
+
+        <!-- Client -->
+        <section class="client">
+
+            <div class="container">
+                <div class="client_head">
+                    <p>OUR CLIENTS</p>
+                </div>
+
+                <div class="client_gallery">
+                    <div class="client_gallery--left">
+                        <!-- <img src="./images/left.svg" id="gotoPre3" alt=""> -->
+                        <div class="left left_move" id="gotoPre3">
+                            <img src="./icons/left-arr.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="container">
+
+                        <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel" data-interval='false'>
+                            <div class="carousel-inner ">
+
+                                <div class="carousel-item active">
+
+                                    <div class="row">
+                                        <?php for ($i = 0; $i < 6; $i++) { ?>
+                                            <div class="col-md-2 logos-box">
+                                                <div class="gallery-item"><img src="./images/Logo/<?php echo $i ?>.png" alt="" srcset="" class="client-img"></div>
+                                            </div>
+                                        <?php } ?>
+                                    </div>
+                                </div>
+
+
+                                <div class="carousel-item ">
+
+                                    <div class="row">
+                                        <?php for ($i = 6; $i < 12; $i++) { ?>
+                                            <div class="col-md-2 logos-box">
+                                                <div class="gallery-item"><img src="./images/Logo/<?php echo $i ?>.png" alt="" srcset="" class="client-img"></div>
+                                            </div>
+                                        <?php } ?>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="client_gallery--right">
+                        <!-- <img src="./images/right.svg" id="gotoNext3" alt=""> -->
+                        <div class="right right_move" id="gotoNext3">
+                            <img src="./icons/right-arr.svg" alt="">
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </section>
@@ -344,23 +414,23 @@
 
     </main>
     <?php require('./common/footer.php') ?>
-    </body>
+</body>
+
 </html>
-    <script>
+<script>
     $('.nav-item').removeClass("nav-active");
     $('#services').addClass("nav-active");
-     </script>
-<script>			
-			$("#gotoNext2").click(() => $("#carouselExampleIndicators2").carousel("next"));			
-			$("#gotoPre2").click(() => $("#carouselExampleIndicators2").carousel("prev"));
-            $("#gotoNext3").click(() => $("#carouselExampleIndicators3").carousel("next"));			
-			$("#gotoPre3").click(() => $("#carouselExampleIndicators3").carousel("prev"));
+</script>
+<script>
+    $("#gotoNext2").click(() => $("#carouselExampleIndicators2").carousel("next"));
+    $("#gotoPre2").click(() => $("#carouselExampleIndicators2").carousel("prev"));
+    $("#gotoNext3").click(() => $("#carouselExampleIndicators3").carousel("next"));
+    $("#gotoPre3").click(() => $("#carouselExampleIndicators3").carousel("prev"));
+</script>
 
-		</script>
 
-
-        <!-- Client -->
-        <!-- <div class="client">
+<!-- Client -->
+<!-- <div class="client">
             <div class="container">
                 <div class="client_head">
                     <p>OUR CLIENTS</p>

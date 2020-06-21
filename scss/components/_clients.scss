@@ -56,6 +56,21 @@
     }
 }
 
+
+.logos-box{
+    position: relative;
+    width: 20rem;
+    height: 15rem;
+
+    .client-img{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+    }
+}
+
 @media only screen and (max-width: 700px){
 
     .client{
@@ -112,6 +127,22 @@
             }
         }
     }
+
+
+    .logos-box{
+        position: relative;
+        width: 20rem;
+        height: 18rem;
+    
+        .client-img{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 55%;
+        }
+    }
+
 
 
 
