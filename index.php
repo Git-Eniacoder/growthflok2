@@ -1,14 +1,14 @@
 <?php
-// error_reporting(E_ERROR | E_PARSE);
-// $json_string = file_get_contents("http://growthfolks.in/blog/wp-json/wp/v2/posts?per_page=12&_embed");
-// $parsed_json['blog'] = json_decode($json_string);
-// $con = mysqli_connect("13.233.17.47", "growthfolks", "@Navneet1", "growthfolks");
-// $sql = "select * from growthfolks order by date desc";
-// $result = mysqli_query($con, $sql);
-// $data = mysqli_fetch_all($result);
+error_reporting(E_ERROR | E_PARSE);
+$json_string = file_get_contents("http://growthfolks.in/blog/wp-json/wp/v2/posts?per_page=12&_embed");
+$parsed_json['blog'] = json_decode($json_string);
+$con = mysqli_connect("13.233.17.47", "growthfolks", "@Navneet1", "growthfolks");
+$sql = "select * from growthfolks order by date desc";
+$result = mysqli_query($con, $sql);
+$data = mysqli_fetch_all($result);
 
-// echo "<pre>";
-// print_r($parsed_json['blog']);
+echo "<pre>";
+print_r($parsed_json['blog']);
 ?>
 
 <!DOCTYPE html>
