@@ -17,9 +17,9 @@
                             </div>
                         </div>
                         <div class="bottom">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <p>+ 91 9986 440124</p>
-                            <p>contactus@growtfolks.com</p>
+                            <p>Growth Folks is India's Largest Community of Growth Enthusiasts with more than 750+ members as a part of this community. Having on offline presence in 9+ cities and having more than 70 events, we are the fastest growing community in India.</p>
+                            <p>+ 91 96016 11785</p>
+                            <p>growthfolk@gmail.com</p>
                         </div>
 
                     </div>
@@ -44,10 +44,10 @@
                         </div>
                         <div class="bottom">
                             <div class="bottom">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <p>Subscribe to our official newsletter for latest updates from Growth Folks.</p>
                                 <div class="newsletter-box">
                                 <form action="newsletter_to_excel.php" method="post">
-                                    <input type="email" name="mail" class="newsletter-inp" placeholder="jhoneDoe@gmail.com" required>
+                                    <input type="email" name="mail" class="newsletter-inp" placeholder="Your E-mail ID" required>
                                     <button type="submit" class="newsletter-btn">Get NewsLetter</button>
                                 </form>    
                                 </div>

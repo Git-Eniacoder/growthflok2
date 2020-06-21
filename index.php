@@ -3,7 +3,7 @@
     $json_string = file_get_contents("http://growthfolks.in/blog/wp-json/wp/v2/posts?per_page=12&_embed");
     $parsed_json['blog'] = json_decode($json_string);
     $con = mysqli_connect("13.233.17.47","growthfolks","@Navneet1","growthfolks");
-    $sql = "select * from growthfolks ORDER BY id DESC";
+    $sql = "select * from growthfolks order by date desc";
     $result = mysqli_query($con,$sql);
     $data = mysqli_fetch_all($result);
   
@@ -28,7 +28,10 @@
         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <title>GrothFloks services</title>
+    <title>Growth Folks: India's Largest Community of Growth Enthusiasts</title>
+    
+<meta name="google-site-verification" content="9aLO63N0C8KTX2z-rlVGli9jmt4LCW95Kzbw2QH2sK0" />
+
 </head>
 
 <body>
@@ -160,9 +163,9 @@ img.hover-shadow {
                             <div class="d-box-r"></div>
                             <div class="heading-box">
                                 <h1 class="heading-box-h1">India's largest Community of Growth Enthusiast</h1>
-                                <p class="heading-box-p">Sub Text will be written here and we need to ask ayush for
-                                    providing us the content</p>
-                                <a href="./contact.php" class="heading-box-btn">Join Our Community</a>
+                                <p class="heading-box-p">The fastest-growing community of marketers, growth hackers, 
+entrepreneurs and enthusiasts</p>
+                                <a href="https://www.facebook.com/groups/growthfolksofficial" target="_blank" class="heading-box-btn">Join Our Community</a>
                             </div>
                         </div>
                         <div class="hero_main--img">
@@ -187,52 +190,48 @@ img.hover-shadow {
                 <div class="about_main">
                     <div class="base_heading">
                         <p class="base_heading--title">ABOUT US</p>
-                        <h2 class="base_heading--h2">India's largest Community of Growth Enthusiast</h2>
+                        <h2 class="base_heading--h2">We believe in growing together as a community!</h2>
                         <div class="base_heading--underline"></div>
                     </div>
                     <div class="about_main--detail">
                         <div class="about_main--detail-text">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae aliquid aut, eligendi
-                                iure ratione tenetur doloribus maiores ea blanditiis dignissimos sint aspernatur optio
-                                nemo nostrum! Ipsum tempore totam illo quasi ipsam rerum, provident aliquam deleniti
-                                saepe minus tempora assumenda culpa ex laudantium blanditiis voluptatibus! Corrupti,
-                                similique iste. Officiis, delectus accusamus?</p>
+                            <p>At Growth Folks, we truly believe in the transformative power of community and the ability of learning and growing together with the help of each other. Everyone is guessing. Marketers/Growth hackers are figuring out the best marketing strategies, or the tactics that will bring them right traffic or leads; Enthusiasts want to know how to get started; Companies and startups are looking for the best hacks around growth.</p>
                             <a href="./about.php" class="about-btn">Know More About Us <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24.08 23.88" class="svg-arow"><defs><style>.cls-1{fill:#fff; width: 2%}</style></defs><title>arrow</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M24.08,18.83V1.63A1.42,1.42,0,0,0,23.57.54,1.43,1.43,0,0,0,22.45,0H5.25a1.43,1.43,0,1,0,0,2.87H19L.42,21.43a1.43,1.43,0,0,0,2,2L21.21,4.69V18.83a1.43,1.43,0,1,0,2.87,0Z"/></g></g></svg></a>
                         </div>
                         <div class="about_main--detail-show">
                             <div class="show_item">
                                 <div class="show_item--head">
-                                    <span class="show_item--head-num span-item">9+</span>
-                                    <span class="show_item--head-cap span-item">City Caption</span>
+                                    <span class="show_item--head-num span-item">8+</span>
+                                    <span class="show_item--head-cap span-item">City Chapters</span>
                                 </div>
                             </div>
                             <div class="show_item">
                                 <div class="show_item--head">
-                                    <span class="show_item--head-num span-item">60+</span>
+                                    <span class="show_item--head-num span-item">70+</span>
                                     <span class="show_item--head-cap span-item">Offline Events</span>
                                 </div>
                             </div>
                             <div class="show_item">
                                 <div class="show_item--head">
-                                    <span class="show_item--head-num span-item">72+</span>
+                                    <span class="show_item--head-num span-item">750+</span>
                                     <span class="show_item--head-cap span-item">Active Members</span>
                                 </div>
                             </div>
                             <div class="show_item">
                                 <div class="show_item--head">
-                                    <span class="show_item--head-num span-item">180+</span>
+                                    <span class="show_item--head-num span-item">180,000+</span>
                                     <span class="show_item--head-cap span-item">Organic Outreach</span>
                                 </div>
                             </div>
                             <div class="show_item">
                                 <div class="show_item--head">
-                                    <span class="show_item--head-num span-item">750+</span>
-                                    <span class="show_item--head-cap span-item">Growth Enthusiast</span>
+                                    <span class="show_item--head-num span-item">10+</span>
+                                    <span class="show_item--head-cap span-item">Growth Webinars</span>
                                 </div>
                             </div>
                             <div class="show_item">
                                 <div class="show_item--head">
-                                    <span class="show_item--head-num span-item">2500+</span>
+                                    <span class="show_item--head-num span-item">3500+</span>
                                     <span class="show_item--head-cap span-item">Meetup Attendees</span>
                                 </div>
                             </div>
@@ -261,7 +260,7 @@ img.hover-shadow {
                         <img src="./images/gallery-sec3-img2.png" alt="" onclick="openModal();currentSlide(6)" class="g-sec-3-img2 img-hover hover-shadow cursor">
                     </div>
                 </div>
-                <div id="myModal" class="modal gallery_modal">
+                <div id="myModal" onclick="closeModal()" class="modal gallery_modal">
             
   <div class="modal-content gallery_content">
   <span class="close close_modal cursor" onclick="closeModal()">&times;</span>
@@ -313,11 +312,7 @@ img.hover-shadow {
                         <div class="base_heading--underline"></div>
                     </div>
                     <div class="services_main--text">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-                            galley of type and scrambled it to make a type specimen book. Lorem Ipsum has been the
-                            industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum has been
-                            the industry's standard dummy text ever.</p>
+                        <p>From planning a kickass marketing strategy to starting a career in marketing, making an informed decision takes the right information from the right people. We strive to bridge the gap between growth leaders, marketers, enthusiasts, and give them a platform to learn, collaborate, create, and grow together.</p>
                     </div>
 					
                   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval='false'>
@@ -326,27 +321,23 @@ img.hover-shadow {
 							<div class="services_main--comp">
 								<div class="services_main--comp-item">
 									<img src="./icons/events.svg" alt="" class="ser_item-img">
-									<h3 class="ser_item-h">Workshops & Meetups</h3>
-									<p class="ser_item-para">Cupidatat quis nisi Lorem et occaecat qui mollit quis fugiat aliqua
-										occaecat</p>
+									<h3 class="ser_item-h">GrowthShops & Webinars</h3>
+									<p class="ser_item-para">Interactive meetup sessions and workshops on a monthly basis with best in class growth leaders.</p>
 								</div>
 								<div class="services_main--comp-item">
 									<img src="./icons/community.svg" alt="" class="ser_item-img">
 									<h3 class="ser_item-h">Community Engagement</h3>
-									<p class="ser_item-para">Tllamco adipisicing ea nostrud magna proident sunt consequat do
-										anim culpa in</p>
+									<p class="ser_item-para">Easy access to the latest growth content, blogs, discussions, online events in the community</p>
 								</div>
 								<div class="services_main--comp-item">
 									<img src="./icons/hackathon.svg" alt="" class="ser_item-img">
-									<h3 class="ser_item-h">Growth Hackathones</h3>
-									<p class="ser_item-para">Sunt sit ex excepteur id do id laborum do minim aliqua excepteur
-										laborum</p>
+									<h3 class="ser_item-h">Growth Hackathons</h3>
+									<p class="ser_item-para">One of its kind of Growth-Product hackathon to promote scalable solutions.</p>
 								</div>
 								<div class="services_main--comp-item">
 									<img src="./icons/roadmap.svg" alt="" class="ser_item-img">
 									<h3 class="ser_item-h">Growth Roadmap</h3>
-									<p class="ser_item-para">Irure eu velit proident dolore quis deserunt cupidatat amet ea sit
-										eiusmod</p>
+									<p class="ser_item-para">Growth Consultation for your startup by Industry Experts</p>
 								</div>
 							</div>
 					</div>
@@ -403,7 +394,7 @@ img.hover-shadow {
             <section class="banner index_banner">
                 <div class="container">
                     <div class="banner_main index_banner-main">
-                        <h2>Did you find us helpful in any or the other ways?</h2>
+                        <h2>Did you find us helpful in any ways? Let's talk!</h2>
                         <p>Let us know more about your requirments and we'll be more than happy to help you.</p>
                         <button class="btn">Get In touch</button>
                     </div>
@@ -423,7 +414,7 @@ img.hover-shadow {
                     <div class="resources_main--content">
                         <div class="base_heading">
                             <p class="base_heading--title">RESOURCES</p>
-                            <h2 class="base_heading--h2">Content That Will Help You In Upgrade</h2>
+                            <h2 class="base_heading--h2">Content That Will Help You Upgrade</h2>
                             <div class="base_heading--underline"></div>
                         </div>
                         <div class="res_btn">
@@ -434,7 +425,7 @@ img.hover-shadow {
 					<div id="blog-view">
 					  <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel" data-interval='false'>
 						 <div class="carousel-inner ">
-							<div class="carousel-item">
+							<div class="carousel-item active">
 								<div class="resources_main--posts">
                                 <?php for($i=0; $i< 3; $i++){ ?>
                             <div class="resources_post">
@@ -450,7 +441,7 @@ img.hover-shadow {
                              <?php }?>
 								</div>
 							</div>
-							<div class="carousel-item active">
+							<div class="carousel-item">
 								<div class="resources_main--posts">
                                 <?php for($i=3; $i< 6; $i++){ ?>
                             <div class="resources_post">
@@ -544,7 +535,7 @@ img.hover-shadow {
 
                     <div class="base_heading">
                         <p class="base_heading--title">TESTIMONIAL</p>
-                        <h2 class="base_heading--h2">Adding Value to Every Growth Professionals or Marketeer</h2>
+                        <h2 class="base_heading--h2">Our community makes us who we are!</h2>
                         <div class="base_heading--underline"></div>
                     </div>
                 <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel" data-interval='false'>
@@ -555,34 +546,30 @@ img.hover-shadow {
 								<div class="testimonial_item">
 									<div class="testimonial_item--head">
 										<div class="head--img">
-											<img src="./images/boy-img1.png" alt="">
+											<img src="./images/Prateeka.png" alt="">
 										</div>
 										<div class="head--title">
-											<h3 class="ser_item-h">Program Manager</h3>
-											<p>Microsoft Reactor Bangalore</p>
+											<h3 class="ser_item-h">Prateeka Kamath</h3>
+											<p>Marketing Consultant</p>
 										</div>
 									</div>
 									<div class="testimonial_item--bottom">
-										<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-											unknown printer took a galley of type and scrambled it to make a type specimen book.
-											Lorem Ipsum has been the industry's</p>
+										<p>I am glad that I found a community of curious, smart and well-informed growth professionals to help! It's been a massive learning journey for all of us, full of excitement, support and innovation. Kudos, team!</p>
 									</div>
 								</div>
 
 								<div class="testimonial_item">
 									<div class="testimonial_item--head">
 										<div class="head--img">
-											<img src="./imgs2/tes-img-2.png" alt="">
+											<img src="./imgs2/Aaaditya.png" alt="">
 										</div>
 										<div class="head--title">
-											<h3 class="ser_item-h">Mitchell Cooper</h3>
-											<p>Founder at Commmunity Folks</p>
+											<h3 class="ser_item-h">Aditya Sheth</h3>
+											<p>Content & SEO, Venngage</p>
 										</div>
 									</div>
 									<div class="testimonial_item--bottom">
-										<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-											unknown printer took a galley of type and scrambled it to make a type specimen book.
-											Lorem Ipsum has been the industry's</p>
+										<p>From the deep yet narrow member list to the organic conversations within the community; I’ve find myself mostly inspired, sometimes motivated and almost always better at what I do: growth. Growth folks is the the index card or cheatsheet on how you should build your own communities. Rooting for Ayush & Co!</p>
 									</div>
 								</div>
 
@@ -590,17 +577,15 @@ img.hover-shadow {
 								<div class="testimonial_item">
 									<div class="testimonial_item--head">
 										<div class="head--img">
-											<img src="./imgs2/tes-img-3.png" alt="">
+											<img src="./imgs2/Devyani.png" alt="">
 										</div>
 										<div class="head--title">
-											<h3 class="ser_item-h">Bernard Nguyen</h3>
-											<p>Founder at Commmunity Folks</p>
+											<h3 class="ser_item-h">Devyani Saxena</h3>
+											<p>Asst. Manager - Marketing & Ops at Simpl</p>
 										</div>
 									</div>
 									<div class="testimonial_item--bottom">
-										<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-											unknown printer took a galley of type and scrambled it to make a type specimen book.
-											Lorem Ipsum has been the industry's</p>
+										<p>It has been 1.5 years that I know of GrowthFolks, been attending their offline meetups & participating in online activities. Highly recommend to all growth enthusiasts & professionals to join in, connect and share this space. More power to the team!</p>
 									</div>
 								</div>
 
@@ -613,34 +598,30 @@ img.hover-shadow {
 								<div class="testimonial_item">
 									<div class="testimonial_item--head">
 										<div class="head--img">
-											<img src="./images/boy-img1.png" alt="">
+											<img src="./images/Soumyadip.png" alt="">
 										</div>
 										<div class="head--title">
-											<h3 class="ser_item-h">Workshops & Meetups</h3>
-											<p>Founder at Commmunity Folks</p>
+											<h3 class="ser_item-h">Soumyadip Banerjee</h3>
+											<p>SEO & Growth at Ampliz</p>
 										</div>
 									</div>
 									<div class="testimonial_item--bottom">
-										<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-											unknown printer took a galley of type and scrambled it to make a type specimen book.
-											Lorem Ipsum has been the industry's</p>
+										<p>I feel extremely glad that such a community exists, where growth enthusiasts like me feel at home. Be it the online group, the monthly events (Growth Shop) or the newest venture (Growth Huddle) - Growth Folks has something for everyone.</p>
 									</div>
 								</div>
 
 								<div class="testimonial_item">
 									<div class="testimonial_item--head">
 										<div class="head--img">
-											<img src="./images/boy-img1.png" alt="">
+											<img src="./images/Shiva.png" alt="">
 										</div>
 										<div class="head--title">
-											<h3 class="ser_item-h">Mitchell Cooper</h3>
-											<p>Founder at Commmunity Folks</p>
+											<h3 class="ser_item-h">Shivaprakash K M</h3>
+											<p>Product Marketing Manager at Zeta</p>
 										</div>
 									</div>
 									<div class="testimonial_item--bottom">
-										<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-											unknown printer took a galley of type and scrambled it to make a type specimen book.
-											Lorem Ipsum has been the industry's</p>
+										<p>GrowthFolks has built an engaged community of marketers and growth professionals that help each other out in solving real world business problems. They have built a platform where professionals network and learn from each other.</p>
 									</div>
 								</div>
 
@@ -648,17 +629,15 @@ img.hover-shadow {
 								<div class="testimonial_item">
 									<div class="testimonial_item--head">
 										<div class="head--img">
-											<img src="./images/boy-img1.png" alt="">
+											<img src="./images/Pulkit.png" alt="">
 										</div>
 										<div class="head--title">
-											<h3 class="ser_item-h">Bernard Nguyen</h3>
-											<p>Founder at Commmunity Folks</p>
+											<h3 class="ser_item-h">Pulkit Thakur</h3>
+											<p>Experience Strategy Consultant at IBM iX</p>
 										</div>
 									</div>
 									<div class="testimonial_item--bottom">
-										<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-											unknown printer took a galley of type and scrambled it to make a type specimen book.
-											Lorem Ipsum has been the industry's</p>
+										<p>The best part about this community is the diversity in the experience of people you get to interact with. I am immensely proud to be an active member of this community as I have surely made a lot marketeers friends for life.</p>
 									</div>
 								</div>
 
@@ -670,7 +649,7 @@ img.hover-shadow {
                     <div class="bottom_bar">
                         <div class="bottom_bar--left">
                             <div class="page-btn">
-                                <a href="./contact.php">Join Our Community <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24.08 23.88" class="svg-arow"><defs><style>.cls-1{fill:#fff; width: 2%}</style></defs><title>arrow</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M24.08,18.83V1.63A1.42,1.42,0,0,0,23.57.54,1.43,1.43,0,0,0,22.45,0H5.25a1.43,1.43,0,1,0,0,2.87H19L.42,21.43a1.43,1.43,0,0,0,2,2L21.21,4.69V18.83a1.43,1.43,0,1,0,2.87,0Z"/></g></g></svg></a>
+                                <a href="https://www.facebook.com/groups/growthfolksofficial" target="_blank" >Join Our Community <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24.08 23.88" class="svg-arow"><defs><style>.cls-1{fill:#fff; width: 2%}</style></defs><title>arrow</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M24.08,18.83V1.63A1.42,1.42,0,0,0,23.57.54,1.43,1.43,0,0,0,22.45,0H5.25a1.43,1.43,0,1,0,0,2.87H19L.42,21.43a1.43,1.43,0,0,0,2,2L21.21,4.69V18.83a1.43,1.43,0,1,0,2.87,0Z"/></g></g></svg></a>
                             </div>
                         </div>
                         <div class="bottom_bar--right">

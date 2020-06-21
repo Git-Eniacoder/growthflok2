@@ -94,28 +94,28 @@
                      <div class="contact_main--form">
                         <form action="contact_to_excel.php" method="post">
                            <div class="tag">
-                              <label for="">Name</label>
+                              <label for="">Name*</label>
                               <input name="name" type="text" required>
                            </div>
                            <div class="email">
                               <div class="tag tag-1">
-                                 <label for="">Email Address</label>
+                                 <label for="">Email Address*</label>
                                  <input name="email" type="email" required>
                               </div>
                               <div class="tag tag-2">
-                                 <label for="">Mobile</label>
+                                 <label for="">Mobile*</label>
                                  <input name="mobile" type="text" required>
                               </div>
                            </div>
                            <div class="tag">
-                              <label for="">Subject</label>
+                              <label for="">Subject*</label>
                               <select name="subject" id="">
                                  <option value="demo_subject">demo1</option>
                                  <option value="demo_subject">demo2</option>
                               </select>
                            </div>
                            <div class="tag">
-                              <label for="">Description</label>
+                              <label for="">Description*</label>
                               <textarea name="description" id="" cols="30" rows="4" required></textarea>
                            </div>
                            <div class="tag">

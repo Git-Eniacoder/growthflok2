@@ -13,7 +13,7 @@
       <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
       <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet"
          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-      <title>GrothFloks services</title>
+      <title>Growth Folks: Services</title>
    </head>
    <body>
       <?php require('./common/header.php') ?>
@@ -35,11 +35,7 @@
                   <div class="base_heading--underline"></div>
                </div>
                <div class="base_para">
-                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, reprehenderit! Animi
-                     laudantium possimus exercitationem ad autem rem fugiat expedita, beatae optio dolores neque
-                     obcaecati ducimus eveniet ex iure sit explicabo eos. Cumque rerum corrupti maxime
-                     asperiores? Consectetur voluptas et maxime pariatur repellat tenetur sed recusandae,
-                     mollitia ipsa aliquam harum aut.
+                  <p>Growth Folks was formed with a vision of bringing together like minded growth enthusiasts who believe in learning and growing together. What started with a mere group of 5 people back in 2017 is now a strong community of 750+ individuals. We had our ups and downs, but also have managed to accomplish a few milestones, let's have a look at it…
                   </p>
                </div>
             </div>
@@ -71,7 +67,7 @@
                            <div style="color:#207a6a" class="point-up"><i style="font-size:10px" class="fa">&#xf111;</i></div>
                            <div class="item-bx">
                               <span style="color:#207a6a">Dec 2017</span>
-                              <p>1st Offline Community Meetup</p>
+                              <p>1st Offline Community Meetup in Bangalore</p>
                            </div>
                         </div>
                         <div class="item">
@@ -85,20 +81,20 @@
                         <div style="color:orange" class="point-up"><i style="font-size:10px" class="fa">&#xf111;</i></div>
                            <div class="item-bx">
                               <span style="color:orange">Dec 2018</span>
-                              <p>1st Informal Brunch at BLR</p>
+                              <p>1st Informal Brunch in Bangalore</p>
                            </div>
                         </div>
                         <div class="item">
                         <div style="color:blue" class="point-up"><i style="font-size:10px" class="fa">&#xf111;</i></div>
                            <div class="item-bx">
                               <span style="color:blue">Jan 2019</span>
-                              <p>1st Growth Shop in BLR & HYD</p>
+                              <p>1st Growth Shop in Bangalore & Hyderabad</p>
                            </div>
                         </div>
                         <div class="item">
                         <div style="color:blue" class="point-up"><i style="font-size:10px" class="fa">&#xf111;</i></div>
                            <div class="item-bx">
-                              <span style="color:blue">Fab 2019</span>
+                              <span style="color:blue">Feb 2019</span>
                               <p>Pune , Mumbai & NCR Launched </p>
                            </div>
                         </div>
@@ -113,7 +109,7 @@
                         <div style="color:blue" class="point-up"><i style="font-size:10px" class="fa">&#xf111;</i></div>
                            <div class="item-bx">
                               <span style="color:blue">Jun 2019</span>
-                              <p>Makeathon 1.O</p>
+                              <p>Make-a-Thon 1.0</p>
                            </div>
                         </div>
                         <div class="item">
@@ -127,21 +123,21 @@
                         <div style="color:purple" class="point-up"><i style="font-size:10px" class="fa">&#xf111;</i></div>
                            <div class="item-bx">
                               <span style="color:purple">Jan 2020 </span>
-                              <p>3d Paid Event </p>
+                              <p>3rd Paid Event in Bangalore</p>
                            </div>
                         </div>
                         <div class="item">
                         <div style="color:purple" class="point-up"><i style="font-size:10px" class="fa">&#xf111;</i></div>
                            <div class="item-bx">
-                              <span style="color:purple">Nov 2020</span>
-                              <p>Makeathon 2.O</p>
+                              <span style="color:purple">Apr 2020</span>
+                              <p>Introduced Growth Huddle</p>
                            </div>
                         </div>
                         <div class="item">
                         <div style="color:purple" class="point-up"><i style="font-size:10px" class="fa">&#xf111;</i></div>
                            <div class="item-bx">
-                              <span style="color:purple">NOV 2017</span>
-                              <p>Founded The Community</p>
+                              <span style="color:purple">July 2020</span>
+                              <p>Make-a-Thon 2.0 Scheduled</p>
                            </div>
                         </div>
                      </div>
@@ -157,12 +153,7 @@
                   <p class="base_heading--title">OUR TEAM</p>
                   <h2 class="base_heading--h2">Meet The People Behind GrowthFolks</h2>
                   <div class="base_heading--underline"></div>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                     been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-                     galley of type and scrambled it to make a type specimen book. Lorem Ipsum has been the
-                     industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum has been
-                     the industry's standard dummy text ever.
-                  </p>
+                  <p>The people who work at Growth Folks share the vision and values of our community. Some of our skills are complimentary while others overlap. With our mission to grow faster and smarter, its a blessing to have people having an experience of working for companies like PepsiCo, UpGrad, OYO, Zynga and others, driving the vision forward. Meet our <b>Spartans!</b></p>
                </div>
                <div class="inner_container">
                   <div class="ourteam_members">
@@ -171,13 +162,13 @@
                         <div class="head head-col-1">
                         </div>
                         <div>
-                           <img src="./images/team/Ayush.jpg" alt="" class="profile">
+                           <img src="./images/team/Mitasha.png" alt="" class="profile">
                         </div>
                         <div class="bottom">
-                           <h2>Ayush Srivastava</h2>
-                           <p>Founding Member & City Head - Bangalore</p>
+                           <h2>Mitasha Jain</h2>
+                           <p>City Head - Pune</p>
                            <div class="social">
-                              <a href="https://www.linkedin.com/in/ayushsrivastava17"><img src="./images/linkedin.png" alt="" class="icon"></a>
+                              <a href="https://www.linkedin.com/in/mitasha-jain-bb3a4757/"><img src="./images/linkedin.png" alt="" class="icon"></a>
                            </div>
                         </div>
                      </div>
@@ -187,13 +178,13 @@
                         <div class="head head-col-2">
                         </div>
                         <div>
-                           <img src="./images/team/Nanda.jpg" alt="" class="profile">
+                           <img src="./images/team/Megha.png" alt="" class="profile">
                         </div>
                         <div class="bottom">
-                           <h2>Nanda Kumar</h2>
-                           <p>Early Initiator</p>
+                           <h2>Megha Gulati</h2>
+                           <p>City Head - Hyderabad</p>
                            <div class="social">
-                              <a href="https://www.linkedin.com/in/thenandak/"><img src="./images/linkedin.png" alt="" class="icon"></a>
+                              <a href="https://www.linkedin.com/in/megha-gulati/"><img src="./images/linkedin.png" alt="" class="icon"></a>
                            </div>
                         </div>
                      </div>
@@ -202,11 +193,105 @@
                         <div class="head head-col-3">
                         </div>
                         <div>
-                           <img src="./images/team/Suhas.jpg" alt="" class="profile">
+                           <img src="./images/team/Saakshi.png" alt="" class="profile">
+                        </div>
+                        <div class="bottom">
+                           <h2>Saakshi Nagpal</h2>
+                           <p>City Head - Chandigarh</p>
+                           <div class="social">
+                              <a href="https://www.linkedin.com/in/saakshiss/"><img src="./images/linkedin.png" alt="" class="icon"></a>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- member end -->
+                     <!-- Member Card -->
+                     <div class="ourteam_members--card">
+                        <div class="head head-col-4">
+                        </div>
+                        <div>
+                           <img src="./images/team/Kritika.png" alt="" class="profile">
+                        </div>
+                        <div class="bottom">
+                           <h2>Kritika Kamra</h2>
+                           <p>City Lead - Delhi NCR</p>
+                           <div class="social">
+                              <a href="https://www.linkedin.com/in/kritikakamra/"><img src="./images/linkedin.png" alt="" class="icon"></a>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- member end -->
+                     <!-- Member Card -->
+                     <div class="ourteam_members--card">
+                        <div class="head head-col-5">
+                        </div>
+                        <div>
+                           <img src="./images/team/Siddharth.png" alt="" class="profile">
+                        </div>
+                        <div class="bottom">
+                           <h2>Siddharth Dwivedi</h2>
+                           <p>City Lead - Mumbai</p>
+                           <div class="social">
+                              <a href="https://www.linkedin.com/in/dwivedisiddharth/"><img src="./images/linkedin.png" alt="" class="icon"></a>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- member end -->
+                     <!-- Member Card -->
+                     <div class="ourteam_members--card">
+                        <div class="head head-col-6">
+                        </div>
+                        <div>
+                           <img src="./images/team/Piyush.png" alt="" class="profile">
+                        </div>
+                        <div class="bottom">
+                           <h2>Piyush Bansal</h2>
+                           <p>New Initiatives & City Lead - Delhi</p>
+                           <div class="social">
+                              <a href="https://www.linkedin.com/in/bansal-piyush/"><img src="./images/linkedin.png" alt="" class="icon"></a>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- member end -->
+                     <div class="ourteam_members--card">
+                        <div class="head head-col-1">
+                        </div>
+                        <div>
+                           <img src="./images/team/Nanda.png" alt="" class="profile">
+                        </div>
+                        <div class="bottom">
+                           <h2>Nanda Kumar</h2>
+                           <p>Founding Member & City Lead - Bangalore</p>
+                           <div class="social">
+                              <a href="https://www.linkedin.com/in/thenandak/"><img src="./images/linkedin.png" alt="" class="icon"></a>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- End Member Card -->
+                     <!-- Member Card -->
+                     <div class="ourteam_members--card">
+                        <div class="head head-col-2">
+                        </div>
+                        <div>
+                           <img src="./images/team/Ayush.png" alt="" class="profile">
+                        </div>
+                        <div class="bottom">
+                           <h2>Ayush Srivastava</h2>
+                           <p>Founding Member & City Lead - Bangalore</p>
+                           <div class="social">
+                              <a href="https://www.linkedin.com/in/ayushsrivastava17"><img src="./images/linkedin.png" alt="" class="icon"></a>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Member Card -->
+                     <div class="ourteam_members--card">
+                        <div class="head head-col-3">
+                        </div>
+                        <div>
+                           <img src="./images/team/Suhas.png" alt="" class="profile">
                         </div>
                         <div class="bottom">
                            <h2>Suhas Motwani</h2>
-                           <p>Early Initiator</p>
+                           <p>Ecosystem Partnership</p>
                            <div class="social">
                               <a href="https://www.linkedin.com/in/suhasmotwani/"><img src="./images/linkedin.png" alt="" class="icon"></a>
                            </div>
@@ -218,102 +303,7 @@
                         <div class="head head-col-4">
                         </div>
                         <div>
-                           <img src="./images/team/Mitasha.jpg" alt="" class="profile">
-                        </div>
-                        <div class="bottom">
-                           <h2>Mitasha Jain</h2>
-                           <p>City Lead</p>
-                           <div class="social">
-                              <a href="https://www.linkedin.com/in/mitasha-jain-bb3a4757/"><img src="./images/linkedin.png" alt="" class="icon"></a>
-                           </div>
-                        </div>
-                     </div>
-                     <!-- member end -->
-                     <!-- Member Card -->
-                     <div class="ourteam_members--card">
-                        <div class="head head-col-5">
-                        </div>
-                        <div>
-                           <img src="./images/team/Saakshi.jpeg" alt="" class="profile">
-                        </div>
-                        <div class="bottom">
-                           <h2>Saakshi N Nagpal</h2>
-                           <p>City Lead</p>
-                           <div class="social">
-                              <a href="https://www.linkedin.com/in/saakshiss/"><img src="./images/linkedin.png" alt="" class="icon"></a>
-                           </div>
-                        </div>
-                     </div>
-                     <!-- member end -->
-                     <!-- Member Card -->
-                     <div class="ourteam_members--card">
-                        <div class="head head-col-6">
-                        </div>
-                        <div>
-                           <img src="./images/team/Megha.png
-                              " alt="" class="profile">
-                        </div>
-                        <div class="bottom">
-                           <h2>Megha Gulati</h2>
-                           <p>City Lead</p>
-                           <div class="social">
-                              <a href="https://www.linkedin.com/in/megha-gulati/"><img src="./images/linkedin.png" alt="" class="icon"></a>
-                           </div>
-                        </div>
-                     </div>
-                     <!-- member end -->
-                     <div class="ourteam_members--card">
-                        <div class="head head-col-1">
-                        </div>
-                        <div>
-                           <img src="./images/team/Kritika.jpg" alt="" class="profile">
-                        </div>
-                        <div class="bottom">
-                           <h2>Kritika Kamra</h2>
-                           <p>City Lead</p>
-                           <div class="social">
-                              <a href="https://www.linkedin.com/in/kritikakamra/"><img src="./images/linkedin.png" alt="" class="icon"></a>
-                           </div>
-                        </div>
-                     </div>
-                     <!-- End Member Card -->
-                     <!-- Member Card -->
-                     <div class="ourteam_members--card">
-                        <div class="head head-col-2">
-                        </div>
-                        <div>
-                           <img src="./images/team/Piyush.jpeg" alt="" class="profile">
-                        </div>
-                        <div class="bottom">
-                           <h2>Piyush Bansal</h2>
-                           <p>City Lead</p>
-                           <div class="social">
-                              <a href="https://www.linkedin.com/in/bansal-piyush/"><img src="./images/linkedin.png" alt="" class="icon"></a>
-                           </div>
-                        </div>
-                     </div>
-                     <!-- Member Card -->
-                     <div class="ourteam_members--card">
-                        <div class="head head-col-3">
-                        </div>
-                        <div>
-                           <img src="./images/team/Siddharth.png" alt="" class="profile">
-                        </div>
-                        <div class="bottom">
-                           <h2>Siddharth Dwivedi</h2>
-                           <p>City Lead</p>
-                           <div class="social">
-                              <a href="https://www.linkedin.com/in/dwivedisiddharth/"><img src="./images/linkedin.png" alt="" class="icon"></a>
-                           </div>
-                        </div>
-                     </div>
-                     <!-- member end -->
-                     <!-- Member Card -->
-                     <div class="ourteam_members--card">
-                        <div class="head head-col-4">
-                        </div>
-                        <div>
-                           <img src="./images/team/Sujith.jpeg" alt="" class="profile">
+                           <img src="./images/team/Sujith.png" alt="" class="profile">
                         </div>
                         <div class="bottom">
                            <h2>Sujith Ayyapan</h2>
@@ -329,7 +319,7 @@
                         <div class="head head-col-5">
                         </div>
                         <div>
-                           <img src="./images/team/Jatin.jpg" alt="" class="profile">
+                           <img src="./images/team/Jatin.png" alt="" class="profile">
                         </div>
                         <div class="bottom">
                            <h2>Jatin Baghel</h2>
@@ -345,11 +335,11 @@
                         <div class="head head-col-6">
                         </div>
                         <div>
-                           <img src="./images/team/Karan.jpg" alt="" class="profile">
+                           <img src="./images/team/Karan.png" alt="" class="profile">
                         </div>
                         <div class="bottom">
                            <h2>Karan Prasad</h2>
-                           <p>Volunteer</p>
+                           <p>Volunteer - Offline Initiatives</p>
                            <div class="social">
                               <a href="https://www.linkedin.com/in/karan-prasad/"><img src="./images/linkedin.png" alt="" class="icon"></a>
                            </div>
@@ -360,13 +350,13 @@
                         <div class="head head-col-1">
                         </div>
                         <div>
-                           <img src="./images/team/Rajdeep.jpg" alt="" class="profile">
+                           <img src="./images/team/Harit.png" alt="" class="profile">
                         </div>
                         <div class="bottom">
-                           <h2>Rajdeep Ranawat</h2>
-                           <p>Volunteer</p>
+                           <h2>Harit Rathi</h2>
+                           <p>City Volunteer - Hyderabad</p>
                            <div class="social">
-                              <a href="https://www.linkedin.com/in/rajdeepranawat/"><img src="./images/linkedin.png" alt="" class="icon"></a>
+                              <a href="https://www.linkedin.com/in/haritrathi/"><img src="./images/linkedin.png" alt="" class="icon"></a>
                            </div>
                         </div>
                      </div>
@@ -376,11 +366,11 @@
                         <div class="head head-col-2">
                         </div>
                         <div>
-                           <img src="./images/team/Azhar.jpeg" alt="" class="profile">
+                           <img src="./images/team/Azhar.png" alt="" class="profile">
                         </div>
                         <div class="bottom">
                            <h2>Azhar Shams</h2>
-                           <p>Volunteer</p>
+                           <p>Volunteer - Online Initiatives</p>
                            <div class="social">
                               <a href="https://www.linkedin.com/in/azharshams96/"><img src="./images/linkedin.png" alt="" class="icon"></a>
                            </div>
@@ -391,11 +381,11 @@
                         <div class="head head-col-3">
                         </div>
                         <div>
-                           <img src="./images/team/Shubham.jpeg" alt="" class="profile">
+                           <img src="./images/team/Shubham.png" alt="" class="profile">
                         </div>
                         <div class="bottom">
                            <h2>Shubham Upadhyay</h2>
-                           <p>Volunteer</p>
+                           <p>Volunteer - Online Initiatives</p>
                            <div class="social">
                               <a href="https://www.linkedin.com/in/iamshubhamu/"><img src="./images/linkedin.png" alt="" class="icon"></a>
                            </div>
@@ -407,13 +397,13 @@
                         <div class="head head-col-4">
                         </div>
                         <div>
-                           <img src="./images/team/Harit.jpg" alt="" class="profile">
+                           <img src="./images/team/Rajdeep.png" alt="" class="profile">
                         </div>
                         <div class="bottom">
-                           <h2>Harit Rathi</h2>
-                           <p>Volunteer</p>
+                           <h2>Rajdeep Singh Ranawat</h2>
+                           <p>Volunteer - Offline Initiatives</p>
                            <div class="social">
-                              <a href="https://www.linkedin.com/in/haritrathi/"><img src="./images/linkedin.png" alt="" class="icon"></a>
+                              <a href="https://www.linkedin.com/in/rajdeepranawat/"><img src="./images/linkedin.png" alt="" class="icon"></a>
                            </div>
                         </div>
                      </div>
@@ -425,9 +415,9 @@
                <div class="banner_back"></div>
                <div class="container">
                   <div class="banner_main about_banner">
-                     <h2>Did you find us helpful in any or the other ways?</h2>
-                     <p>Let us know more about your requirments and we'll be more than happy to help you.</p>
-                     <button class="btn">Get In touch</button>
+                     <h2>Excited enough to join our team?</h2>
+                     <p>Just fill this form and we will get in touch with you with details.</p>
+                     <button class="btn">Join our team</button>
                   </div>
                </div>
             </section>
@@ -444,7 +434,7 @@
                   <p class="base_heading--title">MENTOR</p>
                   <h2 class="base_heading--h2">We Are Supported By The best People In The Ecosystem</h2>
                   <div class="base_heading--underline"></div>
-                  <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer  took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown  has been the industry's standar.</P>
+                  <P>There’s no fluff or grandstanding, just the exposure and insights that help take a community to the next level. The right mentor could be invaluable, nudging the community in the right direction &  helping them grow. From our inception, we have been a mentor-driven community. We’ve had the pleasure of working with stalwarts from different industries, all of whom have been helpful & indispensable, in getting our community up and running.</P>
                </div>
                <!-- Mentor Main -->
                <div class="mentor_main">
@@ -453,9 +443,9 @@
                         <div class="carousel-item active">
                            <div class="mentor_main--card">
                               <div class="mentor_main--card-item">
-                                 <img class="mentor_img" src="./images/Mentors/Jagadeesh.jpg" alt="">
+                                 <img class="mentor_img" src="./images/Mentors/Paras.png" alt="">
                                  <h2>Paras Pundir</h2>
-                                 <p>Program Manager at Microsoft <br>Reactor Bangalore</p>
+                                 <p>Program Manager <br>at Microsoft Reactor Bangalore</p>
                                  <hr>
                                  <div class="social text-center">
                                     <!-- <a href="https://www.linkedin.com/in/iamparaspundir/"><img src="./images/linkedin.png" alt="" class="icon"></a> -->
@@ -464,9 +454,9 @@
                                  </div>
                               </div>
                               <div class="mentor_main--card-item">
-                                 <img class="mentor_img" src="./images/Mentors/Nikhil.jpg" alt="">
+                                 <img class="mentor_img" src="./images/Mentors/Nikhil.png" alt="">
                                  <h2>Nikhil Parachure</h2>
-                                 <p>Product Head at Landmark Group</p>
+                                 <p>Head of Product <br>at Landmark Group</p>
                                  <hr>
                                  <div class="social text-center">
                                     <!-- <a href="https://www.linkedin.com/in/theniks/"><img src="./images/linkedin.png" alt="" class="icon"></a> -->
@@ -475,24 +465,24 @@
                                  </div>
                               </div>
                               <div class="mentor_main--card-item">
-                                 <img class="mentor_img" src="./images/Mentors/Adam.jpg" alt="">
-                                 <h2>Abhash Kumar</h2>
-                                 <p>Head of Marketing  at Springworks</p>
+                                 <img class="mentor_img" src="./images/Mentors/Yulia.png" alt="">
+                                 <h2>Yulia Aslamova</h2>
+                                 <p>Brand Consultant <br>(Ex-India Head at SEMrush)</p>
                                  <hr>
                                  <div class="social text-center">
                                     <!-- <a href="https://www.linkedin.com/in/aabhashk/"><img src="./images/linkedin.png" alt="" class="icon"></a> -->
-                                    <a href="https://www.linkedin.com/in/aabhashk/" ><i class="fa fa-linkedin-square men-icon" aria-hidden="true"></i></a>
+                                    <a href="https://www.linkedin.com/in/yulialund/" ><i class="fa fa-linkedin-square men-icon" aria-hidden="true"></i></a>
                                     <!-- <hr> -->
                                  </div>
                               </div>
                               <div class="mentor_main--card-item">
-                                 <img class="mentor_img" src="./images/Mentors/Aditya.jpg" alt="">
-                                 <h2>Aditya Ahluwalia</h2>
-                                 <p>Growth Consultant at Ex- DDB Mudra</p>
+                                 <img class="mentor_img" src="./images/Mentors/Adam.png" alt="">
+                                 <h2>Adam Walker</h2>
+                                 <p>Head of Product Marketing <br>at PushOwl</p>
                                  <hr>
                                  <div class="social text-center">
                                     <!-- <a href="https://www.linkedin.com/in/ahluwaliaaditya/"><img src="./images/linkedin.png" alt="" class="icon"></a> -->
-                                    <a href="https://www.linkedin.com/in/ahluwaliaaditya/" ><i class="fa fa-linkedin-square men-icon" aria-hidden="true"></i></a>
+                                    <a href="https://www.linkedin.com/in/walkadm/" ><i class="fa fa-linkedin-square men-icon" aria-hidden="true"></i></a>
                                     <!-- <hr> -->
                                  </div>
                               </div>
@@ -501,46 +491,46 @@
                         <div class="carousel-item">
                            <div class="mentor_main--card">
                               <div class="mentor_main--card-item">
-                                 <img class="mentor_img" src="./images/Mentors/Jagadeesh.jpg" alt="">
-                                 <h2>Jagadeesh J</h2>
-                                 <p>Director- Digital Marketing  at Redbus</p>
+                                 <img class="mentor_img" src="./images/Mentors/Abhash.png" alt="">
+                                 <h2>Abhash Kumar</h2>
+                                 <p>Head of Marketing <br>at Springworks</p>
                                  <hr>
                                  <div class="social text-center">
                                     <!-- <a href="https://www.linkedin.com/in/jagadeesh-j/"><img src="./images/linkedin.png" alt="" class="icon"></a> -->
-                                    <a href="https://www.linkedin.com/in/jagadeesh-j/" ><i class="fa fa-linkedin-square men-icon" aria-hidden="true"></i></a>
+                                    <a href="https://www.linkedin.com/in/aabhashk/" ><i class="fa fa-linkedin-square men-icon" aria-hidden="true"></i></a>
                                     <!-- <hr> -->
                                  </div>
                               </div>
                               <div class="mentor_main--card-item">
-                                 <img class="mentor_img" src="./images/Mentors/Nikhil.jpg" alt="">
-                                 <h2>Kaushal Thakkar</h2>
-                                 <p>Founder @ Infidigit at Ex-Myntra</p>
+                                 <img class="mentor_img" src="./images/Mentors/Aditya.png" alt="">
+                                 <h2>Aditya Ahluwalia</h2>
+                                 <p>Former Growth Manager <br>at DDB Mudra</p>
                                  <hr>
                                  <div class="social text-center">
                                     <!-- <a href="https://www.linkedin.com/in/kaushalthakkar/"><img src="./images/linkedin.png" alt="" class="icon"></a> -->
-                                    <a href="https://www.linkedin.com/in/kaushalthakkar/" ><i class="fa fa-linkedin-square men-icon" aria-hidden="true"></i></a>
+                                    <a href="https://www.linkedin.com/in/ahluwaliaaditya/" ><i class="fa fa-linkedin-square men-icon" aria-hidden="true"></i></a>
                                     <!-- <hr> -->
                                  </div>
                               </div>
                               <div class="mentor_main--card-item">
-                                 <img class="mentor_img" src="./images/Mentors/Hitesh.jpg" alt="">
-                                 <h2>Hitesh Kothari</h2>
-                                 <p>Growth Consultant at Ex- Quickride, Rapido</p>
+                                 <img class="mentor_img" src="./images/Mentors/Aaditya.png" alt="">
+                                 <h2>Aditya Kathpalia</h2>
+                                 <p>Growth Strategist <br>at Chiratae Ventures</p>
                                  <hr>
                                  <div class="social text-center">
                                     <!-- <a href="https://www.linkedin.com/in/hiteshkothari/"><img src="./images/linkedin.png" alt="" class="icon"></a> -->
-                                    <a href="https://www.linkedin.com/in/hiteshkothari/" ><i class="fa fa-linkedin-square men-icon" aria-hidden="true"></i></a>
+                                    <a href="https://www.linkedin.com/in/akathpalia/" ><i class="fa fa-linkedin-square men-icon" aria-hidden="true"></i></a>
                                     <!-- <hr> -->
                                  </div>
                               </div>
                               <div class="mentor_main--card-item">
-                                 <img class="mentor_img" src="./images/Mentors/Adam.jpg" alt="">
-                                 <h2>Adam Walker</h2>
-                                 <p>Head of Product Marketing at Pushowl</p>
+                                 <img class="mentor_img" src="./images/Mentors/Vijetha.png" alt="">
+                                 <h2>Vijetha Shastry</h2>
+                                 <p>Executive Director <br>at TiE Bangalore</p>
                                  <hr>
                                  <div class="social text-center">
                                     <!-- <a href="https://www.linkedin.com/in/walkadm/"><img src="./images/linkedin.png" alt="" class="icon"></a> -->
-                                    <a href="https://www.linkedin.com/in/walkadm/" ><i class="fa fa-linkedin-square men-icon" aria-hidden="true"></i></a>
+                                    <a href="https://www.linkedin.com/in/vijethashastry/" ><i class="fa fa-linkedin-square men-icon" aria-hidden="true"></i></a>
                                     <!-- <hr> -->
                                  </div>
                               </div>
@@ -602,10 +592,10 @@
 const left = document.getElementById('slideleft');
 const right = document.getElementById('slideright');
 left.onclick = function () {
-  document.getElementById('scroll').scrollLeft -= 20;
+  document.getElementById('scroll').scrollLeft -= 40;
 };
 right.onclick = function () {
-  document.getElementById('scroll').scrollLeft += 20;
+  document.getElementById('scroll').scrollLeft += 40;
 };
 </script>
 <!-- <div class="mentor_main">

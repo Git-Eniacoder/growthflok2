@@ -32,7 +32,7 @@
         <section class="main_heading">
             <div class="container">
                 <div class="base_heading">
-                    <p class="base_heading--title">Services</p>
+                    <p class="base_heading--title">OUR SERVICES</p>
                     <h2 class="base_heading--h2">Adding Value to Every Growth Professionals or Marketeer</h2>
                     <div class="base_heading--underline"></div>
                 </div>
@@ -52,12 +52,8 @@
                                 <img src="./images/events-1.png" alt="" class="ser_item-img">
                                 <span>01</span>
                             </div>
-                            <h3 class="ser_item-h">Workshops & Meetups</h3>
-                            <p class="ser_item-para">There are many variations of passages of Lorem Ipsum available, but
-                                the majority have suffered alteration in some form, by injected humour, or randomised
-                                words which don't look even slightly believable. If you are going to use a passage of
-                                Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle
-                                of text.</p>
+                            <h3 class="ser_item-h">GrowthShops & Webinars</h3>
+                            <p class="ser_item-para">With an impeccable track record of organising Growth Shops (Offline Meetups) across 8+ cities in India while having well-renowned speakers from the Growth Marketing industry, Growth Folks strives to deliver the best. Also, Talking about online visibility and engagement, we are impacting the lives of Marketing Enthusiasts digitally through Webinars where we have International / National Level Speakers from industry’s leading organisations.</p>
                         </div>
                         <div class="content-sec">
 
@@ -66,12 +62,8 @@
                                 <span>02</span>
                             </div>
                             <!-- <img src="./images/events-1.png" alt="" class="ser_item-img"> -->
-                            <h3 class="ser_item-h">Workshops & Meetups</h3>
-                            <p class="ser_item-para">There are many variations of passages of Lorem Ipsum available, but
-                                the majority have suffered alteration in some form, by injected humour, or randomised
-                                words which don't look even slightly believable. If you are going to use a passage of
-                                Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle
-                                of text.</p>
+                            <h3 class="ser_item-h">Community Engagement</h3>
+                            <p class="ser_item-para">Engagement is the key to success. We, at Growth Folks, are known for success. With a wide range of engaging activities, our secret community of 750+ Growth Hackers and Marketing enthusiasts is super active. Know-how? From having regular growth discussions to running polls, regular AMAs to Live sessions with the experts, round-up blogs to social media updates; we do it all world-class. Are you struggling with the engagement factor for your community or brand? <br><i>Reach out to us for the secret sauce!</i></p>
                         </div>
                     </div>
                     <div class="services_port--main-img sec1-2">
@@ -88,24 +80,16 @@
                                 <img src="./icons/hackathon.svg" alt="" class="ser_item-img">
                                 <span>03</span>
                             </div>
-                            <h3 class="ser_item-h">Workshops & Meetups</h3>
-                            <p class="ser_item-para">There are many variations of passages of Lorem Ipsum available, but
-                                the majority have suffered alteration in some form, by injected humour, or randomised
-                                words which don't look even slightly believable. If you are going to use a passage of
-                                Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle
-                                of text.</p>
+                            <h3 class="ser_item-h">Growth Hackathon</h3>
+                            <p class="ser_item-para">Growth Hackathons by Growth Folks is a platform for brands or products to get quality solutions to their growth related problem statements. And not to forget, enthusiastic participants invited from Growth Folks Community work towards the best strategy; tried and tested during Make-a-thon 1.0 which was in association with Microsoft and was a HUGE SUCCESS for the community and for our partners.</p>
                         </div>
                         <div class="content-sec">
                             <div class="img-bx">
                                 <img src="./icons/roadmap.svg" alt="" class="ser_item-img">
                                 <span>04</span>
                             </div>
-                            <h3 class="ser_item-h">Workshops & Meetups</h3>
-                            <p class="ser_item-para">There are many variations of passages of Lorem Ipsum available, but
-                                the majority have suffered alteration in some form, by injected humour, or randomised
-                                words which don't look even slightly believable. If you are going to use a passage of
-                                Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle
-                                of text.</p>
+                            <h3 class="ser_item-h">Growth Roadmap</h3>
+                            <p class="ser_item-para">Are you an early-age startup or an individual looking for the right go-to market strategy for your product? BINGO! You’re at the right place then. Our personal favourite, “Growth Huddle” is designed exclusively to help brands or startups or individuals scale their product. Growth Huddle is an exclusive private 1-on-1 brief mentor session with our mentors who are experts in their respective industries. These leading professionals are diligent and handpicked to ensure you get mentorship from the very best in the ecosystem.</p>
                         </div>
                     </div>
                     <div class="services_port--main-img sec2-2">
@@ -126,9 +110,8 @@
                                 <img src="./imgs2/vlogs.png" alt="" class="ser_item-img">
                                 <span>05</span>
                             </div>
-                            <h3 class="ser_item-h">Workshops & Meetups</h3>
-                            <p class="ser_item-para">There are many variations of passages of Lorem Ipsum available, but
-                                the majority have suffered alteration in some form, by injected humour.</p>
+                            <h3 class="ser_item-h">Vlogs</h3>
+                            <p class="ser_item-para">Hear it out from our community supporters. Check out our Initiatives like #GrowthTalk & watch online recorded sessions.</p>
                             <a href="./vlog.php">See All Vlogs <img src="./icons/go-arr.svg" alt="" class="go-arr"></a>
                         </div>
                         <div class="services_port--sub-content">
@@ -137,9 +120,8 @@
                                 <img src="./imgs2/blogs.png" alt="" class="ser_item-img">
                                 <span>06</span>
                             </div>
-                            <h3 class="ser_item-h">Workshops & Meetups</h3>
-                            <p class="ser_item-para">There are many variations of passages of Lorem Ipsum available, but
-                                the majority have suffered alteration in some form, by injected humour.</p>
+                            <h3 class="ser_item-h">Blogs</h3>
+                            <p class="ser_item-para">Check out the list of roundup blogs curated by the community and read about latest growth trends. </p>
                             <a href="./blog.php">See All Blogs <img src="./icons/go-arr.svg" alt="" class="go-arr"></a>
                         </div>
                     </div>
@@ -162,7 +144,7 @@
                 <div class="banner_back"></div>
                 <div class="container">
                     <div class="banner_main about_banner">
-                        <h2>Did you find us helpful in any or the other ways?</h2>
+                        <h2>Did you find us helpful in any ways? Let's talk!</h2>
                         <p>Let us know more about your requirments and we'll be more than happy to help you.</p>
                         <button class="btn">Get In touch</button>
                     </div>
@@ -177,8 +159,8 @@
                 <div class="testimonial_main">
 
                     <div class="base_heading">
-                        <p class="base_heading--title">OUR SERVICES</p>
-                        <h2 class="base_heading--h2">Adding Value to Every Growth Professionals or Marketeer</h2>
+                        <p class="base_heading--title">TESTIMONIALS</p>
+                        <h2 class="base_heading--h2">Seeing with your eyes is believing. Here’s what our customers are saying.</h2>
                         <div class="base_heading--underline"></div>
                     </div>
 
@@ -190,34 +172,30 @@
 								<div class="testimonial_item">
 									<div class="testimonial_item--head">
 										<div class="head--img">
-											<img src="./images/boy-img1.png" alt="">
+											<img src="./images/Fernando.png" alt="">
 										</div>
 										<div class="head--title">
-											<h3 class="ser_item-h">Workshops & Meetups</h3>
-											<p>Founder at Commmunity Folks</p>
+											<h3 class="ser_item-h">Fernando Angulo</h3>
+											<p>Head of Communication at SEMrush</p>
 										</div>
 									</div>
 									<div class="testimonial_item--bottom">
-										<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-											unknown printer took a galley of type and scrambled it to make a type specimen book.
-											Lorem Ipsum has been the industry's</p>
+										<p>Growth Folks has been doing a great job by building a much needed community of Growth Enthusiasts in India, which is slowly going global. The event we did with them was top notch. I feel growth folks is on the right part to build more growth catalyst with its community efforts.</p>
 									</div>
 								</div>
 
 								<div class="testimonial_item">
 									<div class="testimonial_item--head">
 										<div class="head--img">
-											<img src="./imgs2/tes-img-2.png" alt="">
+											<img src="./imgs2/Nattu.png" alt="">
 										</div>
 										<div class="head--title">
-											<h3 class="ser_item-h">Mitchell Cooper</h3>
-											<p>Founder at Commmunity Folks</p>
+											<h3 class="ser_item-h">Natarajan Alagappan</h3>
+											<p>Cheif Growth Officer at Leadwalnut.com</p>
 										</div>
 									</div>
 									<div class="testimonial_item--bottom">
-										<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-											unknown printer took a galley of type and scrambled it to make a type specimen book.
-											Lorem Ipsum has been the industry's</p>
+										<p>Growth marketing is a nascent field & when I need to know great practices or meet the die hard practitioners, I go to Growth Folks. Recently needed an expert Google Ads specialist. Ayush was quick to link up and expert and we had a performing ad launched in 2 weeks. <i><b>Go-Growth Huddle!</b></i></p>
 									</div>
 								</div>
 
@@ -225,17 +203,15 @@
 								<div class="testimonial_item">
 									<div class="testimonial_item--head">
 										<div class="head--img">
-											<img src="./imgs2/tes-img-3.png" alt="">
+											<img src="./imgs2/Yogi.png" alt="">
 										</div>
 										<div class="head--title">
-											<h3 class="ser_item-h">Bernard Nguyen</h3>
-											<p>Founder at Commmunity Folks</p>
+											<h3 class="ser_item-h">Yoheswaran Gnanavel</h3>
+											<p>Marketing & Partnership at Canva India</p>
 										</div>
 									</div>
 									<div class="testimonial_item--bottom">
-										<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-											unknown printer took a galley of type and scrambled it to make a type specimen book.
-											Lorem Ipsum has been the industry's</p>
+										<p>When I first attended their workshop at YourStory, I was expecting a workshop just like any other meetup, some PR & some networking. But the session took me by surprise, it has so many value bombs that I was flabbergasted with the whole setup & the insane amount of value that I got.</p>
 									</div>
 								</div>
 
@@ -248,34 +224,30 @@
 								<div class="testimonial_item">
 									<div class="testimonial_item--head">
 										<div class="head--img">
-											<img src="./images/boy-img1.png" alt="">
+											<img src="./images/Ashish.png" alt="">
 										</div>
 										<div class="head--title">
-											<h3 class="ser_item-h">Workshops & Meetups</h3>
-											<p>Founder at Commmunity Folks</p>
+											<h3 class="ser_item-h">Aashish Ramamurthy</h3>
+											<p>Events Manager - Bangalore at Draper Startup House</p>
 										</div>
 									</div>
 									<div class="testimonial_item--bottom">
-										<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-											unknown printer took a galley of type and scrambled it to make a type specimen book.
-											Lorem Ipsum has been the industry's</p>
+										<p>Growth folks has been an amazing community for myself to learn a lot on growth marketing & marketing trends. I got to connect with marketing and growth enthusiasts from all across India. We have collaborated with Growth folks for many events and they have been really crazy.</p>
 									</div>
 								</div>
 
 								<div class="testimonial_item">
 									<div class="testimonial_item--head">
 										<div class="head--img">
-											<img src="./images/boy-img1.png" alt="">
+											<img src="./images/Ketaki.png" alt="">
 										</div>
 										<div class="head--title">
-											<h3 class="ser_item-h">Mitchell Cooper</h3>
-											<p>Founder at Commmunity Folks</p>
+											<h3 class="ser_item-h">Ketaki Ogale</h3>
+											<p>CEO & Founder at BHyve</p>
 										</div>
 									</div>
 									<div class="testimonial_item--bottom">
-										<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-											unknown printer took a galley of type and scrambled it to make a type specimen book.
-											Lorem Ipsum has been the industry's</p>
+										<p>One of the major reasons for me to join the Growth Folks group was the opportunity to learn from domain experts in marketing. I was fortunate to get a chance to learn basics of SEO from Soumyadip in my first week itself, cortesy, <i>Growth Huddle!</i></p>
 									</div>
 								</div>
 
@@ -283,17 +255,15 @@
 								<div class="testimonial_item">
 									<div class="testimonial_item--head">
 										<div class="head--img">
-											<img src="./images/boy-img1.png" alt="">
+											<img src="./images/Punit.png" alt="">
 										</div>
 										<div class="head--title">
-											<h3 class="ser_item-h">Bernard Nguyen</h3>
-											<p>Founder at Commmunity Folks</p>
+											<h3 class="ser_item-h">Punit Jain</h3>
+											<p>Founder & CEO at Incubate IND</p>
 										</div>
 									</div>
 									<div class="testimonial_item--bottom">
-										<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-											unknown printer took a galley of type and scrambled it to make a type specimen book.
-											Lorem Ipsum has been the industry's</p>
+										<p>The best thing about Growth Folks is that the vision on which they started their journey in 2017 to empower the lives of every growth or marketing enthusiasts is still intact and as a community whenever we have collaborated with them, they have surpassed our expectations.</p>
 									</div>
 								</div>
 

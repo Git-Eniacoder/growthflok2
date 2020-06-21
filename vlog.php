@@ -1,7 +1,7 @@
 <?php error_reporting(E_ERROR | E_PARSE);?>
 <?php
     $con = mysqli_connect("13.233.17.47","growthfolks","@Navneet1","growthfolks");
-    $sql = "select * from growthfolks ORDER BY id DESC";
+    $sql = "select * from growthfolks order by date desc";
     $result = mysqli_query($con,$sql);
     $data = mysqli_fetch_all($result);
     // echo "<pre>";
@@ -47,11 +47,11 @@
             <?php for($i=0;$i<count($data);$i++){?>
             <div class="col-md-4">
                 <div class="card my-4 border-0 " >
-                       <a href="https://www.youtube.com/watch?v=<?php echo $data[$i][1] ?>"><img class="w-100" src="<?php echo $data[$i][2] ?>" alt="Card image cap"></a>
+                       <a href="https://www.youtube.com/watch?v=<?php echo $data[$i][1] ?>"><img style="height:186px" class="w-100" src="<?php echo $data[$i][2] ?>" alt="Card image cap"></a>
                         <div class="card-body p-0">
                         <!-- <a href="" class="tags_links mb-4">Sex education</a> -->
                        <a href="https://www.youtube.com/watch?v=<?php echo $data[$i][1] ?>" class="text-dark"><h3 class="card-title mt-3"><?php echo $data[$i][4] ?></h3></a> 
-                         <p class="card-text date-vlog"><?php echo $data[$i][3] ?></p>
+                         
                         
                        </div>   
                 </div>

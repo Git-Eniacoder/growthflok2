@@ -1716,7 +1716,7 @@ body {
 .testimonial_main--items .testimonial_item {
   padding: 2.6rem;
   width: 34rem;
-  height: 27rem;
+  min-height: 27rem;
   background: #EFF2F2;
   border-radius: 4px;
 }
